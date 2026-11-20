@@ -1,0 +1,3853 @@
+[
+  {
+    "id": "T01",
+    "title": "乐句对齐与完整歌词",
+    "kind": "technique",
+    "source_ids": [
+      "S01",
+      "S02",
+      "S22",
+      "S23",
+      "S30",
+      "S43",
+      "S61",
+      "S62",
+      "S63",
+      "S64",
+      "S65"
+    ],
+    "tags": [
+      "接歌",
+      "乐句",
+      "phrasing",
+      "phrase mixing",
+      "人声进入",
+      "主导权",
+      "角色时间线",
+      "歌词切片",
+      "完整句保护",
+      "剪辑边缘",
+      "短句重排",
+      "副歌结束",
+      "下一首进入点",
+      "乐句对齐",
+      "乐句到达",
+      "弱起倒推",
+      "副歌交棒"
+    ],
+    "summary": "除了速度，还要按实际乐句和段落选择交接点；歌词句子未必从强拍开始。",
+    "suggested_actions": [
+      "标记候选句首、句尾和段落边界，提供两种接入位置试听。",
+      "在输出时间线上标明当前主唱、低频主导轨和交接目标；先保证一个清楚的主角，再核对乐句到达。",
+      "先保护用户必留的完整句；用户明确选择歌词切片创作时，可截短、重排或重复局部，并解释会改变原有语义。",
+      "裁剪后核查首辅音、呼吸与尾音，先试听边缘；DAW教程中的逐剪辑短淡变不等于本产品已有独立片段包络。",
+      "脉冲候选、强拍与乐句边界分别确认；preview源时间0不自动视为完整句首或第一小节。",
+      "先定双方需要共同到达的音乐事件：完整句结束、副歌/Verse进入或原编曲释放，再倒推各自需要的准备空间；不是把两个片段首秒贴齐。",
+      "分别标记后曲首个发声、弱起、目标强拍与主句到达；实际有弱起时先保留弱起，不能把首字强推到小节第一拍。",
+      "至少比较换前曲退出段和换后曲进入段两个方向；剪辑版、现场版、试听片段可能缺完整乐句，不靠凑8/16小节补造。"
+    ],
+    "when_to_use": [
+      "需要自然交接或人声叠搭。"
+    ],
+    "avoid_or_verify": [
+      "不能把所有歌曲强制切成固定8/16/32小节。",
+      "不能在未确认段落上仅凭2拍/4拍推造释放。",
+      "乐句标签、歌词句子与小节边界可以不重合；不能把所有副歌结尾都视为合适硬切点。"
+    ],
+    "user_controls": [
+      "接入点",
+      "重叠长度",
+      "锁定歌词"
+    ],
+    "checks": [
+      "句子完整",
+      "接入是否符合用户意图",
+      "底鼓与贝斯的主导权、歌词可懂度、乐句到达分别检查，不互相代替",
+      "完整句保护与用户主动切片意图是否分清；边缘是否出现点击或尾音被掐。",
+      "双方目标事件是否有可追溯源时间；预滚是否保留首辅音与弱起"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T02",
+    "title": "对拍、变速音乐与节拍网格",
+    "kind": "technique",
+    "source_ids": [
+      "S01",
+      "S02",
+      "S24",
+      "S32",
+      "S61",
+      "S62",
+      "S63",
+      "S66"
+    ],
+    "tags": [
+      "对拍",
+      "beatmatching",
+      "BPM",
+      "sync",
+      "跑拍",
+      "节拍网格",
+      "半速倍速",
+      "小节时长",
+      "60 BPM 120 BPM",
+      "breakbeat",
+      "D&B",
+      "切分重音",
+      "局部对齐",
+      "局部脉冲交棒"
+    ],
+    "summary": "统一BPM仍需检查拍点和网格；原曲可能存在速度变化。",
+    "suggested_actions": [
+      "先检查候选片段局部速度与拍点，再提出对齐建议。",
+      "在已确认4/4且拍子定义相同时，用小节数_A/BPM_A＝小节数_B/BPM_B比较实际时长；60 BPM一小节对应120 BPM两小节，不代表语义乐句自动对齐。",
+      "先保留半速/原速/倍速解释，核对清晰鼓段的重音；不能依据未经确认的标签直接做2倍变速。",
+      "对breakbeat/D&B分别核查首拍、军鼓与切分重音；BPM标签一致仍可能局部冲突，不把切分偏移全部量化为错误。",
+      "起点对齐后检查中段和末段，区分固定偏移、速度误估和原有律动；恒定变速无法替代弹性拍网。",
+      "自动串烧只在两侧至少6个覆盖内实测拍点、间距稳定且速度相差不超过2.5%时尝试交棒；按实际输出速度换算相位，误差超过40毫秒回退，不把BPM相同当首拍或乐句对齐。"
+    ],
+    "when_to_use": [
+      "两轨节奏需要叠加。"
+    ],
+    "avoid_or_verify": [
+      "自动估计存在半拍/倍拍错误；网格错误时不能直接信任Sync。"
+    ],
+    "user_controls": [
+      "主导速度",
+      "偏移",
+      "辅助对拍开关"
+    ],
+    "checks": [
+      "局部拍点",
+      "变速后音质",
+      "同时间长度的段落到达是否相合，而非仅BPM数值相等",
+      "是否误把有意的swing或切分当作跑拍；同速下是否仍有双鼓冲突。"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T03",
+    "title": "低频交换，避免鼓与贝斯挤在一起",
+    "kind": "technique",
+    "source_ids": [
+      "S02",
+      "S04",
+      "S22",
+      "S46",
+      "S55",
+      "S61",
+      "S62",
+      "S67"
+    ],
+    "tags": [
+      "低频",
+      "贝斯",
+      "底鼓",
+      "bass swap",
+      "浑浊",
+      "打架",
+      "主导权",
+      "角色时间线",
+      "动态低频交棒"
+    ],
+    "summary": "交接时让两首歌的低频分工，减少重叠混浊。",
+    "suggested_actions": [
+      "先降低新轨低频，在选定乐句交换主导低频；比较渐变与快速交换。",
+      "在输出时间线上标明当前主唱、低频主导轨和交接目标；先保证一个清楚的主角，再核对乐句到达。",
+      "后曲先保留可辨识线索，低频暂缓接管；实际交棒长度按乐句与低频尾音确定，不固定两句。",
+      "前曲低频保留到后曲有可理解的接管条件；同时检查争抢与断层，不固定在过渡前半段全部撤空。",
+      "对实际交接区分低频能量堆积和持续抵消；共同衰减需复测，不因低频变小就提高两边增益或盲目翻转极性。",
+      "当前新建串烧可对最多2.2秒重叠做实际立体声低频相互作用检查；通过复测才保留共同削减，持续抵消则缩到120 ms并标记复听。未知不追加推测补偿，手工工程和原貌锁优先。",
+      "已有低端不拥挤时保留原比例；单首伴奏固定低架削减的结果不等于两曲低频交棒验证，也不能证明小音箱改善。"
+    ],
+    "when_to_use": [
+      "两首歌低频同时突出。"
+    ],
+    "avoid_or_verify": [
+      "并非所有低频叠加都应消除；不得直接套用相同EQ参数。",
+      "关掉bass stem不一定去掉Kick低频；EQ也不是声部分离，二者须按素材比较。",
+      "整体LUFS一致不能排除局部低频塌陷。"
+    ],
+    "user_controls": [
+      "交换位置",
+      "曲线",
+      "强度"
+    ],
+    "checks": [
+      "低频总量",
+      "瞬态",
+      "段间能量",
+      "底鼓与贝斯的主导权、歌词可懂度、乐句到达分别检查，不互相代替",
+      "局部功率代理不代替全曲相位、鼓型与听感判断"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T04",
+    "title": "强拍硬切与有意反差",
+    "kind": "technique",
+    "source_ids": [
+      "S02"
+    ],
+    "tags": [
+      "硬切",
+      "cut",
+      "冲击",
+      "反差",
+      "downbeat"
+    ],
+    "summary": "短切适合某些风格与能量变化，不必把所有接歌做成长淡化。",
+    "suggested_actions": [
+      "候选出句结束后，在下首合适强拍切入并试听。"
+    ],
+    "when_to_use": [
+      "用户希望突然切入或快速推进。"
+    ],
+    "avoid_or_verify": [
+      "保留句子完整；刻意留白不能误判为处理故障。"
+    ],
+    "user_controls": [
+      "切点",
+      "留白",
+      "冲击程度"
+    ],
+    "checks": [
+      "歌词是否被切断",
+      "音量突变"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T05",
+    "title": "长融合与分阶段EQ交接",
+    "kind": "technique",
+    "source_ids": [
+      "S04",
+      "S02"
+    ],
+    "tags": [
+      "长过渡",
+      "顺滑",
+      "long blend",
+      "seamless",
+      "淡入淡出"
+    ],
+    "summary": "缓慢交换音量与频段，可维持连贯节奏；同一首序也能用不同接法改变能量。",
+    "suggested_actions": [
+      "为实际片段安排阶段性交接曲线，允许缩短或延长。"
+    ],
+    "when_to_use": [
+      "用户希望柔和连续、素材适合重叠。"
+    ],
+    "avoid_or_verify": [
+      "长重叠会放大人声、和声冲突；不能只延长crossfade。"
+    ],
+    "user_controls": [
+      "时长",
+      "频段曲线",
+      "过渡位置"
+    ],
+    "checks": [
+      "人声冲突",
+      "低频占用",
+      "整体推进"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T06",
+    "title": "人声与整套伴奏替换",
+    "kind": "technique",
+    "source_ids": [
+      "S01",
+      "S04",
+      "U01",
+      "S30"
+    ],
+    "tags": [
+      "人声",
+      "伴奏",
+      "acapella",
+      "instrumental",
+      "mashup",
+      "叠搭",
+      "整套伴奏",
+      "Maps",
+      "Booty Music",
+      "短句拼贴",
+      "逐句漂移",
+      "人声留白"
+    ],
+    "summary": "可将一轨人声放到另一轨伴奏，但分轨后仍需要句法、段落与和声匹配。",
+    "suggested_actions": [
+      "推荐人声段与伴奏段，列出需要循环或重排的部分，再由用户试玩。",
+      "先试少量有辨识度的短句与伴奏留白，而非把整条人声强行铺满；逐句检查自然重音与局部和声。",
+      "长人声若从对齐逐渐漂移，先缩短到稳定片段或换段；需要逐句warp时披露缺口，不能仅对齐起点便报告全段合拍。"
+    ],
+    "when_to_use": [
+      "用户希望熟悉人声获得新律动。"
+    ],
+    "avoid_or_verify": [
+      "beat不只等于鼓；整套伴奏还可能包含贝斯与和声。"
+    ],
+    "user_controls": [
+      "主导人声",
+      "伴奏选择",
+      "进入位置",
+      "保留片段"
+    ],
+    "checks": [
+      "分离残留",
+      "歌词节奏",
+      "和声",
+      "段落完整",
+      "首、中、尾三处的词语落点与伸缩伪影；高频齿音和分离尾音是否完整。"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T07",
+    "title": "和声兼容检查，保留审美选择",
+    "kind": "technique",
+    "source_ids": [
+      "S03",
+      "S05",
+      "S31"
+    ],
+    "tags": [
+      "调性",
+      "和声",
+      "走音",
+      "harmonic",
+      "key",
+      "Camelot",
+      "Open Key",
+      "同调不保证",
+      "异调短接",
+      "调号候选",
+      "局部和声",
+      "持续音交棒",
+      "双旋律争抢"
+    ],
+    "summary": "旋律与人声叠加时，调性工具提供候选，不能保证局部和弦与旋律完全兼容。",
+    "suggested_actions": [
+      "核实局部音高和检测置信度，对比原调与适度移调方案。",
+      "同调只是候选条件：实际同响窗口还要核查和弦、旋律焦点与音色密度；异调不自动判死刑。",
+      "异调长叠冲突时可改成少旋律区的短交接或清唱后进入；这不是证明两首完整旋律和声相容。",
+      "在实际同响窗口列出人声长音、bass根音、和弦与主旋律角色；全局调号只作候选，不能替代局部进行和持续音检查。",
+      "同调仍冲突时先轮换旋律主导、换同响片段或缩短重叠；异调可比较少旋律的短接，不强求整首移调。",
+      "只有实际持续音/和弦证据可靠且用户允许改造时，才比较共享音支点或有限移调；清唱也有音高，不能被当作无和声过门。",
+      "Open Key、Camelot与半音数分别核对；移调后复查音域、音色和情绪，不把轮盘数字移动当作同数半音。"
+    ],
+    "when_to_use": [
+      "有明显旋律或持续人声重叠。"
+    ],
+    "avoid_or_verify": [
+      "不混用Camelot与Open Key编号；不把大小调直接等同固定情绪。",
+      "无可靠和弦/音符证据时不能宣称共同音或枢纽和弦已成立。"
+    ],
+    "user_controls": [
+      "主导音高",
+      "允许变调的素材",
+      "保持原貌"
+    ],
+    "checks": [
+      "音准冲突",
+      "移调伪影",
+      "原唱感觉",
+      "是否只凭调号认定好听；是否把短切可行误说成长叠兼容。",
+      "局部同响比原调更合适吗；双旋律与持续音是否争抢"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T08",
+    "title": "打击乐桥接与跨风格接歌",
+    "kind": "technique",
+    "source_ids": [
+      "S03",
+      "S05",
+      "S02"
+    ],
+    "tags": [
+      "纯鼓",
+      "打击乐",
+      "跨风格",
+      "调性不合",
+      "percussion bridge"
+    ],
+    "summary": "在缺少有音高元素的片段交接，和声约束通常较弱。",
+    "suggested_actions": [
+      "提出鼓段、短切或留白等候选，不强迫长时间旋律重叠。"
+    ],
+    "when_to_use": [
+      "调性冲突、风格差异大。"
+    ],
+    "avoid_or_verify": [
+      "鼓样本也可能有明显音高；BPM与乐句问题仍需检查。"
+    ],
+    "user_controls": [
+      "桥接片段",
+      "长度",
+      "下一首进入点"
+    ],
+    "checks": [
+      "节奏连续",
+      "低频变化"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T09",
+    "title": "乐句尾部回声与延迟尾音",
+    "kind": "technique",
+    "source_ids": [
+      "S07",
+      "S53"
+    ],
+    "tags": [
+      "回声",
+      "echo",
+      "delay",
+      "尾音",
+      "反馈",
+      "空间",
+      "轻量半拍尾音",
+      "节拍回声",
+      "乒乓回声",
+      "左右交替",
+      "湿声滤波"
+    ],
+    "summary": "延迟的节奏、反馈和干湿比会影响清晰度与空间；乐句尾部可成为试验位置。",
+    "suggested_actions": [
+      "优先比较短句尾部的少量延迟，再决定节奏值和尾音收束。",
+      "局部拍网可靠时可试半拍轻延迟，完整歌曲或调性未知时仅一拍交棒；延迟湿声保持克制，尾声由淡变收束，不能用大混响掩盖歌词截断或损坏分轨。",
+      "先分清源发送窗口与湿返回窗口；只有已知工程速度时换算节拍延迟，速度漂移或自由节奏时不标为同步成功。",
+      "用湿声高低通让出底鼓及主唱频段；stereo_mode=pingpong只交替湿声，并复核湿声折单声道的抵消，干声保持。",
+      "密集后曲先降低重复次数的可闻性或收回湿返回，保留原版和短尾响对照；回声不能修复不合适的选段或抢拍。"
+    ],
+    "when_to_use": [
+      "用户希望过渡延展或声音点缀。"
+    ],
+    "avoid_or_verify": [
+      "原设备旋钮数值不可照搬；高反馈可能持续累积。",
+      "左右交替湿声先折单声道，反相素材可能抵消；不把更宽当成更好。"
+    ],
+    "user_controls": [
+      "节奏值",
+      "反馈",
+      "干湿比",
+      "滤波",
+      "尾音"
+    ],
+    "checks": [
+      "遮挡下一句",
+      "累积峰值",
+      "导出尾音截断"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T10",
+    "title": "效果链与个人风格",
+    "kind": "technique",
+    "source_ids": [
+      "S07",
+      "S31",
+      "S32",
+      "U06",
+      "S54",
+      "U07"
+    ],
+    "tags": [
+      "效果器",
+      "混响",
+      "reverb",
+      "滤波",
+      "gater",
+      "效果链",
+      "效果目的",
+      "克制效果",
+      "干湿对照",
+      "密集鼓",
+      "瞬态清晰",
+      "用巧",
+      "不堆技术",
+      "最小必要组合",
+      "音乐目的"
+    ],
+    "summary": "先理解单个效果，再组合效果链，更容易判断每个处理的贡献。",
+    "suggested_actions": [
+      "提供单效果开关与处理前后对比，再让用户组合。",
+      "每个效果写明是连接尾音、形成反差还是改变音色；关闭该效果作对照，不能以旋钮数量表示专业程度。",
+      "高密度鼓与高速素材先减轻效果量和拖尾；源材料已密集时不要再用长回声遮住瞬态。",
+      "先写清每项处理服务的音乐目的、需要保护的主角、当前素材依据及预期代价；没有明确目的时保留更克制的版本。",
+      "以最小必要组合完成连接、铺垫或亮相；不是固定只用一种技术，多项联合必须各有独立作用。",
+      "比较关闭单项后的等响度版本；若移除后表达不减、主唱更清楚或律动更稳，则撤掉该项，不能因新版本或处理更多自动优先。",
+      "用户只说还行时不升级为明显改善；某曲不错不迁移成所有同曲风歌曲的默认配方。",
+      "效果链按真实顺序检查：用关闭前级和后级的独立对照确认每个阶段实际生效，留足每阶段电平余量。",
+      "本机已修复aeval后声道布局丢失造成后级EQ绕过的问题；旧串联工程重新渲染可能听到原定后级参数生效，不自动改写原素材或已导出文件。",
+      "候选差异不明显且收益未证实时，暂留本轮基准并记录取舍；不靠加重参数制造升级感，也不将该反馈扩展成禁用效果。"
+    ],
+    "when_to_use": [
+      "用户探索回声、空间或切片效果。"
+    ],
+    "avoid_or_verify": [
+      "效果多不等于好；某些效果链会主导整个音色。",
+      "分别保留还行与不错的具体版本反馈，不从两例推出统一减效果规则。"
+    ],
+    "user_controls": [
+      "顺序",
+      "单效果开关",
+      "强度"
+    ],
+    "checks": [
+      "语音清晰度",
+      "峰值",
+      "用户喜好",
+      "尾音是否盖住下一句；撤掉效果后是否反而更清楚。",
+      "密集段的底鼓瞬态、军鼓与辅音是否仍清晰。",
+      "后级实际生效与旋钮存在分开验证"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T11",
+    "title": "循环累积与释放：从表演案例提炼",
+    "kind": "technique",
+    "source_ids": [
+      "S06",
+      "S01"
+    ],
+    "tags": [
+      "循环",
+      "loop",
+      "Hype Loops",
+      "James Hype",
+      "蓄力",
+      "释放"
+    ],
+    "summary": "公开文章把James Hype的一次过渡与Hype Loops相联系，并强调准备与排练。",
+    "suggested_actions": [
+      "作为产品改编，提供可撤销的循环累积/退出候选，让用户试听释放位置。"
+    ],
+    "when_to_use": [
+      "用户希望转折更有期待感。"
+    ],
+    "avoid_or_verify": [
+      "未获得原始工程或完整教学，不能伪称精确复刻签名技法。"
+    ],
+    "user_controls": [
+      "循环长度",
+      "重复次数",
+      "释放点"
+    ],
+    "checks": [
+      "不破坏必留内容",
+      "重复疲劳",
+      "过渡完整"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T12",
+    "title": "能量编排：起伏与持续聆听",
+    "kind": "technique",
+    "source_ids": [
+      "S04",
+      "S05",
+      "S06",
+      "S22",
+      "S25",
+      "S32",
+      "S47"
+    ],
+    "tags": [
+      "能量",
+      "情绪曲线",
+      "铺垫",
+      "高潮",
+      "持续聆听",
+      "energy",
+      "铺垫释放",
+      "首拍恢复",
+      "主唱密度",
+      "短视频亮点版",
+      "持续聆听版",
+      "故事编排",
+      "氛围铺垫",
+      "旋律回落",
+      "能量呼吸"
+    ],
+    "summary": "接法、密度和段落选择都影响能量；稳定节奏并不要求全程高强度。",
+    "suggested_actions": [
+      "先向用户解释候选发展曲线，再在关键转折提供短试听。",
+      "先标记释放的目标首拍；在其到来前完成计划中的复位，检查是否埋掉首个底鼓。效果未接入时保留方案，不声称已执行。",
+      "先区分短视频亮点版与持续聆听版；前者让关键组合尽早出现，后者保留辨识、发展与喘息。此为产品适配，不是作者固定模板。",
+      "选曲时写明每段承担开场、发展、释放或休息的作用；避免连续堆主唱和高潮，也不强迫所有R&B都用相同器乐间隔。",
+      "持续聆听可安排氛围铺垫、强度提升和旋律回落；按用户心境保留呼吸，避免每段都要更炸。",
+      "把情绪与能量拆开，以速度、熟悉度、忙碌度、低频和氛围比较当前段与后续目的地；用户主角优先。"
+    ],
+    "when_to_use": [
+      "完整混音或长套作品。"
+    ],
+    "avoid_or_verify": [
+      "不得把加速、增响机械等同更有能量。"
+    ],
+    "user_controls": [
+      "转折位置",
+      "鼓组密度",
+      "保留留白"
+    ],
+    "checks": [
+      "疲劳",
+      "段落发展",
+      "意图一致",
+      "尽可能等响度比较；不能用整体更响证明Drop或反差更好",
+      "目标心境、必留段落与完整时长是否相容；不照搬Trance教学的曲数到R&B。",
+      "能量变化是否适合目标时长；用户需要的忧郁或平静是否被高潮覆盖。"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T13",
+    "title": "律动与切分复杂度",
+    "kind": "research_guided_design",
+    "source_ids": [
+      "S08",
+      "S09",
+      "S48",
+      "S52"
+    ],
+    "tags": [
+      "律动",
+      "groove",
+      "动次打次",
+      "切分",
+      "syncopation",
+      "重音",
+      "摇摆",
+      "鼓型密度",
+      "力度轮廓"
+    ],
+    "summary": "一项放克鼓片段研究发现中等切分在样本中得到较高愉悦与运动意愿评分；不是个人通则。",
+    "suggested_actions": [
+      "在保持主脉冲清晰的前提下，比较简单、中等与更复杂的律动候选。",
+      "把时序细分、力度和随机化分开；先保留原始演奏，再比较轻微定向变化。",
+      "区分事件数量、重音位置、力度和鼓尾；加密Hi-hat或军鼓可能改变节奏重心，不把更多鼓点当更高级。",
+      "蓄势和正式接管分别安排密度；新主段已自带填充时先撤多余鼓花，保住目标第一轮律动。"
+    ],
+    "when_to_use": [
+      "用户希望更有律动但难以描述。"
+    ],
+    "avoid_or_verify": [
+      "切分不等于swing；研究不能代表抖音全体用户。",
+      "参考软件的Groove提取不等于本产品已经具备自动律动识别。",
+      "新增鼓的调性、长尾和空间也会与原曲冲突。"
+    ],
+    "user_controls": [
+      "重音",
+      "密度",
+      "切分程度"
+    ],
+    "checks": [
+      "可跟随节拍",
+      "个体偏好",
+      "人声关系",
+      "蓄势后是否归还主律动；力度与时序是否分别比较"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T14",
+    "title": "保护人声、锁定内容与保持原貌",
+    "kind": "product_requirement",
+    "source_ids": [
+      "U01"
+    ],
+    "tags": [
+      "锁定",
+      "保持原貌",
+      "不变调",
+      "咬字",
+      "呼吸",
+      "formant",
+      "音色"
+    ],
+    "summary": "用户确认默认锁定内容，并可切换保持原貌；明显改变人声听感先试听。",
+    "suggested_actions": [
+      "读取锁定项后再生成处理候选；需要突破锁定时提出替代，不自行覆盖。"
+    ],
+    "when_to_use": [
+      "任何对人声或必留片段的调整。"
+    ],
+    "avoid_or_verify": [
+      "尚未验证保真变速与共振峰处理能力，不能承诺零失真。"
+    ],
+    "user_controls": [
+      "锁定内容",
+      "音高",
+      "速度",
+      "音色"
+    ],
+    "checks": [
+      "锁定未被覆盖",
+      "用户确认"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T15",
+    "title": "完整歌曲自动开始，分轨增强质量",
+    "kind": "product_requirement",
+    "source_ids": [
+      "U01",
+      "S01"
+    ],
+    "tags": [
+      "分轨",
+      "stem",
+      "人声残留",
+      "分离",
+      "音质",
+      "伪影"
+    ],
+    "summary": "允许上传完整歌曲开始；质量不足时请求补充分轨，并让用户了解影响。",
+    "suggested_actions": [
+      "单独试听人声与伴奏分离结果，对问题段标记，再尝试替代片段。"
+    ],
+    "when_to_use": [
+      "人声或伴奏需要独立处理。"
+    ],
+    "avoid_or_verify": [
+      "自动分离不能保证录音棚质量；不得掩盖残留与混响泄漏。"
+    ],
+    "user_controls": [
+      "补充分轨",
+      "替换素材",
+      "保留原混音"
+    ],
+    "checks": [
+      "残留",
+      "瞬态",
+      "音色变化"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T16",
+    "title": "等响度试听比较",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S10",
+      "L01",
+      "S50",
+      "S54",
+      "U07",
+      "S59"
+    ],
+    "tags": [
+      "试听",
+      "A/B",
+      "更响",
+      "对比",
+      "响度匹配"
+    ],
+    "summary": "播放响度会影响比较条件；平台归一化规则说明成品响度与实际播放响度不同。",
+    "suggested_actions": [
+      "对比同一位置的方案时提供等响度监听，独立保留导出设置。",
+      "等响度下加入局部连续性和音色对照；峰值、时长与编码通过不能标记用户听感通过。",
+      "比较压缩、饱和或EQ时避免补偿增益导致更响版本占优；静态匹配之后，仍要回听局部弱句、瞬态及完整发展。",
+      "听不出明显差异只记为本轮收益未证实；未做随机双盲ABX时，不声称等同、不可辨或有统计显著结论；基准保留与用户选定胜者分开记录。"
+    ],
+    "when_to_use": [
+      "比较接法、伴奏或效果。"
+    ],
+    "avoid_or_verify": [
+      "这是一项产品设计建议，不是已经验证的用户实验结果。",
+      "波形差异大和更响均不证明创意质量。"
+    ],
+    "user_controls": [
+      "等响度开关",
+      "原声对比"
+    ],
+    "checks": [
+      "不把增响当质量提升",
+      "整体等响度不保证每个短窗同响，也不自动判定创意或音色通过"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T17",
+    "title": "按发布目标设置响度与真峰值余量",
+    "kind": "technical_delivery",
+    "source_ids": [
+      "S10",
+      "L01",
+      "S56",
+      "S58"
+    ],
+    "tags": [
+      "导出",
+      "母带",
+      "LUFS",
+      "true peak",
+      "真峰值",
+      "爆音",
+      "削波"
+    ],
+    "summary": "Spotify官方有自身响度和真峰值建议；平台转码可能造成峰值变化。",
+    "suggested_actions": [
+      "按目标平台复核规则，分别检查母带与编码后文件的峰值及响度。",
+      "最终WAV和编码文件分别测量，目标响度与峰值冲突时优先保余量并明确实际交付值；真峰值合格不证明源文件无失真。",
+      "语音无障碍的背景声级差与歌曲平台响度是不同要求；按用户交付场景单独核对，不能把20 dB误作LUFS目标。"
+    ],
+    "when_to_use": [
+      "完整成品导出。"
+    ],
+    "avoid_or_verify": [
+      "不能把Spotify数值作为抖音通用标准；AAC超零不证明原工程削波。"
+    ],
+    "user_controls": [
+      "输出用途",
+      "格式",
+      "响度配置"
+    ],
+    "checks": [
+      "编码后真峰值",
+      "音量突变",
+      "余量",
+      "编码后峰值、原始失真、主观动态和发布目标分别记录"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T18",
+    "title": "完整作品交付与可继续编辑",
+    "kind": "product_requirement",
+    "source_ids": [
+      "U01"
+    ],
+    "tags": [
+      "完整交付",
+      "整首",
+      "收尾",
+      "工程",
+      "分轨导出",
+      "版本"
+    ],
+    "summary": "小白也应得到完整作品和可继续编辑的项目，进阶支持分轨。",
+    "suggested_actions": [
+      "从满意片段发展整首，检查首尾、缺失素材、处理尾音与版本。"
+    ],
+    "when_to_use": [
+      "用户结束创作或导出。"
+    ],
+    "avoid_or_verify": [
+      "不得把试听片段当作完整成品；未实现功能不可宣称执行成功。"
+    ],
+    "user_controls": [
+      "局部锁定",
+      "回退",
+      "导出范围"
+    ],
+    "checks": [
+      "结构完整",
+      "素材齐全",
+      "可重开"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T19",
+    "title": "熟悉歌曲与怀旧感：候选偏好",
+    "kind": "preference_hypothesis",
+    "source_ids": [
+      "S12"
+    ],
+    "tags": [
+      "怀旧",
+      "熟悉",
+      "Maps",
+      "欧美流行",
+      "惊喜",
+      "记忆"
+    ],
+    "summary": "ANR4N页面的部分评论提到Maps带来的熟悉与怀旧。",
+    "suggested_actions": [
+      "向该用户提供保留熟悉钩子与更大胆改造的对比候选。"
+    ],
+    "when_to_use": [
+      "用户主动表达怀旧或熟悉感偏好。"
+    ],
+    "avoid_or_verify": [
+      "评论非随机样本；不能认定怀旧导致爆款或所有人都喜欢。"
+    ],
+    "user_controls": [
+      "保留钩子",
+      "改造程度"
+    ],
+    "checks": [
+      "用户真实反馈",
+      "样本偏差"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T20",
+    "title": "中文情绪串烧：候选偏好",
+    "kind": "preference_hypothesis",
+    "source_ids": [
+      "S13"
+    ],
+    "tags": [
+      "中文",
+      "R&B",
+      "情绪",
+      "串烧",
+      "遐想",
+      "持续听"
+    ],
+    "summary": "SCOTT页面呈现连续中文歌曲章节，部分评论表达情绪共鸣。",
+    "suggested_actions": [
+      "作为可选参考组织相近主题的曲目，并试听转折是否符合用户。"
+    ],
+    "when_to_use": [
+      "用户选择中文抒情或相关参考。"
+    ],
+    "avoid_or_verify": [
+      "未直接听辨本视频，不推断具体和声、EQ与接歌质量。"
+    ],
+    "user_controls": [
+      "主题",
+      "曲目",
+      "情绪发展"
+    ],
+    "checks": [
+      "避免机械贴风格标签"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T21",
+    "title": "爆款互动数据的核实与筛选",
+    "kind": "evidence_policy",
+    "source_ids": [
+      "S12",
+      "S13"
+    ],
+    "tags": [
+      "50万",
+      "点赞",
+      "收藏",
+      "分享",
+      "转发",
+      "爆款",
+      "数据"
+    ],
+    "summary": "分别核实单条作品的赞、藏、转及观察日期；未知不填零，播放量不冒充互动量。",
+    "suggested_actions": [
+      "默认报告三项同时超过50万是否成立，并另列单项超过的候选。"
+    ],
+    "when_to_use": [
+      "采集或引用热门作品。"
+    ],
+    "avoid_or_verify": [
+      "不能拿作者累计获赞替代单作品；显示计数可能四舍五入。"
+    ],
+    "user_controls": [
+      "门槛",
+      "AND/OR筛选"
+    ],
+    "checks": [
+      "指标身份",
+      "日期",
+      "阈值边界"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T22",
+    "title": "平台趋势不等于个人胃口",
+    "kind": "evidence_policy",
+    "source_ids": [
+      "S11",
+      "S08",
+      "U01"
+    ],
+    "tags": [
+      "口味",
+      "胃口",
+      "大数据",
+      "平台偏好",
+      "热门",
+      "个性化"
+    ],
+    "summary": "可读的行业报道关注TikTok音乐发现与消费，不能直接代表中国抖音混音审美。",
+    "suggested_actions": [
+      "将趋势作为候选先验，以本次试听选择为主；跨项目记忆另行设计。"
+    ],
+    "when_to_use": [
+      "提出推荐和解释偏好。"
+    ],
+    "avoid_or_verify": [
+      "不把关联写成因果，不宣称已掌握所有用户。"
+    ],
+    "user_controls": [
+      "风格选择",
+      "否定推荐",
+      "探索新组合"
+    ],
+    "checks": [
+      "报告地区年份",
+      "用户选择"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T23",
+    "title": "主动推荐、解释与用户自由探索",
+    "kind": "product_requirement",
+    "source_ids": [
+      "U01"
+    ],
+    "tags": [
+      "推荐",
+      "解释",
+      "小白",
+      "自由探索",
+      "亲手操控",
+      "全民混音"
+    ],
+    "summary": "先主动推荐搭配并解释，用户始终可以替换、移动、调整与推翻。",
+    "suggested_actions": [
+      "说明用哪段素材、为何这样组合、需要调整什么和可能损失什么。"
+    ],
+    "when_to_use": [
+      "所有创作推荐。"
+    ],
+    "avoid_or_verify": [
+      "不以推荐代替用户决定；不重复询问已经确认的原则。"
+    ],
+    "user_controls": [
+      "伴奏",
+      "片段",
+      "效果",
+      "锁定",
+      "撤销"
+    ],
+    "checks": [
+      "建议与已执行区分",
+      "解释对应真实操作"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T24",
+    "title": "学习参考手法，避免伪造原工程",
+    "kind": "evidence_policy",
+    "source_ids": [
+      "S01",
+      "S04",
+      "S06",
+      "U01"
+    ],
+    "tags": [
+      "参考",
+      "复刻",
+      "拆解",
+      "学习",
+      "原工程"
+    ],
+    "summary": "可以学习选段、角色交接与过渡思想；成品录音不能唯一确定原始制作过程。",
+    "suggested_actions": [
+      "区分直接观察、算法测量、作者说明和我们的改编建议。"
+    ],
+    "when_to_use": [
+      "分析用户提供的参考作品。"
+    ],
+    "avoid_or_verify": [
+      "未听辨不写成听评；无分轨不凭空指定来源或插件。"
+    ],
+    "user_controls": [
+      "想学的手法",
+      "保留自己的风格"
+    ],
+    "checks": [
+      "证据类型",
+      "不确定性"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T25",
+    "title": "音频测量的边界",
+    "kind": "evidence_policy",
+    "source_ids": [
+      "L01"
+    ],
+    "tags": [
+      "音频分析",
+      "120 BPM",
+      "峰值",
+      "听辨",
+      "置信度"
+    ],
+    "summary": "前135秒的自动节拍和响度测量不证明歌词、调性或局部过渡听感正确。",
+    "suggested_actions": [
+      "将算法结果作为提示，安排有音频输入能力的评估与用户试听。"
+    ],
+    "when_to_use": [
+      "解释分析结果和质量。"
+    ],
+    "avoid_or_verify": [
+      "不把稳定BPM等同零跑拍；不把全段均值当瞬间变化。"
+    ],
+    "user_controls": [
+      "查看分析",
+      "纠正拍点"
+    ],
+    "checks": [
+      "原素材版本",
+      "估计置信度"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T26",
+    "title": "空间、现场氛围与环绕的产品要求",
+    "kind": "product_requirement",
+    "source_ids": [
+      "U01",
+      "S07"
+    ],
+    "tags": [
+      "3D",
+      "环绕",
+      "演唱会",
+      "录音棚",
+      "空间感"
+    ],
+    "summary": "用户希望空间与场景化声音改造；混响氛围不等同真实演出录音版本。",
+    "suggested_actions": [
+      "提供空间效果前后试听，并分别验证耳机和普通扬声器。"
+    ],
+    "when_to_use": [
+      "用户主动选择空间改造。"
+    ],
+    "avoid_or_verify": [
+      "尚无可执行空间引擎；不能承诺所有设备产生同样3D效果。"
+    ],
+    "user_controls": [
+      "远近",
+      "混响",
+      "移动",
+      "干湿比"
+    ],
+    "checks": [
+      "人声清晰",
+      "兼容性",
+      "用户意图"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T27",
+    "title": "多个作品之间的接续与重新编排",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "U01",
+      "S01",
+      "S02",
+      "S04"
+    ],
+    "tags": [
+      "多首作品",
+      "连续播放",
+      "无缝串烧",
+      "改顺序",
+      "插歌",
+      "逐交接证据排序"
+    ],
+    "summary": "多个完整作品可用相同的乐句、低频与角色交接原则连接。",
+    "suggested_actions": [
+      "用户改序或插歌后，重新提议受影响的连接；独立结尾与连接版本可分别保留。",
+      "每处分别判断：未知网格保守回退；可靠局部脉冲先试一拍低频交棒；只有真实非主唱分轨和相容调性候选同时具备才试四拍融合。候选按有依据的交接数量排序，最短交接和最后生成均不代表更好。"
+    ],
+    "when_to_use": [
+      "编排连续套曲。"
+    ],
+    "avoid_or_verify": [
+      "服务创作与试听，不默认变成驾驶陪伴产品或擅自换歌。"
+    ],
+    "user_controls": [
+      "顺序",
+      "接法",
+      "保留原版本"
+    ],
+    "checks": [
+      "连接完整",
+      "能量发展"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T28",
+    "title": "点缀音效的音乐性安排",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "U01",
+      "S07"
+    ],
+    "tags": [
+      "水滴",
+      "鸟鸣",
+      "音效",
+      "环境声",
+      "短音效",
+      "素材库"
+    ],
+    "summary": "用户允许内置素材及按提示词生成短音效；效果应支持音乐意图。",
+    "suggested_actions": [
+      "让用户选择位置，试听节奏、空间与遮蔽；有明显音高时检查协调。"
+    ],
+    "when_to_use": [
+      "灵感需要点缀或转折。"
+    ],
+    "avoid_or_verify": [
+      "不是默认堆叠音效；不得宣称音效已生成而实际上仅有文字建议。"
+    ],
+    "user_controls": [
+      "素材",
+      "位置",
+      "音量",
+      "空间"
+    ],
+    "checks": [
+      "遮挡人声",
+      "音高",
+      "尾音"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T29",
+    "title": "大BPM差与跨风格交接：先决定怎样交棒",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S15",
+      "S02",
+      "S24",
+      "S29"
+    ],
+    "tags": [
+      "跨风格",
+      "大BPM差",
+      "异速",
+      "难混",
+      "短切",
+      "tempo gap",
+      "half time",
+      "double time",
+      "半速倍速",
+      "小节时长",
+      "60 BPM 120 BPM",
+      "BPM不等于能量",
+      "自然变速过渡曲",
+      "感知能量"
+    ],
+    "summary": "跨速度混音要选段并规划能量变化；教学示例避开易失真人声。本产品改编先以短接减少长时间不同拍重叠，不擅自强拉速。",
+    "suggested_actions": [
+      "读取交接两侧局部脉冲；半速/倍速关系先复核重音。",
+      "原速短交接先试听，代价是更明显的场景切换。",
+      "用户同意后才考虑对速；变速坡度教学保留为未来方案，不冒充现有能力。",
+      "在已确认4/4且拍子定义相同时，用小节数_A/BPM_A＝小节数_B/BPM_B比较实际时长；60 BPM一小节对应120 BPM两小节，不代表语义乐句自动对齐。",
+      "先保留半速/原速/倍速解释，核对清晰鼓段的重音；不能依据未经确认的标签直接做2倍变速。",
+      "跨速度时先比较感知能量与律动密度：高BPM可以松弛，低BPM也能强烈；不要仅按BPM升序编排。",
+      "若用户素材中有自然变速的过渡曲，可将其作为第三首桥接；先检查实际变速段，当前没有自动速度坡度控制。"
+    ],
+    "when_to_use": [
+      "两处速度差大，或长叠加跑拍。"
+    ],
+    "avoid_or_verify": [
+      "不把教学中的128→150参数套用所有歌。",
+      "0.12秒仅为本机保守起点，不是DJ通用标准或已对准首拍。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "切入位置",
+      "试听反馈",
+      "保留原速原调",
+      "撤销"
+    ],
+    "checks": [
+      "拍点与尾音",
+      "人声遮挡",
+      "真实任务状态",
+      "用户偏好",
+      "同时间长度的段落到达是否相合，而非仅BPM数值相等",
+      "桥接曲是否真的有自然变速；是否擅自引入用户未选的第三首。"
+    ],
+    "attribution": "public_teaching_paraphrase; executable_fallbacks_are_deepmixing_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T30",
+    "title": "House层搭：给人声、鼓和低频安排角色",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S16",
+      "S04"
+    ],
+    "tags": [
+      "House",
+      "tech house",
+      "人声循环",
+      "频率角色",
+      "layering",
+      "层搭"
+    ],
+    "summary": "公开教学用稀疏人声loop与新曲kick搭配，逐渐揭示新曲并退出旧层；关键是角色交接和提前选点。",
+    "suggested_actions": [
+      "优先真实独立人声加伴奏，检查低频与人声遮挡。",
+      "当前可试听分轨、静态低频与音量；循环、动态滤波、Hot Cue表演仍需后续引擎。"
+    ],
+    "when_to_use": [
+      "用户追求House律动、熟悉人声与新伴奏组合。"
+    ],
+    "avoid_or_verify": [
+      "不把EQ当分轨；不声称已生成8拍loop或动态bass swap。",
+      "短段清唱节奏可能缺少鼓，不单靠清唱BPM判断。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "切入位置",
+      "试听反馈",
+      "保留原速原调",
+      "撤销"
+    ],
+    "checks": [
+      "拍点与尾音",
+      "人声遮挡",
+      "真实任务状态",
+      "用户偏好"
+    ],
+    "attribution": "public_teaching_paraphrase; executable_fallbacks_are_deepmixing_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T31",
+    "title": "流行与R&B叠搭：熟悉人声、意外伴奏和呼吸空间",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S12",
+      "S01",
+      "S05",
+      "U01",
+      "S22",
+      "S25",
+      "U02"
+    ],
+    "tags": [
+      "R&B",
+      "流行",
+      "Maps",
+      "Booty Music",
+      "清唱",
+      "人声",
+      "伴奏",
+      "期待感",
+      "分段音量",
+      "抽空一拍",
+      "恢复律动",
+      "gain envelope",
+      "ANR4N",
+      "熟悉感",
+      "反差兑现",
+      "锁定满意片段"
+    ],
+    "summary": "ANR4N章节与用户体验为搭配灵感，专业乐句和调性教学提供检查方法；不从章节名推断作者实际EQ操作。",
+    "suggested_actions": [
+      "先听独立人声，再安排伴奏进入，使用本地上行/脉冲切入候选并解释不确定性。",
+      "保留完整词句与尾音；用提前/延后版本比较期待感，不以更响当更惊艳。",
+      "双轨可先清唱后入鼓，再用分段音量短暂抽空和恢复；位置由实际素材候选与试听决定，不设所有作品通用的固定拍数。",
+      "先确定选段与速度，再设置片段内增益点；B从进入时算起，尾部收束时避免误删歌词。",
+      "解释方案时分别说明保留哪段熟悉人声、伴奏改变什么律动、哪个目标首拍兑现反差；不把怀旧感外推为所有用户偏好。",
+      "给同一组合比较清唱后进入、直接叠搭和短暂留白的少量候选；一次只调整一个因素，便于用户判断原因。"
+    ],
+    "when_to_use": [
+      "用户要求清唱开场、整套伴奏替换或新旧风格反差。"
+    ],
+    "avoid_or_verify": [
+      "调性相同仍可能和弦冲突；不自动移调。",
+      "分轨残留先对照源音，RAG不能恢复被分离掉的细节。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "切入位置",
+      "试听反馈",
+      "保留原速原调",
+      "撤销"
+    ],
+    "checks": [
+      "拍点与尾音",
+      "人声遮挡",
+      "真实任务状态",
+      "用户偏好",
+      "抽空后的底鼓是否清楚恢复；不靠整体增益冒充冲击",
+      "用户喜欢的切入与旋律转换可锁定；后续优化不应覆盖已认可部分。"
+    ],
+    "attribution": "public_teaching_paraphrase; executable_fallbacks_are_deepmixing_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T32",
+    "title": "Hip-hop与开放格式：用短交接保住歌词和重音",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S02",
+      "S01",
+      "S15"
+    ],
+    "tags": [
+      "Hip-hop",
+      "hiphop",
+      "open format",
+      "rap",
+      "说唱",
+      "抢句",
+      "短交接"
+    ],
+    "summary": "由乐句、短切和跨速度教学改编：歌词密集时先减少同响的主唱，保留问答与能量转折。不是对未听辨爆款的技巧归因。",
+    "suggested_actions": [
+      "检查当前选段尾部和下一段开头，试听是否截断字头/尾音。",
+      "在用户授权下先短交接；更长叠搭需实际选段、角色分离和拍点核实。"
+    ],
+    "when_to_use": [
+      "人声抢句、长叠搭信息拥挤。"
+    ],
+    "avoid_or_verify": [
+      "当前没有歌词识别或自动找换气点，不可假称句尾准确。",
+      "短切要防爆音并留意能量落差。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "切入位置",
+      "试听反馈",
+      "保留原速原调",
+      "撤销"
+    ],
+    "checks": [
+      "拍点与尾音",
+      "人声遮挡",
+      "真实任务状态",
+      "用户偏好"
+    ],
+    "attribution": "public_teaching_paraphrase; executable_fallbacks_are_deepmixing_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T33",
+    "title": "现场鼓与速度漂移：不让固定网格支配音乐",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S01",
+      "S15",
+      "U01"
+    ],
+    "tags": [
+      "现场鼓",
+      "live drums",
+      "速度漂移",
+      "跑拍",
+      "拍网不稳",
+      "摇滚",
+      "民谣"
+    ],
+    "summary": "设计改编：候选拍点偏离均匀网格时，先区分检测错误、自由速度与真实漂移；固定BPM不保证全程对齐。",
+    "suggested_actions": [
+      "局部检查并手动两点校正，再决定换片段或缩短叠加。",
+      "保留原速先做可撤销试听，不以假设的弹性变速修复。"
+    ],
+    "when_to_use": [
+      "现场录音、自由速度或候选网格不稳。"
+    ],
+    "avoid_or_verify": [
+      "不能从interval variation直接诊断曲风或真实漂移。",
+      "尚无弹性拍网warp，不能承诺长时间自动锁拍。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "切入位置",
+      "试听反馈",
+      "保留原速原调",
+      "撤销"
+    ],
+    "checks": [
+      "拍点与尾音",
+      "人声遮挡",
+      "真实任务状态",
+      "用户偏好"
+    ],
+    "attribution": "public_teaching_paraphrase; executable_fallbacks_are_deepmixing_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T34",
+    "title": "高播放灵感与专业技巧证据分层",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S17",
+      "S12",
+      "S13"
+    ],
+    "tags": [
+      "高播放",
+      "爆款",
+      "平台热度",
+      "创作者",
+      "版本比较",
+      "口味"
+    ],
+    "summary": "已核实B站创作者单条65.9万播放；抖音案例公开点赞而播放未知。热度用于选研究对象，不证明音质或方法普适性。",
+    "suggested_actions": [
+      "分别保存单条播放、赞藏转、观察日期、未知项及旧观测。",
+      "把短版/完整版/纯旋律作为本产品可比较版本的灵感，不编造作者制作细节。"
+    ],
+    "when_to_use": [
+      "解释参考案例、选择研究对象或比较版本。"
+    ],
+    "avoid_or_verify": [
+      "不把合集播放、粉丝或点赞当播放。",
+      "小样本不能叫全面大数据掌握年轻人审美。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "切入位置",
+      "试听反馈",
+      "保留原速原调",
+      "撤销"
+    ],
+    "checks": [
+      "拍点与尾音",
+      "人声遮挡",
+      "真实任务状态",
+      "用户偏好"
+    ],
+    "attribution": "public_teaching_paraphrase; executable_fallbacks_are_deepmixing_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T35",
+    "title": "难混素材的建议与真实试听闭环",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S02",
+      "S05",
+      "S15",
+      "U01",
+      "S30"
+    ],
+    "tags": [
+      "难混",
+      "调性冲突",
+      "调性未知",
+      "试听",
+      "保留原调",
+      "交接诊断",
+      "难混决策",
+      "保留元素",
+      "先短试听",
+      "可用分轨",
+      "保留用户认可片段"
+    ],
+    "summary": "先量当前交接窗口，再检索方法和核对条件；未知不代表不兼容。根据目标提出短接、换片段、独立角色或经同意对速/移调。",
+    "suggested_actions": [
+      "仅应用软件支持且用户授权的控制；保留原素材和历史。",
+      "试听任务实际成功才展示音频；失败保留可修改工程，不以文字充当音频。",
+      "难混先问保留的是主唱、旋律还是鼓，再分辨节奏、和声、密度或分轨损伤；不把未知分析结果直接说成不兼容。",
+      "优先试换片段、短句叠搭、短交接；若损伤来自分离，不用更重EQ或回声掩盖，先换可用分轨或原曲交接。",
+      "解释为何选择本方案、保留什么、牺牲什么，再真实渲染小段并等用户反馈；查到技巧不等于已生成试听。",
+      "把用户已认可的时间段保存为对照基准；本轮三曲串烧0–35秒听感获认可，后续对照先保持该段PCM采样一致，只修改尚未认可的交接。用户称赞空间感不证明软件添加过混响，需查工程实际处理。"
+    ],
+    "when_to_use": [
+      "任何混音建议需要从知识变为可试听方案。"
+    ],
+    "avoid_or_verify": [
+      "不能保证任意歌曲、任意长叠搭都惊艳。",
+      "串烧一次只诊断当前交接，不冒充全曲分析。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "切入位置",
+      "试听反馈",
+      "保留原速原调",
+      "撤销"
+    ],
+    "checks": [
+      "拍点与尾音",
+      "人声遮挡",
+      "真实任务状态",
+      "用户偏好",
+      "建议是否针对实际冲突；用户已认可的切入点是否仍被保留。"
+    ],
+    "attribution": "public_teaching_paraphrase; executable_fallbacks_are_deepmixing_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T36",
+    "title": "Cue备曲：给结构和交接画一张地图",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S19",
+      "S01",
+      "S27"
+    ],
+    "tags": [
+      "Cue",
+      "备曲",
+      "标记",
+      "结构地图",
+      "mix in",
+      "mix out",
+      "marker hotcue",
+      "观察标记",
+      "安全缩短",
+      "outro"
+    ],
+    "summary": "先准备关键段落和进出位置，能减少临场迷失；标记与歌词/首拍识别是不同能力。",
+    "suggested_actions": [
+      "检查原曲与候选变化，人工确认词句和段落后保存切入标记。",
+      "比较跳过长intro与保留intro两种选段，不覆盖必留内容。",
+      "备曲时区分只观察的结构标记与可跳播的执行点；标记本身不触发裁剪或跳播。",
+      "缩短重复段前，先核查离开点和目标outro的完整词句、重音、尾音和发展；只在确认后改选段，现无实时热Cue跳播。"
+    ],
+    "when_to_use": [
+      "计划连贯接歌或重编排。"
+    ],
+    "avoid_or_verify": [
+      "现有标记和选段不是多Hot Cue实时跳播；自动变化候选不是语义段落。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "进入/退出位置",
+      "效果强度",
+      "保持原貌",
+      "试听与撤销"
+    ],
+    "checks": [
+      "词句与尾音完整",
+      "重音与能量",
+      "响度匹配",
+      "真实执行状态",
+      "不要把章节时间、波形变化或marker Cue直接当成安全跳播点。"
+    ],
+    "attribution": "public_text_paraphrase; recipe_is_deepmixing_adaptation_not_artist_project",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T37",
+    "title": "主唱轮流说话：避开vocal clash",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S19",
+      "S04",
+      "S22",
+      "S29",
+      "S01",
+      "S30"
+    ],
+    "tags": [
+      "vocal clash",
+      "人声打架",
+      "歌词重叠",
+      "主唱交棒",
+      "留白",
+      "主导权",
+      "角色时间线",
+      "主唱对答",
+      "互补短句",
+      "人声交答",
+      "语义留白"
+    ],
+    "summary": "预先标记主唱进入，在另一主唱停顿或器乐段交接；先决定听众此刻应听谁。",
+    "suggested_actions": [
+      "确认两轨主唱区间；优先换交接片段或使用真实独立人声/伴奏。",
+      "先试听单主唱方案；需要双人声对答时另做明确编排。",
+      "在输出时间线上标明当前主唱、低频主导轨和交接目标；先保证一个清楚的主角，再核对乐句到达。",
+      "主唱轮流不只为避冲突，也可用共同词或互补句形成接龙；先让用户确认歌词含义与角色，再选一问一答的位置。",
+      "把双主唱冲突分成字句同响、辅音遮挡和旋律争抢；先解决真实冲突，再决定是交答、整句轮换还是低密度伴奏。",
+      "前句尾字与后句弱起可有短暂共存，但须听清语义和主角；不固定要求所有尾音完全消失后才允许下一句。"
+    ],
+    "when_to_use": [
+      "两段主唱同时出现或歌词抢句。"
+    ],
+    "avoid_or_verify": [
+      "降低中频不是消除主唱，也不能恢复被遮蔽的歌词；尚无自动歌词区间识别。",
+      "词级识别未确认时不宣称语义接龙成功。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "进入/退出位置",
+      "效果强度",
+      "保持原貌",
+      "试听与撤销"
+    ],
+    "checks": [
+      "词句与尾音完整",
+      "重音与能量",
+      "响度匹配",
+      "真实执行状态",
+      "底鼓与贝斯的主导权、歌词可懂度、乐句到达分别检查，不互相代替",
+      "是否只有押韵或同词却语义不通；交接是否遮住关键词。",
+      "前句尾义和后句首字是否都能听清"
+    ],
+    "attribution": "public_text_paraphrase; recipe_is_deepmixing_adaptation_not_artist_project",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T38",
+    "title": "延长短前奏：循环桥接与退出",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S19",
+      "S16",
+      "S39",
+      "S40",
+      "S50"
+    ],
+    "tags": [
+      "loop",
+      "循环桥接",
+      "延长前奏",
+      "短intro",
+      "outro"
+    ],
+    "summary": "把合适器乐段循环以争取交接空间，提前规划退出；不能无意重复半句话。",
+    "suggested_actions": [
+      "找节奏稳定且不截断词句的候选循环，核查循环接缝。",
+      "决定循环次数、低频主导和退出位置，退出后完整保留下一段。",
+      "区分循环点的点击、底鼓瞬态与和声/尾响被重置三种问题；短淡变不能证明乐句接缝成立。",
+      "先找低密度少词源段，检查每次回到起点与退出到主段的连续性；无干净段就换片段或缩短交接，不强行缩环。",
+      "接旧鼓片段时，分别核查旧轨离开处、循环起点与新轨重音的相位；短淡变只消点击。"
+    ],
+    "when_to_use": [
+      "前奏尾奏太短，常规交接时间不足。"
+    ],
+    "avoid_or_verify": [
+      "离线循环可执行，但自动干净选环、相位/尾响接缝优化与乐句退出未完成。",
+      "对齐新轨后若破坏旧律动，应重新选段或保留原推进。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "进入/退出位置",
+      "效果强度",
+      "保持原貌",
+      "试听与撤销"
+    ],
+    "checks": [
+      "词句与尾音完整",
+      "重音与能量",
+      "响度匹配",
+      "真实执行状态"
+    ],
+    "attribution": "public_text_paraphrase; recipe_is_deepmixing_adaptation_not_artist_project",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T39",
+    "title": "Cue drumming：把短素材当乐器演奏",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S19",
+      "S29"
+    ],
+    "tags": [
+      "cue drumming",
+      "Cue鼓",
+      "样本触发",
+      "手指鼓",
+      "节奏重组",
+      "鼓型预告",
+      "kick snare",
+      "简洁演奏"
+    ],
+    "summary": "在样本上设Cue并按节奏重新触发，可构建自己的节奏句；不是简单重播整首歌。",
+    "suggested_actions": [
+      "先选清楚短样本，确定原重音与想改成的节奏句。",
+      "以少量触发先试听，检查瞬态、重叠与结束衔接。",
+      "用旧曲的孤立kick/snare演奏下一首的简洁鼓型作为预告，再在下一首鼓组进入时退出；先核对节奏，不堆复杂花活。"
+    ],
+    "when_to_use": [
+      "希望亲手演奏、节奏改造或短视频routine。"
+    ],
+    "avoid_or_verify": [
+      "当前未实现样本触发和演奏录制，不能用文字当作已生成节奏。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "进入/退出位置",
+      "效果强度",
+      "保持原貌",
+      "试听与撤销"
+    ],
+    "checks": [
+      "词句与尾音完整",
+      "重音与能量",
+      "响度匹配",
+      "真实执行状态",
+      "预告鼓型是否可辨认；样本触发尚未接入时不可把分段音量称为打击垫演奏。"
+    ],
+    "attribution": "public_text_paraphrase; recipe_is_deepmixing_adaptation_not_artist_project",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T40",
+    "title": "空间蓄势与Drop收干：混响反差",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S20",
+      "S22",
+      "S51",
+      "S30",
+      "U05",
+      "S55",
+      "U07"
+    ],
+    "tags": [
+      "reverb",
+      "混响",
+      "空间蓄势",
+      "drop收干",
+      "干湿反差",
+      "铺垫释放",
+      "首拍恢复",
+      "空间连续",
+      "预延迟",
+      "干湿交棒"
+    ],
+    "summary": "在稀疏段增加空间，在目标落点减少效果形成对比；需决定停用输入还是截断尾音。",
+    "suggested_actions": [
+      "选breakdown或build片段，确认主唱可懂度和低频空间。",
+      "逐步增加空间并比较落点收干、自然尾音两版；检查是否淹没底鼓。",
+      "先标记释放的目标首拍；在其到来前完成计划中的复位，检查是否埋掉首个底鼓。效果未接入时保留方案，不声称已执行。",
+      "先比较原素材已有空间与无新增效果版本；源头长混响和新增混响分开记录，不用wet旋钮弥补所有音色切换。",
+      "把旧尾响延续与新主唱/鼓的干声到达分开安排；目标是衔接空间又保住首辅音和底鼓瞬态，不默认突然切断全部尾响。",
+      "空间参数分别核查预延迟、早期反射、衰减、干湿、宽度及低频尾部；按素材试听，不固定大厅参数。",
+      "当前可执行局部反射混响、wet/decay、pre_delay_ms及仅湿声的wet_highpass_hz/wet_lowpass_hz；先以无新增效果作等响度对照，保护干声到达。wet是输出时刻湿返回包络，非发送包络，片段外尾音需独立工程处理；独立早反射和真实房间匹配未实现。",
+      "要人声靠前时分别比较降低湿声、缩短衰减和增加适当预延迟，不把预延迟当作自动去混响。只对新增湿声的滤波不应被描述为干声EQ。",
+      "源已有空间且新增混响收益不明确时，保留无新增效果版本；预延迟只控制新增湿声起始，不将0或32 ms推广为通用最优值。"
+    ],
+    "when_to_use": [
+      "希望梦幻铺垫后落点更聚焦。"
+    ],
+    "avoid_or_verify": [
+      "公开教学的设备百分比不可直接套用；本机局部反射混响的具体控制与尾音边界见当前做法。",
+      "把干声拉远可能让主角模糊；更长尾响不等于更丝滑，也不能遮盖分轨伪影。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "进入/退出位置",
+      "效果强度",
+      "保持原貌",
+      "试听与撤销"
+    ],
+    "checks": [
+      "词句与尾音完整",
+      "重音与能量",
+      "响度匹配",
+      "真实执行状态",
+      "尽可能等响度比较；不能用整体更响证明Drop或反差更好",
+      "首字与底鼓是否仍清楚；尾响是否覆盖下一句或堆积低频；单声道是否稳定",
+      "湿声减小是否保护首辅音且没有硬切句尾"
+    ],
+    "attribution": "public_text_paraphrase; recipe_is_deepmixing_adaptation_not_artist_project",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T41",
+    "title": "乐句末端滤波揭示：有起点也有复位",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S20",
+      "S02",
+      "S22",
+      "S54"
+    ],
+    "tags": [
+      "filter sweep",
+      "滤波扫频",
+      "乐句末端",
+      "揭示",
+      "复位",
+      "铺垫释放",
+      "首拍恢复"
+    ],
+    "summary": "按段落推进滤波以制造期待，目标点复位恢复主体；过强共振会变尖变响。",
+    "suggested_actions": [
+      "确认素材频率角色和目标落点，先旁路对照原声。",
+      "缓慢扫动并规划复位，等响度检查低频空洞和尖锐共振。",
+      "先标记释放的目标首拍；在其到来前完成计划中的复位，检查是否埋掉首个底鼓。效果未接入时保留方案，不声称已执行。",
+      "当前高低通扫频只提供截止频率时间点，共振Q固定；不能承诺任意共振、窄带共振压制或动态频段检测。"
+    ],
+    "when_to_use": [
+      "需要渐显下一首或为切入蓄势。"
+    ],
+    "avoid_or_verify": [
+      "静态低频搁架不是高低通扫频；无动态滤波和共振控制。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "进入/退出位置",
+      "效果强度",
+      "保持原貌",
+      "试听与撤销"
+    ],
+    "checks": [
+      "词句与尾音完整",
+      "重音与能量",
+      "响度匹配",
+      "真实执行状态",
+      "尽可能等响度比较；不能用整体更响证明Drop或反差更好",
+      "复位之后目标底鼓与人声是否完整恢复"
+    ],
+    "attribution": "public_text_paraphrase; recipe_is_deepmixing_adaptation_not_artist_project",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T42",
+    "title": "拆解加法：为Techno层搭增加节奏角色",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S21",
+      "S16"
+    ],
+    "tags": [
+      "Richie Hawtin",
+      "Techno",
+      "现场编序",
+      "live sequencing",
+      "拆解加法"
+    ],
+    "summary": "由公开设备教学改编：先听出已有层的角色，再考虑增加打击乐或旋律并随反馈撤减；不是越多越好。",
+    "suggested_actions": [
+      "先留出节奏与频率空间，明确新增层承担律动、回应还是过门。",
+      "新旋律检查局部和声，打击乐检查重音与瞬态；比较加层与撤层两版。"
+    ],
+    "when_to_use": [
+      "追求Techno或House多层律动与个人改造。"
+    ],
+    "avoid_or_verify": [
+      "未实现步进编序、实时MIDI和鼓组重构；正文调性同步不保证每个和弦兼容。"
+    ],
+    "user_controls": [
+      "素材与选段",
+      "进入/退出位置",
+      "效果强度",
+      "保持原貌",
+      "试听与撤销"
+    ],
+    "checks": [
+      "词句与尾音完整",
+      "重音与能量",
+      "响度匹配",
+      "真实执行状态"
+    ],
+    "attribution": "public_text_paraphrase; recipe_is_deepmixing_adaptation_not_artist_project",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T43",
+    "title": "共同曲目接力：混搭预告下一首，再让它成为主角",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S12",
+      "U02",
+      "S25",
+      "S19",
+      "S22"
+    ],
+    "tags": [
+      "ANR4N",
+      "共同曲目接力",
+      "A×B→B",
+      "A×B→B→B×C",
+      "mashup relay",
+      "预告",
+      "旋律转换",
+      "连续串烧"
+    ],
+    "summary": "ANR4N的00:00 Maps×Booty Music→01:11 Booty Music章节提供结构案例；公开教学支持用混搭预告下一首。角色时间线是deepmixing适配，不是作者原工程还原。",
+    "suggested_actions": [
+      "画出A×B→B的角色时间线：先让A人声与B伴奏相遇，再在完整句结束附近让B成为主角。",
+      "把共同B当作听觉线索；检查第二阶段是否重播同一歌词、鼓点错位或因为叠加两份B产生梳状滤波。",
+      "需要继续B×C时，先明确C承担鼓、伴奏还是人声，再复核当前主唱与低频主导权；不默认叠满三首。",
+      "先单独试听接力点，再试听前后完整发展；现有工具只执行可支持阶段，并披露多阶段同步编排缺口。"
+    ],
+    "when_to_use": [
+      "希望短混搭自然发展成较长串烧，或希望下一首先被预告再出现。"
+    ],
+    "avoid_or_verify": [
+      "同名B的不同remix、转码、分轨不能默认采样对齐。",
+      "共同曲名不证明和弦、歌词、首拍已匹配；不能从章节认定作者用了EQ或现场分轨。"
+    ],
+    "user_controls": [
+      "共同曲目",
+      "主导人声",
+      "交接目标",
+      "保留句子",
+      "继续/结束",
+      "试听与撤销"
+    ],
+    "checks": [
+      "主唱是否重复或打架",
+      "共同底鼓的拍相和叠加",
+      "接棒后的能量与尾音",
+      "完整工程与当前执行缺口"
+    ],
+    "attribution": "case_metadata_is_not_DSP_evidence; transferable_recipe_is_deepmixing_adaptation",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T44",
+    "title": "Redrum鼓组换装：保留原曲旋律，重新赋予律动",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S26",
+      "S19",
+      "S05"
+    ],
+    "tags": [
+      "redrum",
+      "鼓组换装",
+      "只换鼓",
+      "保留旋律",
+      "不换整套伴奏",
+      "drum stem",
+      "弱鼓老歌",
+      "律动改造"
+    ],
+    "summary": "抽取另一首的独立鼓组为原曲换装，可保留原有旋律、和声与人声。来自公开专业教学，不归因为ANR4N已验证使用的操作。",
+    "suggested_actions": [
+      "先问清要只换鼓还是换整套伴奏；保留满意的人声与旋律，并对照源音检查分轨残留。",
+      "选择鼓组与原曲重音相容的短段；检查底鼓、军鼓与切分，不能只按BPM标签配对。",
+      "原鼓可分离时决定替换或保留多少；无法去除时先比较双鼓是否打架，不用整体增响掩盖。",
+      "需要加入贝斯时作为另一项创作决定，检查音高、低频与和弦；纯鼓适配不等于贝斯兼容。",
+      "比较保留原曲、只换鼓、整套伴奏替换三种方向；当前缺少独立鼓组选择，不把二分轨方案称Redrum完成。"
+    ],
+    "when_to_use": [
+      "用户喜欢原曲旋律但嫌鼓弱，或希望让抒情歌曲获得新的舞动感。"
+    ],
+    "avoid_or_verify": [
+      "老歌的速度漂移不可靠恒定变速全程修复。",
+      "鼓组可能含有调性打击乐和泄漏；二分轨伴奏会带入额外和声。"
+    ],
+    "user_controls": [
+      "保留旋律/人声",
+      "鼓组来源",
+      "替换或叠加",
+      "鼓的力度",
+      "加入贝斯与否",
+      "原貌锁"
+    ],
+    "checks": [
+      "鼓的瞬态与错位",
+      "分离损伤",
+      "贝斯与和弦冲突",
+      "等响度对照与完整尾音"
+    ],
+    "attribution": "case_metadata_is_not_DSP_evidence; transferable_recipe_is_deepmixing_adaptation",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T45",
+    "title": "歌词接龙 Wordplay：让两首歌接成一句话",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S28",
+      "S29"
+    ],
+    "tags": [
+      "wordplay",
+      "歌词接龙",
+      "一句接一句",
+      "两首歌对话",
+      "共同词",
+      "主唱对答",
+      "语义接力"
+    ],
+    "summary": "选择互补短句或共同关键词，让A说上半句、B接下半句。完整演奏可配合循环与主唱轮流；不是把两段人声同时叠满。",
+    "suggested_actions": [
+      "先写成一条可读的接龙：A的最后一个词或半句如何交给B，解释是回答、续句还是有意反差。",
+      "标出A退出、B关键词进入和下一首首拍；先做单次交接，避免人声辅音与尾音遮住对方。",
+      "需要伴奏时先指定唯一的主要底鼓与贝斯；词语相关不证明和声、拍相已经兼容。",
+      "需要反复对答时另列循环、主唱轮换与热Cue触发需求；当前只提供选段短接替代，不能声称完整routine已执行。",
+      "比较接龙版与普通短接，听关键词可懂性和语义；保留用户认可的交接位置。"
+    ],
+    "when_to_use": [
+      "两首歌有可识别的共同词、问答或互补短句，用户希望歌词产生新的意思。"
+    ],
+    "avoid_or_verify": [
+      "同词不一定同义；不要凭歌名杜撰歌词或自动推断合适截点。",
+      "完整歌词默认受保护，切片创作按用户意图；不要照搬教程的4拍循环或16小节到所有素材。"
+    ],
+    "user_controls": [
+      "关键词/接龙句",
+      "谁先说",
+      "单次/重复",
+      "允许切片",
+      "保留尾音",
+      "试听与撤销"
+    ],
+    "checks": [
+      "关键词是否可懂",
+      "两句是否互相遮挡",
+      "语义是否符合用户意图",
+      "完整演奏的能力缺口"
+    ],
+    "attribution": "Public teaching adapted to deepmixing; not an artist-engineering reconstruction or audio acceptance.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T46",
+    "title": "同歌换装：原版与Remix之间的短交接",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S28"
+    ],
+    "tags": [
+      "同歌换装",
+      "same song switch up",
+      "原版接remix",
+      "同歌不同版本",
+      "熟悉旋律换律动",
+      "版本切换"
+    ],
+    "summary": "以同一首歌的可辨认主唱或旋律维持熟悉感，再用另一个版本改变律动。此配方限定选段短交接，完整硬件效果演奏另有能力缺口。",
+    "suggested_actions": [
+      "说明两个版本分别保留什么辨识线索、改变什么律动和能量，不强制Remix一定更猛烈。",
+      "定位两个版本对应的完整词句或旋律节点，检查弱起、增删小节和人声落点；不只按波形长度对齐。",
+      "从短交接开始，避免两份相似主唱同时叠放太久；双影或梳状滤波时缩短同响区。",
+      "确认新版本首拍接管后的低频、音量与发展；需要对速时先征得同意，再检查音色。",
+      "生成真实预览比较切入早晚；本简版不宣称已做动态EQ交换或VAPORIZE硬件效果。"
+    ],
+    "when_to_use": [
+      "用户想保留熟悉主唱，同时换舞曲、R&B或更松弛的律动。"
+    ],
+    "avoid_or_verify": [
+      "不同录音、重唱、remaster和remix不默认采样对齐。",
+      "两份相似主唱长叠可能相消或形成双影；原作对应句也可能和声不同。"
+    ],
+    "user_controls": [
+      "两个版本",
+      "保留句子",
+      "目标心境",
+      "切入早晚",
+      "对速同意",
+      "试听与撤销"
+    ],
+    "checks": [
+      "对应乐句是否一致",
+      "同响人声是否有双影",
+      "新版本首拍是否自然",
+      "尾音与输出峰值"
+    ],
+    "attribution": "Public teaching adapted to deepmixing; not an artist-engineering reconstruction or audio acceptance.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T47",
+    "title": "采样旋律接力：从源曲走进采样它的新歌",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S29"
+    ],
+    "tags": [
+      "采样溯源",
+      "采样旋律接力",
+      "源曲接新歌",
+      "sample lineage",
+      "sample-based transition",
+      "共同采样乐句",
+      "motif"
+    ],
+    "summary": "用可辨认的共同采样乐句连接源曲与新歌，形成熟悉感和时代反差。采样关系要事先核实，不能把相似旋律直接当作采样事实。",
+    "suggested_actions": [
+      "先说明连接依据：已核验的采样关系或仅仅相似旋律；不由歌曲热度、歌名或模型记忆断言。",
+      "让源曲的辨识乐句先被听见，再在合适词句边界交给新歌的对应片段；可反向使用，但要解释叙事目的。",
+      "核查局部速度、重音、音高和低频；先做少重叠的短接，避免把两份相关样本长时间相加。",
+      "如需恒定对速或移调，先遵守用户原貌锁并取得同意；切片次序或自由速度不同则换段。",
+      "实际渲染交接前后，检查共同采样乐句可辨认、两版音量和尾音；不用知识条目代替试听。"
+    ],
+    "when_to_use": [
+      "用户希望跨年代或跨风格的组合有明确旋律线索和可解释的联系。"
+    ],
+    "avoid_or_verify": [
+      "采样关系、插值重演与相似创作不是同一事实；未知则说明待核验。",
+      "采样关联不自动意味着和声兼容或拥有使用许可。"
+    ],
+    "user_controls": [
+      "共同采样乐句",
+      "源曲/新歌方向",
+      "保留片段",
+      "允许对速/移调",
+      "反差强度",
+      "试听与撤销"
+    ],
+    "checks": [
+      "采样关系证据与具体版本",
+      "采样乐句能否被辨认",
+      "首拍和主唱是否互撞",
+      "相关样本重叠的相位与音量"
+    ],
+    "attribution": "Public teaching adapted to deepmixing; not an artist-engineering reconstruction or audio acceptance.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T48",
+    "title": "Tone Play旋律预告：用A的音色弹出B的旋律",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S28"
+    ],
+    "tags": [
+      "tone play",
+      "toneplay",
+      "旋律预告",
+      "用A音色弹B旋律",
+      "逐音演奏",
+      "pitch play",
+      "音色接力"
+    ],
+    "summary": "从A提取适合的短音，按B的旋律逐音演奏，再让B原旋律接管。它是取样演奏，不是把整首A统一移调。",
+    "suggested_actions": [
+      "选A中有辨识度且可分离的单音，确认根音、干净起音与可用音域，不把整套伴奏当单音。",
+      "把B的辨识旋律写成明确的音高、节奏与停顿；映射半音，试奏一小句，逐音检查失真。",
+      "预告时让主要主唱或旋律留出空间，先比较稀疏短句，再决定是否增加演奏密度。",
+      "B原旋律进入时退出A的演奏，核查重音、尾音与低频主导权。",
+      "当前只能提出带音高/节奏说明的创意草案；逐音样本触发未接入，不能把整轨移调或回声当作Tone Play完成。"
+    ],
+    "when_to_use": [
+      "用户想让两首歌的旋律转换更有设计感，并愿意明显改造素材。"
+    ],
+    "avoid_or_verify": [
+      "完整和弦样本逐音移调可能破坏和声；大幅移调会改变质感。",
+      "不要只凭歌名生成B的旋律，或把设备按键描述当作本产品已执行。"
+    ],
+    "user_controls": [
+      "A的取样音色",
+      "B的目标旋律",
+      "短句密度",
+      "音域",
+      "改造同意",
+      "交棒位置"
+    ],
+    "checks": [
+      "根音与每个音程",
+      "触发节奏与起音",
+      "逐音音色失真",
+      "预告退出后B是否自然接管"
+    ],
+    "attribution": "Public teaching adapted to deepmixing; not an artist-engineering reconstruction or audio acceptance.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T49",
+    "title": "D&B碎拍对接：先核查Break重音，再交换低频",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S32",
+      "S24"
+    ],
+    "tags": [
+      "broken_beat",
+      "drum and bass",
+      "dnb",
+      "碎拍",
+      "breakbeat",
+      "snare",
+      "双Drop"
+    ],
+    "summary": "相同BPM不保证碎拍兼容；先听军鼓与局部节奏，再决定短交接或错开Drop。",
+    "suggested_actions": [
+      "确认实际脉冲、半速读数与军鼓落点，不把170与85的标签当成两首必然相差一倍。",
+      "先比较一个局部节奏周期；两套Break冲突时改短接或让一套鼓退出。",
+      "确定一个低频主角，交棒时核查Kick与Bass尾音。",
+      "比较旋律段与高密度段的能量；双Drop只作待试听方案，不能只因BPM一致就叠加。"
+    ],
+    "when_to_use": [
+      "确认片段的局部节奏与低频角色"
+    ],
+    "avoid_or_verify": [
+      "密集Break叠加可能糊成双重军鼓；效果应克制"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "军鼓/底鼓是否打架",
+      "交接后低频是否突然过满"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T50",
+    "title": "Half/Double-time交接：Trap、Dubstep与其他节奏的脉冲换算",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S24",
+      "S29"
+    ],
+    "tags": [
+      "half time",
+      "double time",
+      "半速",
+      "倍速",
+      "trap",
+      "dubstep",
+      "脉冲换算"
+    ],
+    "summary": "先统一拍子的定义，再比较半速/倍速的实际时长与重音；不把高BPM直接当作高能量。",
+    "suggested_actions": [
+      "检查强拍、军鼓与实际脉冲，注明当前按正常/半速/倍速计数。",
+      "只有已确认相同拍号与拍子定义时，才按实际时长换算不同小节数。",
+      "在乐句尾或稀疏位置准备短交接，保留新曲第一下可识别的重音。",
+      "比较两种计数解释的试听，不为凑BPM大幅拉伸主唱。"
+    ],
+    "when_to_use": [
+      "已核查拍号与脉冲定义"
+    ],
+    "avoid_or_verify": [
+      "不能由BPM的2:1数字关系推断两套鼓必然兼容"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "小节实际时长与重音",
+      "人声是否被不必要地变速"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T51",
+    "title": "抒情与慢歌：完整呼吸、稀疏切入和尾音保护",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S01",
+      "S30",
+      "S51"
+    ],
+    "tags": [
+      "抒情",
+      "慢歌",
+      "长音",
+      "呼吸",
+      "尾音",
+      "ballad",
+      "清唱",
+      "呼吸句尾",
+      "长音接管"
+    ],
+    "summary": "以主唱完整句与情绪起伏安排留白，新的伴奏在有意选择的位置进入，保留呼吸和长音。",
+    "suggested_actions": [
+      "人工确认必留句、呼吸与延长尾音；变化点检测不等于歌词识别。",
+      "用独立人声建立主角，选择较稀疏的新伴奏段检查和声与节奏。",
+      "先试自然句尾交棒，再试用户认可的上扬处入伴奏，解释两种期待感。",
+      "通过已有分段音量做温和进入；保留完整结尾，检查分轨水声与拖尾。",
+      "尾字与吸气分别判断，不能把持续音量变小当作乐句已结束；后曲进入先检查长音跨入的新和弦。",
+      "用户要求持续律动时保留可用低密度伴奏；抒情不必清唱，尾响也不必添加统一长混响。"
+    ],
+    "when_to_use": [
+      "可用的人声/伴奏角色与人工确认的词句"
+    ],
+    "avoid_or_verify": [
+      "过长回声会掩盖咬字；慢歌也可能鼓点很密，不能一律长淡变",
+      "慢歌、忧郁与低能量不是同义词。"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "首辅音和呼吸完整",
+      "长音和新和弦是否冲突",
+      "尾音伪影",
+      "尾音跨到后曲时是否和声冲突；必要呼吸是否被压缩"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T52",
+    "title": "Disco/Funk老歌：保留演奏律动，避免机械拉齐",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S26",
+      "S08",
+      "S09"
+    ],
+    "tags": [
+      "disco",
+      "funk",
+      "放克",
+      "迪斯科",
+      "老歌",
+      "swing",
+      "真人鼓"
+    ],
+    "summary": "区分有意微时差与真实速度漂移，先保留原有律动，再决定是否需要节奏改造。",
+    "suggested_actions": [
+      "比较多个局部时间点，不把第一段网格正确当成整曲稳定。",
+      "区分原有Swing或切分与逐渐跑拍；不要把所有细小偏移强制量化。",
+      "稳定局部先试短接；只有明确要改造律动时再提Redrum，并核查可用独立鼓轨。",
+      "做等响度对比，确认新鼓没有盖掉原曲贝斯和吉他切分。"
+    ],
+    "when_to_use": [
+      "确认稳定局部或识别速度漂移"
+    ],
+    "avoid_or_verify": [
+      "恒定变速不能跟随所有现场鼓；研究样本不代表所有人的律动偏好"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "低频与吉他切分",
+      "前后段跑拍",
+      "改造是否丢失原有口袋感"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T53",
+    "title": "EDM/Trance能量交棒：铺垫、释放与旋律主导",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S22",
+      "S23",
+      "S25"
+    ],
+    "tags": [
+      "edm",
+      "trance",
+      "build",
+      "drop",
+      "铺垫",
+      "释放",
+      "能量交棒"
+    ],
+    "summary": "按实际段落安排铺垫与释放，避免一个Drop遇到另一个Break而失去冲击，也避免两套旋律同时抢主角。",
+    "suggested_actions": [
+      "标记铺垫、稀疏段与释放候选，再由试听确认，不按固定小节数猜所有作品。",
+      "选择继续抬升或有意降落的能量路径，并说明新的主导曲。",
+      "两首旋律较密时缩短同响时间，或使用真正分离的角色。",
+      "先做简洁交接，再讨论滤波、混响等装饰；预留头部空间并检查完整结尾。"
+    ],
+    "when_to_use": [
+      "实际段落候选与试听确认"
+    ],
+    "avoid_or_verify": [
+      "Drop标签、BPM和响度不等于感知能量；不默认双Drop"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "铺垫与释放是否连续",
+      "低频和旋律主角",
+      "转场后能量是否意外塌陷"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T54",
+    "title": "摇滚/民谣/现场版：局部同步与自然句尾交接",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S26",
+      "S30",
+      "S01"
+    ],
+    "tags": [
+      "rock",
+      "acoustic",
+      "live",
+      "现场",
+      "摇滚",
+      "民谣",
+      "rubato",
+      "速度漂移"
+    ],
+    "summary": "现场版可能有逐渐变速、临时停顿或自由演唱；用局部稳定窗口和完整句尾交接，保留表演的呼吸。",
+    "suggested_actions": [
+      "检查前、中、后三处及计划交接段的脉冲，不只看整曲平均BPM。",
+      "选择局部稳定的鼓段或自然停顿；自由段不强制套固定网格。",
+      "先比较句尾短接与不重叠交棒；需要长叠时先说明弹性跟拍缺口。",
+      "保留吉他起音、鼓瞬态、呼吸和尾响，检查分轨后的金属残影。"
+    ],
+    "when_to_use": [
+      "已核查实际交接处的局部速度"
+    ],
+    "avoid_or_verify": [
+      "恒定变速不能修正持续漂移；不将整首现场版一律视为不稳定"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "局部速度一致性",
+      "吉他/镲片瞬态",
+      "句尾完整"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T55",
+    "title": "氛围/影视/器乐：用和声、织体与尾响交接",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S01",
+      "S05",
+      "S30",
+      "S51"
+    ],
+    "tags": [
+      "ambient",
+      "cinematic",
+      "氛围",
+      "影视",
+      "国风器乐",
+      "古典",
+      "自由速度",
+      "rubato",
+      "织体",
+      "空间织体",
+      "持续音和声"
+    ],
+    "summary": "没有稳定鼓点时，按实际乐句、持续音与织体疏密设计交接；不强迫自由速度或非4/4音乐服从舞曲模板。",
+    "suggested_actions": [
+      "先判断有没有可用的稳定脉冲，标记自由段与长尾；拍号未知时不按4/4换算。",
+      "检查交接片段持续音、局部调性候选与旋律密度；同调不保证和弦兼容。",
+      "比较和声较稀疏处的柔和交接，冲突时改顺序或缩短同响，而非强行移调。",
+      "在完整尾响后安排收尾，检查叠加长混响造成的模糊与峰值。",
+      "区分同一空间的延续感与宽度/亮度突然改变；先比较源片段和角色密度，新增空间效果放在结构与和声核对之后。",
+      "两段Pad或长混响同响时查持续音的进行和遮蔽；可缩短同响、换支点或单旋律交棒，不能只看调号。"
+    ],
+    "when_to_use": [
+      "人工复核实际局部和声与尾响"
+    ],
+    "avoid_or_verify": [
+      "器乐/国风/古典是多样的大类；五声音阶也不保证所有音重叠都悦耳",
+      "消除原素材房间感或自动匹配空间尚未实现；不承诺任意大厅到录音棚无痕切换。"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "持续音冲突",
+      "尾响与呼吸",
+      "段落方向和动态保留",
+      "持续音与尾响是否共同遮蔽后曲主角"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T56",
+    "title": "Trap/低音音乐：808长尾与Kick的主导分配",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S22",
+      "S29"
+    ],
+    "tags": [
+      "808",
+      "sub",
+      "trap",
+      "dubstep",
+      "bass_dense",
+      "低音",
+      "长尾贝斯",
+      "低频打架"
+    ],
+    "summary": "以单一低频主角控制叠加，核查808的持续音与Kick起音，不用盲目加高频掩盖低频堆积。",
+    "suggested_actions": [
+      "检查实际低频段落，区分Kick起音与持续Bass尾音，不由曲名推断。",
+      "低频交接优先避开两个长音同响；选择短接或调整片段。",
+      "可先做静态低频和音量对比，但明确它们不能替代动态EQ、侧链或独立Bass选择。",
+      "交接前后做等响度和耳机/扬声器复核，检查失真、尾音与低频能量跳变。"
+    ],
+    "when_to_use": [
+      "实际可听低频冲突或低频密集片段"
+    ],
+    "avoid_or_verify": [
+      "静态110Hz低搁架不是逐音808调谐或自动侧链；不能自动修复已削波源"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "Kick轮廓",
+      "Bass尾音",
+      "峰值与低频能量跳变"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T57",
+    "title": "Latin/Afrobeats律动桥接：先辨认重音骨架",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S08",
+      "S09",
+      "S24"
+    ],
+    "tags": [
+      "latin",
+      "afrobeats",
+      "reggaeton",
+      "拉丁",
+      "非洲流行",
+      "切分",
+      "重音骨架"
+    ],
+    "summary": "这些类别内部节奏差异很大。先核查各自底鼓、军鼓、打击乐与人声重音，再决定桥接；不把它们当同一种鼓型。",
+    "suggested_actions": [
+      "逐段标出听到的节奏重音与重复周期，曲风标签不替代实际分析。",
+      "检查切分、直拍/摇摆细分和低频主导，先试稀疏打击乐段。",
+      "两套律动相斥时采用单鼓主导、短接或人工确认的过门，而不是强行密集长叠。",
+      "以不同方案试听原有律动是否保留，避免把实验研究的平均偏好当作用户偏好。"
+    ],
+    "when_to_use": [
+      "已核查具体节奏而非仅凭曲风标签"
+    ],
+    "avoid_or_verify": [
+      "通用切分研究不是Latin/Afrobeats专业制作工程证明；本配方为待素材验证的设计适配"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "人声重音与鼓型",
+      "低频角色",
+      "交接前后律动连续性"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T58",
+    "title": "Swing细分保留：UKG/爵士分别核查节奏口袋",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S08",
+      "S09",
+      "S32",
+      "S48",
+      "S52"
+    ],
+    "tags": [
+      "uk garage",
+      "ukg",
+      "2-step",
+      "爵士",
+      "jazz",
+      "swing",
+      "shuffle",
+      "摇摆",
+      "微时差",
+      "细分迁移",
+      "分鼓件律动"
+    ],
+    "summary": "UKG和爵士不是同一种节奏。借用局部节奏核查原则，分别检查细分、重音与微时差，避免BPM相同却节奏相斥。",
+    "suggested_actions": [
+      "在实际交接段确认直拍/摇摆细分、拍号与重音，不预设所有爵士都Swing或所有UKG都同一种Shuffle。",
+      "分清稳定的细分偏移与速度漂移，不机械量化已成立的节奏口袋。",
+      "先用少量同响对比，若细分不兼容就缩短交接或让一套鼓退出。",
+      "如需改造微时差或长段弹性跟拍，明确尚缺控制，再交付可执行的短接替代。",
+      "对Hat与Snare分别核查，不能把整套鼓统一移后冒充laid-back pocket。",
+      "迁移律动前分别比较Hat、Snare与Kick；稳定后置的军鼓与准时Hat可能共同构成口袋，不能整套等量推迟。",
+      "若需要从摇摆转直拍，先比较保留共同重音、减少不兼容细分或换段；连续变更细分仅在有可靠事件和控制时提出。"
+    ],
+    "when_to_use": [
+      "实际片段的细分与重音可复核"
+    ],
+    "avoid_or_verify": [
+      "将DnB的局部Break检查迁移为方法，不外推为两种风格的完整教学；Swing不是固定统一百分比",
+      "当前没有任意音频的分鼓件自动groove迁移，不能把外部软件能力写成已实现。"
+    ],
+    "user_controls": [
+      "必留片段",
+      "主导角色",
+      "交接位置",
+      "交接强度",
+      "原貌锁定"
+    ],
+    "checks": [
+      "双军鼓/双重音",
+      "Swing保持",
+      "前后段漂移",
+      "时序变化是否破坏原有力度与重音关系"
+    ],
+    "attribution": "deepmixing对已有核读公开教学/研究的风格化设计适配；不是作者针对所有曲风的完整工程，也不是音频验收。",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T59",
+    "title": "伴奏延续、清唱预告与人声桥",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S34",
+      "S35",
+      "S36"
+    ],
+    "tags": [
+      "伴奏突兀",
+      "铺垫过渡",
+      "人声桥",
+      "清唱桥",
+      "伴奏收束",
+      "acapella bridge",
+      "伴奏跳变"
+    ],
+    "summary": "平稳伴奏到新旋律容易突然跳变时，先撤掉竞争角色，用清唱提供识别线索，再让新伴奏接管。",
+    "suggested_actions": [
+      "诊断突兀来自鼓型、音色、和声还是密度；BPM相近只是证据之一，不是顺滑保证。",
+      "让前曲从整轨变为自己的伴奏，再有意识地收束；新曲先以人声出现，建立预告。",
+      "两套和声冲突或未知时，前曲伴奏退净后留清唱呼吸空间，避免硬做长时间旋律融合。",
+      "新曲伴奏渐进进入；分轨与整轨按同一源时间作互补音量交接，防止重唱、跳词或两层人声叠加。",
+      "比较保留前曲律动与清唱抽空两种情绪路径；明确实际是哪一种，不能把清唱抽空说成鼓点持续。"
+    ],
+    "when_to_use": [
+      "有对应原曲的真实伴奏和人声分轨，先检查分离质感和来源时间一致。",
+      "用户允许改造伴奏与密度，必留歌词和原貌锁优先。"
+    ],
+    "avoid_or_verify": [
+      "分轨损伤时回到原曲或干净分段；不用重混响掩盖。",
+      "这套接法会降低片刻能量，不适合所有持续高能需求。"
+    ],
+    "user_controls": [
+      "保留片段",
+      "铺垫时长",
+      "能量发展",
+      "原曲与新版本比较"
+    ],
+    "checks": [
+      "主唱源时间是否连续",
+      "清唱露出是否切碎完整词句",
+      "伴奏重新进入是否仍太急",
+      "人声分轨噪声和尾音"
+    ],
+    "attribution": "public_teaching_paraphrase; exact schedules are deepmixing design adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T60",
+    "title": "鼓与伴奏循环延长铺垫",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S33",
+      "S35"
+    ],
+    "tags": [
+      "鼓循环桥",
+      "伴奏循环",
+      "延长前奏",
+      "过门铺垫",
+      "mixloop",
+      "loop bridge"
+    ],
+    "summary": "短前奏或缺少铺垫空间时，选择可用鼓段/伴奏段循环，给新角色进入留出时间。",
+    "suggested_actions": [
+      "优先取清楚鼓段或干净伴奏片段，比较4/8拍等长度；不把一拍机械重复当通用过渡。",
+      "循环首尾检查瞬态、尾音与相位；必要时短交叠，不能只用BPM长度强剪。",
+      "前曲循环保持律动，新曲先引入一个辨识角色，再逐步替换低频或乐器。",
+      "按实际结构在适当位置退出循环；避免无限延长、循环残留和句子到达错位。"
+    ],
+    "when_to_use": [
+      "循环起止和局部节拍经核查，来源为真实素材而非伪造鼓分轨。",
+      "循环内没有必须完整保留而被切断的歌词。"
+    ],
+    "avoid_or_verify": [
+      "Loop同速不保证两曲乐句一致。",
+      "当前离线循环具备，自动无缝选环和审美判断仍需试听，不默认所有串烧自动用。"
+    ],
+    "user_controls": [
+      "保留片段",
+      "铺垫时长",
+      "能量发展",
+      "原曲与新版本比较"
+    ],
+    "checks": [
+      "循环接缝",
+      "鼓型和切分重音冲突",
+      "退出位置",
+      "能量是否停滞"
+    ],
+    "attribution": "public_teaching_paraphrase; exact schedules are deepmixing design adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T61",
+    "title": "伴奏角色分层接管：鼓、贝斯与和声",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S36",
+      "S33",
+      "S34",
+      "S49",
+      "S50"
+    ],
+    "tags": [
+      "改造前首伴奏",
+      "改造后首伴奏",
+      "伴奏分层",
+      "渐进换鼓",
+      "鼓贝斯交接",
+      "伴奏铺垫"
+    ],
+    "summary": "整套伴奏跳变时，把鼓、贝斯、和声与主唱分开安排，每次交换少量角色。",
+    "suggested_actions": [
+      "画出前曲和后曲的角色时间线：何时主导主唱、鼓、低频、和声。",
+      "可先保持前曲鼓律动、预告后曲人声；或先借后曲干净鼓作为前曲的新伴奏，不固定单一方向。",
+      "低频只让一个主角先接管，再逐渐开放旋律层；两个和声不可同时稳定共存时先抽空或只借打击乐。",
+      "在真实选段和实际局部拍点下比较逐层接管；不照搬任何大师视频的未经核实动作。",
+      "先保连续律动与源时间，再试分层；原曲↔分轨切换前检查处理后重建及音色，不把同次分轨等同相干。"
+    ],
+    "when_to_use": [
+      "真实鼓/贝斯/和声分轨来源完整，分离质量可用。",
+      "逐角色核查节奏和和声，不能只看曲风名称。"
+    ],
+    "avoid_or_verify": [
+      "本条是多来源概念的deepmixing设计适配，非某一案例的逐拍还原。",
+      "已有换鼓和接力原语，不等于完整自动分层接管配方已验收。",
+      "固定分层拍数与短交叉淡变不保证听感丝滑。"
+    ],
+    "user_controls": [
+      "保留片段",
+      "铺垫时长",
+      "能量发展",
+      "原曲与新版本比较"
+    ],
+    "checks": [
+      "真实分轨角色",
+      "低频主导权",
+      "多层同时进入的密度",
+      "每次替换后的音色一致性"
+    ],
+    "attribution": "public_teaching_paraphrase; exact schedules are deepmixing design adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T62",
+    "title": "先收束伴奏、留呼吸，再渐入释放",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S35",
+      "S34"
+    ],
+    "tags": [
+      "铺垫过渡",
+      "伴奏收束",
+      "呼吸过渡",
+      "抽空",
+      "密度重构",
+      "平稳伴奏接歌",
+      "渐入释放"
+    ],
+    "summary": "前曲平稳而后曲落点很重时，先制造可理解的密度变化，让重落点有期待，而不是突然切换。",
+    "suggested_actions": [
+      "先找自然breakdown；没有则用角色静音、伴奏包络或轻量效果创造呼吸，效果不作为唯一解决方法。",
+      "新曲选择柔和进入位置或先单独露出人声；避免在没有铺垫时把整套Drop直接推入。",
+      "只在已有局部拍点或人工乐句依据时安排节奏落点；未知不能声称已对齐音乐乐句。",
+      "让伴奏和能量逐步恢复，再比较完整前后发展；片刻抽空和持续鼓桥是两种不同听感。"
+    ],
+    "when_to_use": [
+      "确认用户容许短暂能量下降，保留获认可段落。",
+      "有可用低密度段落或真实分轨；人声未知时保留选择依据的限制。"
+    ],
+    "avoid_or_verify": [
+      "回声只能延续声音，不能自行解决选段、旋律和鼓型冲突。",
+      "教材的16小节不是所有音乐的强制结构。"
+    ],
+    "user_controls": [
+      "保留片段",
+      "铺垫时长",
+      "能量发展",
+      "原曲与新版本比较"
+    ],
+    "checks": [
+      "收束是否牺牲必留句",
+      "能量下降是否自然",
+      "新伴奏进入是否有预期",
+      "尾音是否盖住新句"
+    ],
+    "attribution": "public_teaching_paraphrase; exact schedules are deepmixing design adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T63",
+    "title": "后曲低密度前奏与独立角色渐进",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S38",
+      "S39",
+      "S40",
+      "S42",
+      "S43",
+      "S44",
+      "S49",
+      "S50"
+    ],
+    "tags": [
+      "后曲渐进",
+      "后首缺少渐进",
+      "整套伴奏突进",
+      "低密度前奏",
+      "逐层进鼓",
+      "清唱呼吸后渐入",
+      "intro edit",
+      "渐进接管"
+    ],
+    "summary": "后曲整套伴奏来得太急时，先保留清唱空间，再按角色展开后曲；以减法重做进入密度。",
+    "suggested_actions": [
+      "检查后曲突进是否来自整套鼓、低频与旋律同时入场；不能只延长整轨淡入。",
+      "保留已认可前曲收束与两秒清唱空间；使用后曲同一分离任务的真实四角色，核对共同缩放。",
+      "先轻露后曲乐器，再渐入鼓，贝斯延后恢复；逐层进入使用实测拍点或明确的秒数设计，未知不得声称已确认乐句。",
+      "所有角色沿同一源时间前进；全部展开后用互补包络回到同位置原曲，避免双主唱、重复鼓和跳词。",
+      "对照保留清唱B：角色渐入仍可能不合groove，other也可能残留鼓；短素材、缺源或已有编辑时回退而非硬凑。",
+      "先保连续律动与源时间，再试分层；原曲↔分轨切换前检查处理后重建及音色，不把同次分轨等同相干。"
+    ],
+    "when_to_use": [
+      "允许清唱呼吸与短暂降能量。",
+      "同一原曲、同一次分离的真实四角色且后曲至少约12秒可用。"
+    ],
+    "avoid_or_verify": [
+      "明确鼓点不断时不强制改成清唱桥。",
+      "other并非纯和声；分离漏音和groove仍需试听。",
+      "音量包络不等于逐击改写鼓型，原速末处局部实现不代表全曲结构智能。",
+      "固定分层拍数与短交叉淡变不保证听感丝滑。"
+    ],
+    "user_controls": [
+      "保留B",
+      "后曲展开顺序",
+      "进入时长",
+      "回到原曲位置"
+    ],
+    "checks": [
+      "源时间连续",
+      "低频主导权",
+      "鼓进入突兀",
+      "分轨音质"
+    ],
+    "attribution": "Public teaching synthesis; bounded deepmixing arrangement adaptation",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T64",
+    "title": "双向诊断与多路线接歌选择",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S34",
+      "S35",
+      "S38",
+      "S39",
+      "S40",
+      "S42",
+      "S43",
+      "S44"
+    ],
+    "tags": [
+      "灵活接歌",
+      "不要固定模板",
+      "不同歌曲不同接法",
+      "双向诊断",
+      "接歌选择",
+      "过渡路线",
+      "鼓型相容"
+    ],
+    "summary": "把接法作为条件候选：先看两首实际冲突，再决定是否自然融合、换角色、留呼吸或重置节奏。",
+    "suggested_actions": [
+      "分别诊断前曲尾段与后曲开头：主唱、鼓型与切分、低频尾音、和声密度、可用长度及情绪目标。",
+      "先检查能否自然融合；不要为展示技巧而拆开已经顺的原曲。",
+      "按冲突角色比较低频交棒、鼓桥、清唱桥、尾响、节奏重置、循环前奏和动机呼应；每条写出支持证据和未知条件。",
+      "前后两曲共同为过渡减法或重编，后曲也安排进入过程；顺序、秒数和能量曲线不是固定答案。",
+      "用户认可的是这次案例，不等于所有歌曲的默认偏好。渲染可行与峰值通过只筛选文件质量，不能自动判定好听。"
+    ],
+    "when_to_use": [
+      "要为不同歌曲选择接歌方法，而非复制某一次成功案例。"
+    ],
+    "avoid_or_verify": [
+      "BPM接近不证明鼓型匹配；同调号不证明旋律共存。",
+      "未知乐句、ASR或分轨质感必须显式保留未知，不能用规则分数假装审美能力。"
+    ],
+    "user_controls": [
+      "情绪目标",
+      "保持律动或允许呼吸",
+      "改造程度",
+      "候选对比与返工"
+    ],
+    "checks": [
+      "两侧角色与进入过程",
+      "禁止条件",
+      "完整词句",
+      "听感反馈适用范围"
+    ],
+    "attribution": "Design synthesis from archived professional teaching",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T65",
+    "title": "弱起人声与原曲参照校准：先定网格，再保呼吸",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S45",
+      "S22",
+      "S01"
+    ],
+    "tags": [
+      "弱起抢拍",
+      "清唱网格",
+      "原曲参照",
+      "人声提前",
+      "起音延后",
+      "pickup",
+      "呼吸保护",
+      "弱起空间",
+      "主句到达"
+    ],
+    "summary": "区分网格首拍、歌词起音和完整乐句；弱起不能为了对拍而被截断或强移到首拍。",
+    "suggested_actions": [
+      "先确认原曲版本、选段源时间与清唱是否同源，校核原曲局部网格，不复制未经校正的BPM。",
+      "分别记录速度误差与整体相位偏移；稳定弱起/后置与持续漂移分开处理，不能把每个字吸到拍点。",
+      "保留首字辅音、吸气与抢拍空间；可提前从前一拍或前一小节起播，具体长度由实际起音决定。",
+      "在后曲伴奏上比对进入前、主句与尾句；若字句相撞，移动整句或换伴奏段，不靠加混响掩盖。",
+      "把伴奏目标落点与人声首字分开标记，按实际弱起长度倒推起播；无法确认首拍时只列候选，不根据人声能量峰值擅定。",
+      "若前曲尾句占满弱起空间，先比较提前退前曲主唱、换后曲源段或更晚落点，不先裁掉用户必留句。"
+    ],
+    "when_to_use": [
+      "有可验证的同版本原曲/清唱时间对应；跨版本、现场漂移和已裁剪文件先另行检查。"
+    ],
+    "avoid_or_verify": [
+      "把首个字当首拍会改变演唱落点；同名Remix、MV和现场版不能直接复制网格。",
+      "向前预滚不得越出素材起点；30秒试听未包含的弱起不能补造。"
+    ],
+    "user_controls": [
+      "网格参照与起播预留",
+      "呼吸与完整句"
+    ],
+    "checks": [
+      "弱起与首辅音是否完整",
+      "速度、相位、微时差是否分别核查",
+      "主唱突出是否真的需要清唱；连续鼓点要求优先",
+      "首字、主句与伴奏落点是否分别核查"
+    ],
+    "attribution": "Professional teaching paraphrase; conditional deepmixing design, not an artist project or audio evaluation.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T66",
+    "title": "局部节奏口袋诊断：鼓型、重音与细分相容",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S48",
+      "S08",
+      "S43",
+      "S52"
+    ],
+    "tags": [
+      "节奏口袋",
+      "鼓型相容",
+      "重音细分",
+      "局部groove",
+      "微时差保留",
+      "量化强度",
+      "鼓型接管",
+      "鼓花退出",
+      "密度回收"
+    ],
+    "summary": "把BPM、重音、细分偏移和力度分开核查；人声鼓击对齐需用鼓击内部起音抵消片段前导静音，并在真实渲染中逐击复测。",
+    "suggested_actions": [
+      "先听两段各自的主脉冲，再分别观察Kick/Snare重音、Hat细分与力度；不由曲风标签补全事件。",
+      "比较半速/倍速、直拍/摇摆与微时差；稳定后置可能是演奏表达，不默认当作跑拍修正。",
+      "先试减少同响角色或换兼容片段；用户允许改鼓且事件证据可靠时才讨论定向重排，不随机抖动整套鼓。",
+      "比较保留旧鼓、提前预告新鼓、撤一套鼓或有铺垫重置；双军鼓、重音互抢或听感失去口袋即换法。",
+      "把鼓型接管拆成Kick/Snare重音骨架、Hat细分、力度轮廓、鼓音高与衰减；只改一个鼓片段的起点不等于完成这些匹配。",
+      "原曲各自成立而同响失去口袋时，先试保留一套骨架、只借另一曲少量打击乐，或换双方片段；不要长期叠两套不兼容军鼓。",
+      "铺垫滚奏不是正式主段的默认底层：到达后减少额外军鼓和打击乐，避免后曲本来已有填充却继续加密。",
+      "需要重编时从经核查的真实鼓段或已知事件出发，分别调整时序、力度与尾长；不拿随机humanize代替风格化鼓律动。",
+      "用户要求鼓点跟随明确人声片段时，先比较实际起音间隔；固定循环只可修共同相位，非均匀间隔需逐击放置，保留完整主唱。",
+      "鼓击事件时间等于目标起音减去鼓片段内部起音偏移；真实渲染后做有序一对一匹配，分别记录漏击、额外鼓击和时间误差；低误差不冒充歌词已识别或听感通过。"
+    ],
+    "when_to_use": [
+      "比较的是实际同响窗口；节奏事件身份和置信度未知时保留未知。"
+    ],
+    "avoid_or_verify": [
+      "Groove提取或逐音Warp是参考软件方法，未接为本产品自动能力。",
+      "切分、Swing、速度漂移、力度变化不是同一指标；随机化不保证更自然。",
+      "同源旧鼓时序连续不证明与新曲口袋兼容；缩短交接也不能修复任意鼓型。",
+      "声学起音可能是元音、辅音、和声或漏音；attack_alignment工具只输出review-only候选，不授权未知歌词裁剪或自动首拍。"
+    ],
+    "user_controls": [
+      "细分、相位与力度",
+      "同响范围与主导鼓"
+    ],
+    "checks": [
+      "同BPM下的双重音与拍内细分",
+      "实际音频是否支持事件判断",
+      "原律动是否被修成机械直拍",
+      "前曲离开、双方同响、后曲独立第一轮分别检查；鼓花是否及时退出"
+    ],
+    "attribution": "Professional teaching paraphrase; conditional deepmixing design, not an artist project or audio evaluation.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T67",
+    "title": "情绪主角与变化预算：按段规划能量维度",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S47",
+      "S25",
+      "S22",
+      "S43",
+      "S01",
+      "S05",
+      "S52"
+    ],
+    "tags": [
+      "情绪主角",
+      "变化预算",
+      "能量维度",
+      "重点突出",
+      "情绪目的地",
+      "主唱旋律律动",
+      "自然发展",
+      "情绪交棒"
+    ],
+    "summary": "先定义用户想保留的情绪和主角，再看哪些维度可以变化；忧郁不自动等于慢速或清唱。",
+    "suggested_actions": [
+      "记录心境、想突出的人声/旋律/律动、必留片段、是否允许降能量及目标时长；只问当前决定所需的未知项。",
+      "分别描述速度、熟悉线索、编曲密度、低频和氛围；RMS或BPM只作部分观察，不当作情绪结论。",
+      "为每段写出当前主角与后续目的地，比较保留共同线索逐步换色、原曲自然发展与有意反差。",
+      "默认比较少量维度变化；用户要冲击时可比较多维反差，但先铺垫并保护必留内容，不硬套单变量规则。",
+      "在等响度下分别问情绪是否成立、焦点是否清楚、后曲是否有准备，再决定返工哪个维度。",
+      "变化预算要包含抽空时长和恢复曲线；用户想要惊艳时仍须守住已认可的连贯维度。",
+      "把到达后的第一句也纳入创意判断：转场本身成立但后曲展开过满时，回查角色接管、装饰鼓退出和旋律归属。",
+      "用户说候选都差不多时记录未观察到改善；不自动选最新版本，不推断其不在意，也不能据此排除某个原因。"
+    ],
+    "when_to_use": [
+      "把用户描述与音频观察分开；情绪词含义不清时比较短候选，不能自行决定唯一接法。"
+    ],
+    "avoid_or_verify": [
+      "教材的少量维度变化是启发，不是所有音乐的硬规则。",
+      "用户确认情绪目标不等于真实音频已经达到；不得将派对偏好外推所有人。",
+      "情绪反差不是任意制造低频空档的许可。",
+      "技术库增加条目或核读更多教材不自动提升听感，仍须素材与情绪逐例验证。"
+    ],
+    "user_controls": [
+      "情绪与主角",
+      "变化预算与目的地"
+    ],
+    "checks": [
+      "必留内容与焦点是否冲突",
+      "持续律动与短暂呼吸是否取得用户许可",
+      "情绪、能量与响度分别验收",
+      "音乐目标、连续性和记忆点是否分别评价"
+    ],
+    "attribution": "Professional teaching paraphrase; conditional deepmixing design, not an artist project or audio evaluation.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T68",
+    "title": "律动承载与低频断层修复：先保连续再做反差",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S46",
+      "S22",
+      "S43",
+      "U03"
+    ],
+    "tags": [
+      "接歌抽空",
+      "低频断层",
+      "律动承载",
+      "接管空档",
+      "bass continuity",
+      "旧鼓延续"
+    ],
+    "summary": "先检查谁在托住律动与低频，再决定怎样交换；避免前曲过早退出、后曲迟迟未接管。",
+    "suggested_actions": [
+      "同时画前后曲Kick、bass、打击乐及辨识主角的进入退出，不把声部包络当作真实低频能量。",
+      "先听前曲本来好听的推进，保留能承载身体律动的线索，直到后曲已经建立可辨认的重音。",
+      "检查实际低频短时能量、尾音和重音密度；比较双低频争抢与两边都撤造成的空档，不能只解决前者。",
+      "旧鼓循环/取样要同时核对离开原段的源相位、循环接缝及后曲重音；只对新网格不够。",
+      "渐进、快速交棒或短呼吸按这组歌选择；用户追求连贯时先保留连续版本，再另试反差。"
+    ],
+    "when_to_use": [
+      "比较真实交接窗口，区分用户允许的短呼吸和未预期的断层；无鼓织体不强塞底鼓。"
+    ],
+    "avoid_or_verify": [
+      "先退旧bass再等新bass可能制造数秒低频断层。",
+      "所有声部都有连续包络也可能共同过弱；不能用增大主音量掩盖。"
+    ],
+    "user_controls": [
+      "承载角色与实际低频",
+      "允许呼吸与交接曲线"
+    ],
+    "checks": [
+      "双低频冲突和低频断层分别检查",
+      "旧鼓相位延续与新鼓重音分别检查",
+      "用户未允许的呼吸不能当惊艳"
+    ],
+    "attribution": "Verified public teaching plus a user-rejected local case; conditions are design adaptations.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T69",
+    "title": "原曲分轨切换的相干重建与音色连续",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S49",
+      "S50",
+      "U03"
+    ],
+    "tags": [
+      "原曲分轨切换",
+      "相干重建",
+      "音色跳变",
+      "相位一致",
+      "同源时间",
+      "null test",
+      "多轨变速"
+    ],
+    "summary": "同次分轨、相同BPM、相同源时间仍不保证能无缝还原；先比较真实处理后重建与原曲。",
+    "suggested_actions": [
+      "先在无创意效果条件下把四源共同缩放还原，检查时长、偏移、声像与低频；再加入相同时间处理复查。",
+      "区分时间一致与波形相干：各源独立保音高变速可能改变瞬态与相位，不能因tempo参数相同就保证相消残差为零。",
+      "实际原曲↔分轨切换前比较局部残差、相关性、频谱、瞬态与单声道；残差只定位问题，不是统一音质评分。",
+      "同源相关信号优先比较互补权重；不相关两曲再比较其他淡变曲线。不能把等功率交叉淡变当所有情形答案。",
+      "若重建音色不稳定，保留同一种处理路径或扩大可用交接空间；滤波/回声放在基线复原核对之后。"
+    ],
+    "when_to_use": [
+      "保留原曲、共同缩放系数与同次四源；记录所有裁切、延迟、滤波、移调和变速路径。"
+    ],
+    "avoid_or_verify": [
+      "用高通后的other替代完整other同时撤原曲会改变音色，不能称作完整互补重建。",
+      "极短淡变可消点击却保留音色跳变；加长淡变也可能增加梳状干涉。"
+    ],
+    "user_controls": [
+      "处理路径与时间对应",
+      "交接曲线与长度"
+    ],
+    "checks": [
+      "未处理与处理后重建分开核对",
+      "单声道低频、瞬态和声像是否稳定",
+      "同BPM不等于相干，非零残差不等于听感失败"
+    ],
+    "attribution": "Verified public teaching plus a user-rejected local case; conditions are design adaptations.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T70",
+    "title": "创意退步回查：单变量消融与局部听感验收",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S22",
+      "S43",
+      "S50",
+      "U03",
+      "U07"
+    ],
+    "tags": [
+      "创意退步",
+      "单变量消融",
+      "局部验收",
+      "丝滑优先",
+      "反例回退",
+      "顺滑基线"
+    ],
+    "summary": "用户认可的顺滑只是基线；新创意必须证明没有破坏它，机器通过不覆盖用户否定。",
+    "suggested_actions": [
+      "保留最后被用户认可某一维度的版本，明确新候选改哪一项以及依据，不因时间最新而替换基线。",
+      "先读自然乐句、弱起和原编曲的到达关系；未确认强拍时不强造Drop，把未知写明。",
+      "比较去回声、保原低频、保旧鼓时序、同一渲染路径等独立候选；每轮只改变一个可归因的决定。",
+      "同源、同选段和同响度对照局部前/中/后，再回到完整发展；不可只试听新效果最响的瞬间。",
+      "分别记录连续性、主唱完整、音色、情绪与记忆点。已有不丝滑反馈就标记拒绝，不让波形变化幅度或峰值合格冒充音乐质量。",
+      "通过基础连续性后才试新创意；未过保留基线并说明下一项证据，不把单一成功接法固化成全曲模板。",
+      "用户反馈差不多时记录到本轮、保留未证明收益的候选为可回查方案；经授权可暂留基准，但不冒充用户逐组评分或明确选胜者。"
+    ],
+    "when_to_use": [
+      "有可重放参考与用户对具体维度的反馈；“接得顺”不外推为情绪、音质或整体水平都通过。"
+    ],
+    "avoid_or_verify": [
+      "允许呼吸或情绪反差不等于允许随意断拍。",
+      "一处成功不外推所有曲目；统计变化大不证明更有创意或更悦耳。"
+    ],
+    "user_controls": [
+      "本轮单一变化与验收维度",
+      "回退与接受状态"
+    ],
+    "checks": [
+      "是否只改变当前要排查的决定",
+      "机器通过与用户通过是否分开",
+      "拍点、强拍、歌词停顿和音乐乐句是否混用"
+    ],
+    "attribution": "Verified public teaching plus a user-rejected local case; conditions are design adaptations.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T71",
+    "title": "人声清晰度与频谱遮蔽：先分角色，再减伴奏",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S54",
+      "S46",
+      "U07"
+    ],
+    "tags": [
+      "人声清晰度",
+      "人声被盖住",
+      "频谱遮蔽",
+      "人声靠前",
+      "vocal masking",
+      "伴奏让位"
+    ],
+    "summary": "人声被盖住时先分辨音量、编曲密度和频谱遮蔽；通过角色减法及有界EQ留空间，避免全轨加亮。",
+    "suggested_actions": [
+      "固定同响片段与监听音量，分别听人声、伴奏及合奏，定位是整句过轻、忙段被遮蔽还是人声源本身受损。",
+      "先降低竞争伴奏或减少叠加角色，保护人声完整字句；避免同时提高两边中高频。",
+      "仍有稳定频谱冲突时，在竞争声部使用最小必要的宽频段削减；频段随素材确定，不套固定“人声频率”。",
+      "当前只能使用low/mid/high三段及时间包络；任意中心频率、窄带Q、动态检测EQ须另有对应工具。",
+      "等响度比较弱句、密集副歌和单独伴奏，若音色变薄或辅音更刺，减轻处理并保留基线。",
+      "遮蔽尚未成立时保持原人声/伴奏比例；本轮固定1000 Hz削减与伴奏−2 dB均未证明收益，不升级为自动默认清晰度配方。"
+    ],
+    "when_to_use": [
+      "明确需要突出的人声与竞争声部；有独立轨或可用分轨，且允许调整该角色。",
+      "试听原始人声是否本来就模糊；分离残留、混响过重和录音失真不能都归因于EQ。"
+    ],
+    "avoid_or_verify": [
+      "宽频段削减也可能损伤旋律和鼓的辨识度。",
+      "人声加大不等于咬字清楚；不能用高架持续增益冒充去齿音。"
+    ],
+    "user_controls": [
+      "突出对象与允许调整角色",
+      "频段、削减量与时间范围"
+    ],
+    "checks": [
+      "完整字句是否更容易听清",
+      "伴奏独听是否失去主体",
+      "相同响度下是否改善且峰值有余量"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T72",
+    "title": "齿音与刺耳高频：区分瞬间去齿音和整体音色",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S54"
+    ],
+    "tags": [
+      "齿音",
+      "去齿音",
+      "嘶声",
+      "刺耳高频",
+      "de-esser",
+      "de-essing",
+      "sibilance"
+    ],
+    "summary": "只在嘶、丝等辅音突出时才考虑有选择的动态衰减；持续闷掉高频不是精确去齿音。",
+    "suggested_actions": [
+      "在正常及较低监听音量下回听同一句，确认刺耳来自人声辅音还是其他声部。",
+      "有去齿音工具时先监听检测频段，再设置仅让问题辅音触发的阈值与轻微衰减，频率跟随歌手实际声音。",
+      "调整起音与释放，让完整辅音仍可辨识；手册约5 kHz只是示例，不是所有声音的固定分频点。",
+      "当前未接入频段检测去齿音，少量孤立事件可手工包络轻降；持续高架削减会影响整段，不标作自动去齿音。",
+      "与旁路等响度比较整句，出现大舌头、漏字或镲片被带走时减轻或撤回。"
+    ],
+    "when_to_use": [
+      "能定位反复突出的辅音或高频事件，并有较清晰的人声源。",
+      "先区分齿音、镲片、分轨金属感、录音削波和整轨偏亮。"
+    ],
+    "avoid_or_verify": [
+      "不要因降低音量听起来不刺就认为源问题已修复。",
+      "混合整轨的高频动态处理可能牵连镲片与空气感。"
+    ],
+    "user_controls": [
+      "检测频段与触发条件",
+      "衰减量和恢复时间"
+    ],
+    "checks": [
+      "嘶声是否减少而咬字仍完整",
+      "非问题音节与其他高频声部是否保持",
+      "是否明确当前缺少检测型工具"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T73",
+    "title": "压缩与瞬态：控制动态，同时保住起音",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S54"
+    ],
+    "tags": [
+      "动态压缩",
+      "压缩器",
+      "瞬态",
+      "保留动态",
+      "忽大忽小",
+      "压扁",
+      "抽吸",
+      "compressor",
+      "attack release"
+    ],
+    "summary": "区分电平平衡、动态压缩和峰值限制；用起音、释放与增益衰减判断动态代价。",
+    "suggested_actions": [
+      "先用静态增益和少量手工音量包络处理段落级电平，避免让压缩器替代全部平衡。",
+      "有压缩器时先关闭自动补偿，以实际输入与所需增益衰减设定阈值、比率和knee，而非复制通用预设。",
+      "比较起音能否保留底鼓、军鼓或辅音；更短不总更好，更长也可能让峰值穿过。",
+      "使释放能随这段音乐恢复，回听抽吸、颤动、低频失真及下一击；前视和检测方式影响响应。",
+      "补偿响度后比较瞬态与安静细节，再检查导出峰值；最终限制器通过不等于各轨动态调音已完成。"
+    ],
+    "when_to_use": [
+      "先确认是整体音量不均、局部大峰值还是想改变鼓的包络；保留未压缩基线。"
+    ],
+    "avoid_or_verify": [
+      "补偿增益容易让更响版本占优。",
+      "重度压缩后的起音与细节未必可逆，不能承诺恢复已丢失动态。"
+    ],
+    "user_controls": [
+      "处理目标与检测模式",
+      "阈值/比率/起音/释放"
+    ],
+    "checks": [
+      "等响度下起音和呼吸是否仍自然",
+      "低音是否触发全轨不必要抽吸",
+      "渲染限制器与可调音轨压缩器是否混淆"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T74",
+    "title": "底鼓与贝斯侧链避让：触发角色和恢复律动",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S54",
+      "S55"
+    ],
+    "tags": [
+      "侧链",
+      "侧链压缩",
+      "底鼓贝斯避让",
+      "kick bass ducking",
+      "sidechain",
+      "泵感"
+    ],
+    "summary": "让底鼓触发贝斯或其他竞争声部的短暂衰减；先核实重叠与长尾，按节奏恢复。",
+    "suggested_actions": [
+      "在实际同响窗口回听底鼓起音、贝斯长尾与两者的节奏关系，区分遮蔽、同相堆积和抵消。",
+      "有侧链压缩工具时，将检测端接到底鼓，处理端放在需要退让的贝斯；不要把触发源增益当输出音量。",
+      "设置最小必要衰减及释放，让贝斯在下一个有效音符前自然回来，不能仅用BPM算一个固定释放。",
+      "非四拍、碎拍或带装饰击的鼓轨需逐段核对误触发；整鼓检测的滤波近似不等于准确底鼓识别。",
+      "当前仅可对人工确认的少量事件使用有限音量点或EQ交棒；自动检测侧链尚缺，不密集填点伪造全曲自适应。",
+      "比较旁路与等响度候选，抵消优先检查重叠和相位条件，不反复加大低频硬补。"
+    ],
+    "when_to_use": [
+      "有可靠底鼓触发源及独立贝斯或目标声部；实际同响时确有竞争且允许动态改造。",
+      "先看是否能通过编曲、尾音或现有低频交棒解决，原貌锁优先。"
+    ],
+    "avoid_or_verify": [
+      "贝斯音高与长尾会影响恢复听感，过深容易破坏律动。",
+      "手工包络不是音频检测型侧链；局部相位检查不保证全曲相容。"
+    ],
+    "user_controls": [
+      "触发源与被处理声部",
+      "衰减深度与恢复轨迹"
+    ],
+    "checks": [
+      "底鼓是否更清楚且贝斯主体仍在",
+      "是否误跟随军鼓或镲片",
+      "释放是否吞掉下一贝斯音符"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T75",
+    "title": "手机与小音箱低频适配：谐波辨识和多设备复听",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S55",
+      "S54",
+      "U07"
+    ],
+    "tags": [
+      "手机低频",
+      "小音箱",
+      "手机没低音",
+      "低频听不见",
+      "贝斯谐波",
+      "低频适配",
+      "bass translation",
+      "saturation"
+    ],
+    "summary": "小设备听不见贝斯时先分辨基频重放限制与编曲遮蔽，再比较保留谐波的方案。",
+    "suggested_actions": [
+      "先在目标设备、耳机或较完整低频系统上以相近感知音量回听同一段，判断只是基频缺失还是整个贝斯音符被盖住。",
+      "优先减少竞争声部和无效超低频占用，保留原来能提示音高与节奏的中低频信息，避免盲目抬升次低频。",
+      "若允许音色改造且有合适工具，可在独立贝斯副路径尝试少量饱和产生可辨识谐波，并补偿音量比较。",
+      "饱和引入失真与新谐波，需核对底鼓起音、和声密度、峰值及副路径相位；不能把更多失真等同更厚。",
+      "回到完整频宽系统检查低端是否过量，再听目标设备，保留可回退的无新增饱和版本。",
+      "未在实际目标设备验证的低架削减不算手机低频通过；低端不拥挤且收益不明确时保留原比例，不固定套用110 Hz/−3 dB。"
+    ],
+    "when_to_use": [
+      "用户指定手机、小音箱或其他播放场景，且有实际设备可复听；不从设备名推断具体频响。"
+    ],
+    "avoid_or_verify": [
+      "EQ不能恢复扬声器不能重放的物理基频。",
+      "滤波模拟、频谱变化或手机上可辨识不证明所有设备都通过。"
+    ],
+    "user_controls": [
+      "目标设备与允许改造程度",
+      "新增谐波、干湿与输出余量"
+    ],
+    "checks": [
+      "能否听出贝斯音符而非只有杂音",
+      "全频回放是否过重或刺耳",
+      "是否确实在用户目标设备上试听"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T76",
+    "title": "立体声宽度与单声道兼容：保护中心和有效低频",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S55",
+      "U07"
+    ],
+    "tags": [
+      "单声道兼容",
+      "mono compatibility",
+      "立体声宽度",
+      "相位抵消",
+      "中心人声",
+      "stereo width"
+    ],
+    "summary": "宽度、声道平衡、极性和单声道兼容是不同问题；检查折叠后的损失，再决定是否收窄。",
+    "suggested_actions": [
+      "先在双声道回放确认人声、底鼓、贝斯与空间角色，再用明确的L/R求和监听比较单声道。",
+      "比较时校准整体监听电平，关注中心主角和音色突然消失；单声道能量变化不能全当异常。",
+      "有立体声矩阵工具时，定位过多Side、反相分量或效果湿声；只收窄问题角色并回听立体声代价。",
+      "不对所有源轨盲目翻转极性或强制低频单声道；先核对同源分轨与时间对应，已经相消的成分求和会丢失。",
+      "当前有界交接低频探针是两条实际立体声路径的局部相互作用检查，不能替代全曲单声道、宽度与立体声母带验收。",
+      "立体声保留为创作基准；求和单声道是问题检查，不因无明显听感差异就强制单声道输出或宣称所有设备兼容通过。"
+    ],
+    "when_to_use": [
+      "有保留的原始立体声文件，并且允许对照单声道折叠；不能把单边播放当双声道求和。"
+    ],
+    "avoid_or_verify": [
+      "短延迟扩宽或反相Side可能在单声道损失明显。",
+      "强制折叠无法找回已经相消的音色，也不能用局部相关性宣布全曲无问题。"
+    ],
+    "user_controls": [
+      "保留的中心角色与监听方式",
+      "宽度/极性允许变化"
+    ],
+    "checks": [
+      "主唱和底鼓是否在单声道仍清楚",
+      "空间变窄与主体消失是否区分",
+      "局部低频报告是否被误称全曲相位通过"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T77",
+    "title": "削波与失真诊断：先查源头，再谈有限重建",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S56",
+      "S54"
+    ],
+    "tags": [
+      "削波修复",
+      "源文件失真",
+      "爆音",
+      "破音",
+      "clipping",
+      "declip",
+      "恢复波形"
+    ],
+    "summary": "区分源文件已削波、效果链过载和编码后峰值；降音量可留余量，无法恢复丢失的波形。",
+    "suggested_actions": [
+      "固定故障时间窗，先听源文件，再逐项旁路处理链，区分文件本身的平顶、混音叠加过载与编码后问题。",
+      "链路过载优先降低过载前的电平或撤掉过量增强，再检查WAV与最终编码；只压低已经失真的末端不重建波形。",
+      "源音频已削波时优先取得干净来源；若仅轻微削波且有修复器，可在副本上尝试插值重建并预留恢复峰值余量。",
+      "核对外部修复器对变速、包络及正负峰的限制；Audacity说明的Clip Fix不是本项目已集成工具，不能自动代用。",
+      "等响度比较修复局部与上下文；严重削波、分轨噪声或有意失真不能保证无损恢复。"
+    ],
+    "when_to_use": [
+      "有原始文件与处理前后版本可比较；修复和重新渲染都使用副本并保留源文件。"
+    ],
+    "avoid_or_verify": [
+      "平顶或高峰值只是线索，不独立证明削波或听感失败。",
+      "已经失真的信号即使真峰值低于0 dBTP也可能有明显破音。"
+    ],
+    "user_controls": [
+      "故障位置与允许替换的源",
+      "修复范围与余量"
+    ],
+    "checks": [
+      "问题最早出现在哪个版本",
+      "修复是否只处理了真实故障",
+      "是否将降低电平误报为已恢复波形"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T78",
+    "title": "口播与视频配乐：按语句手工避让并保护留白",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S54",
+      "S57",
+      "S58"
+    ],
+    "tags": [
+      "口播配乐",
+      "视频配乐",
+      "背景音乐",
+      "旁白",
+      "播客",
+      "配乐压低",
+      "语音可懂度",
+      "voiceover",
+      "speech ducking"
+    ],
+    "summary": "以语音可懂度为目标安排配乐起落，区分手工音量包络、自动侧链和可访问性声级要求。",
+    "suggested_actions": [
+      "先听不加配乐的语音，确认字句完整、起止和留白；记录用户要突出的话与允许配乐亮相的窗口。",
+      "先降低配乐基准电平，再在已确认语音前平滑退让，句尾之后自然恢复；停顿短时不反复抽吸。",
+      "当前用逐片段最多16个音量点准备局部方案；长口播先由用户确认分段计划，不能宣称自动全片逐句避让。",
+      "有外部侧链工具时可由旁白触发配乐压缩；本项目未提供检测型自动侧链，手工包络不能冒称自动识别讲话。",
+      "若用户明确要求无障碍纯音频，核对AAA级SC 1.4.7：以预录语音为主，排除音频验证码、音频标志及主要歌唱/说唱等；无背景、背景可关闭或低20 dB是替代路径，后者有仅1–2秒偶发声音例外。",
+      "20 dB不是整曲LUFS目标、推子差或所有视频/歌曲的默认比例；没有独立测量不能声称符合WCAG。回听手机与正常监听音量下的完整语句。"
+    ],
+    "when_to_use": [
+      "有用户授权的独立语音和配乐，用户能确认语句范围、画面节奏与需要保留的停顿。",
+      "此条当前执行范围是人工确认时间点后的有限包络；未自动理解画面、全部字幕或逐句语义。"
+    ],
+    "avoid_or_verify": [
+      "配乐叠有人声时可能同时竞争歌词，先选择少主唱的配乐。",
+      "无障碍目标与艺术配乐目标需明确；本条不自动获得WCAG认证或完整视频理解。"
+    ],
+    "user_controls": [
+      "语句时间与保护的停顿",
+      "配乐底电平、退让与恢复轨迹"
+    ],
+    "checks": [
+      "弱句与句尾是否仍可懂",
+      "停顿处是否不自然抽吸",
+      "是否超出有限音量点预算",
+      "标准适用范围与实测依据是否写清"
+    ],
+    "attribution": "Design adaptation from archived public manuals; not a demonstrated audio result.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T79",
+    "title": "长时串烧的成对章节与结尾收束",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S68",
+      "S12"
+    ],
+    "tags": [
+      "ANR4N",
+      "抖音串烧",
+      "章节编排",
+      "成对歌曲",
+      "长时串烧",
+      "结尾收束",
+      "playlist flow"
+    ],
+    "summary": "公开长时串烧案例显示：先把相邻歌曲编成听感单元，再在章节节点交接，最后一首独立收束；章节时间是候选范围，不是剪辑真值。",
+    "suggested_actions": [
+      "先按能量、密度、旋律主导和使用场景排列歌曲，再为每个相邻单元寻找局部出点和进点。",
+      "对一个交接同时生成短4拍、短8拍和结构边界候选；歌词、低频主导或弱起冲突时缩短交叠或硬切。",
+      "把平台章节当作粗粒度搜索范围，回到本地音频核对真实拍点、歌词完整性和尾音。",
+      "最后一首保留独立尾部和响度空间，不为了连续播放强行叠入下一首。"
+    ],
+    "when_to_use": [
+      "需要编排多首歌的连续串烧、通勤歌单或情绪旅程。"
+    ],
+    "avoid_or_verify": [
+      "不能把章节时间直接当作精确切点。",
+      "不能把单个章节中的0.5X或慢速标签扩展为整套默认变速。",
+      "不能用互动热度替代音频结构、低频交接和听感验证。"
+    ],
+    "user_controls": [
+      "歌曲顺序",
+      "成对章节边界",
+      "结尾是否收束"
+    ],
+    "checks": [
+      "每个章节是否有可追溯的本地源时间",
+      "相邻两首的主唱、低频和能量是否分工清楚",
+      "最后一首是否保留自然尾音"
+    ],
+    "attribution": "Design adaptation from public Douyin performance cases; not a direct audio reconstruction.",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T80",
+    "title": "中途接歌的四窗局部听感筛选",
+    "kind": "design_adaptation",
+    "source_ids": [
+      "S69",
+      "S01",
+      "S02"
+    ],
+    "tags": [
+      "中途接歌",
+      "丝滑过渡",
+      "局部听感",
+      "退出段",
+      "进入段",
+      "四窗分析",
+      "energy step",
+      "low frequency collision",
+      "transient density"
+    ],
+    "summary": "中途接歌先比较上一首退出前/退出尾与下一首进入头/进入后的局部差异，再决定短叠化、极短交棒或硬切；指标缩小候选范围，最终仍需试听。",
+    "suggested_actions": [
+      "从上一首的退出段和下一首的进入段开始，不默认尾部接开头。",
+      "分别测量能量台阶、低频/中频拥挤、瞬态密度、动态余量和立体声相关性。",
+      "局部差异小才提出中途短叠化；低频、能量或瞬态冲突明显时缩短交接。",
+      "保留原速、原调和原选段，生成试听并把歌词、乐句、首拍和尾音留给人工确认。"
+    ],
+    "when_to_use": [
+      "用户要求中途接歌、丝滑过渡或强调混音技术存在感。"
+    ],
+    "avoid_or_verify": [
+      "不能把章节时间或画面操作直接复制成工程切点。",
+      "完整混音频段代理不能证明人声身份、歌词完整或真正乐句边界。",
+      "指标通过也不等于听感通过；必须试听交接版本。"
+    ],
+    "user_controls": [
+      "中途接入点",
+      "交叠长度",
+      "前曲退出事件",
+      "后曲进入事件"
+    ],
+    "checks": [
+      "四窗局部指标可追溯到源时间",
+      "低频与主旋律是否互抢",
+      "进入段是否有能量台阶",
+      "试听后是否自然"
+    ],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  },
+  {
+    "id": "T81",
+    "title": "Jared场景串烧的章节导航与曲目交付",
+    "kind": "design_adaptation",
+    "source_ids": ["S70", "S71"],
+    "tags": ["Jared", "贾里德", "Funk", "Phonk", "章节导航", "健身串烧", "开车歌单", "曲目清单"],
+    "summary": "从Jared公开页面可借鉴场景明确、章节可找、曲名可追溯的长串烧呈现；页面导航不能证明具体过渡手法或音乐听感。",
+    "suggested_actions": [
+      "制作前明确健身、通勤或日常陪伴场景，确认用户的选曲、顺序和时长要求。",
+      "交付时可从实际成品工程导出曲目清单及成品时间，区分源选段、交叠区和播放位置。",
+      "导航可按已生成的时间线定位；同曲可随使用场景和相邻曲目改变顺序与停留时间，不套用固定时长。",
+      "保留每次交接试听、用户原速原调锁和自然结尾；获得可用音频后再核对参考的具体过渡。"
+    ],
+    "when_to_use": ["用户提到Jared或希望制作适合健身、开车的Funk/Phonk串烧及曲目清单。"],
+    "avoid_or_verify": [
+      "本卡是呈现与交付建议，不是训练结果或可执行DSP配方。",
+      "17个参考章节不表示当前产品支持17段输入；现有串烧仍限制2至8段、最长60分钟。",
+      "未听审不能声称复刻音色、节奏、EQ、低频交棒或整套风格。"
+    ],
+    "user_controls": ["使用场景", "歌曲顺序", "选段范围", "总时长", "原速原调"],
+    "checks": ["曲目清单是否来自实际工程", "时间是否指向实际成品", "未知过渡是否明确标注待听审"],
+    "attribution": "summary_is_paraphrase; actions_are_deepmixing_design_adaptations",
+    "audio_execution_supported": false
+  }
+]

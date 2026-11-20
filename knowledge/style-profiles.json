@@ -1,0 +1,1247 @@
+{
+  "schema_version": 1,
+  "version": "2026-11-13",
+  "profiles": [
+    {
+      "id": "pop",
+      "label": "流行",
+      "aliases": [
+        "流行歌",
+        "华语流行",
+        "英文流行",
+        "流行歌曲"
+      ],
+      "traits": [
+        "主唱与Hook辨识度",
+        "段落与情绪变化"
+      ],
+      "priority_techniques": [
+        "T31",
+        "T37",
+        "T06",
+        "T46",
+        "T45"
+      ],
+      "optional_techniques": [
+        "T43",
+        "T47",
+        "T48",
+        "T59",
+        "T60",
+        "T61",
+        "T62",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "保护必留完整句；语言只是附加信息，不单独决定技法"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "ballad",
+      "label": "抒情/慢歌",
+      "aliases": [
+        "抒情",
+        "慢歌",
+        "ballads"
+      ],
+      "traits": [
+        "长音与呼吸",
+        "可能有自由演唱"
+      ],
+      "priority_techniques": [
+        "T51",
+        "T31",
+        "T01",
+        "T07"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T55",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "慢不等于稀疏；尾音与新伴奏和弦需局部核查"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "rnb",
+      "label": "R&B/Soul",
+      "aliases": [
+        "R&B",
+        "r and b",
+        "soul",
+        "灵魂乐"
+      ],
+      "traits": [
+        "人声律动与切分",
+        "和声与低频空间"
+      ],
+      "priority_techniques": [
+        "T31",
+        "T37",
+        "T06",
+        "T56"
+      ],
+      "optional_techniques": [
+        "T43",
+        "T45",
+        "T47",
+        "T59",
+        "T60",
+        "T61",
+        "T62",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "保留咬字和演唱节奏；不要把细分偏移一律纠正"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "hiphop",
+      "label": "Hip-hop/说唱",
+      "aliases": [
+        "hip hop",
+        "hip-hop",
+        "说唱",
+        "嘻哈"
+      ],
+      "traits": [
+        "歌词与重音",
+        "采样与鼓型"
+      ],
+      "priority_techniques": [
+        "T32",
+        "T37",
+        "T45",
+        "T47",
+        "T50"
+      ],
+      "optional_techniques": [
+        "T39",
+        "T44",
+        "T48",
+        "T59",
+        "T60",
+        "T61",
+        "T62",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "避免两段主说唱持续重叠；副歌和Verse不以固定长度猜测"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "trap",
+      "label": "Trap/808",
+      "aliases": [
+        "trap音乐"
+      ],
+      "traits": [
+        "半速感候选",
+        "808长尾与Hi-hat"
+      ],
+      "priority_techniques": [
+        "T56",
+        "T50",
+        "T32",
+        "T37"
+      ],
+      "optional_techniques": [
+        "T44",
+        "T39",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "先核实正常/半速计数和808尾音，不预设每首都同一结构"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "house",
+      "label": "House",
+      "aliases": [
+        "浩室",
+        "deep house",
+        "tech house"
+      ],
+      "traits": [
+        "稳定四拍候选",
+        "乐句与低频角色"
+      ],
+      "priority_techniques": [
+        "T05",
+        "T30",
+        "T03",
+        "T37",
+        "T46"
+      ],
+      "optional_techniques": [
+        "T38",
+        "T40",
+        "T41",
+        "T59",
+        "T60",
+        "T61",
+        "T62",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "实际首拍和段落须复核；现场版可能有漂移"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "techno",
+      "label": "Techno",
+      "aliases": [
+        "铁克诺",
+        "melodic techno"
+      ],
+      "traits": [
+        "循环层次与纹理",
+        "低频持续能量"
+      ],
+      "priority_techniques": [
+        "T05",
+        "T03",
+        "T42",
+        "T12"
+      ],
+      "optional_techniques": [
+        "T11",
+        "T40",
+        "T41",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "渐进层搭也需一个低频主角；旋律型Techno需额外查和声"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "edm",
+      "label": "EDM/大房间舞曲",
+      "aliases": [
+        "big room",
+        "festival edm",
+        "电子舞曲"
+      ],
+      "traits": [
+        "铺垫与Drop",
+        "瞬态与能量反差"
+      ],
+      "priority_techniques": [
+        "T53",
+        "T04",
+        "T03",
+        "T12"
+      ],
+      "optional_techniques": [
+        "T40",
+        "T41",
+        "T46",
+        "T59",
+        "T60",
+        "T61",
+        "T62",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "不把所有电子音乐等同大房间结构；Drop先听再标"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "trance",
+      "label": "Trance/迷幻舞曲",
+      "aliases": [
+        "uplifting trance",
+        "progressive trance",
+        "迷幻舞曲"
+      ],
+      "traits": [
+        "旋律与长铺垫",
+        "和声延续"
+      ],
+      "priority_techniques": [
+        "T53",
+        "T07",
+        "T05",
+        "T12"
+      ],
+      "optional_techniques": [
+        "T40",
+        "T41",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "长Pad与主旋律重叠可能和声冲突；相同调号仍需试听"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "dnb",
+      "label": "Drum & Bass",
+      "aliases": [
+        "Drum & Bass",
+        "drum and bass",
+        "drum n bass",
+        "D&B",
+        "鼓打贝斯"
+      ],
+      "traits": [
+        "Break细分",
+        "军鼓与低频密度"
+      ],
+      "priority_techniques": [
+        "T49",
+        "T50",
+        "T03",
+        "T12"
+      ],
+      "optional_techniques": [
+        "T04",
+        "T40",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "核查Break实际图案；双Drop非默认策略"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "dubstep",
+      "label": "Dubstep/低音电子",
+      "aliases": [
+        "brostep",
+        "dub step"
+      ],
+      "traits": [
+        "半速律动候选",
+        "Sub与密集音色"
+      ],
+      "priority_techniques": [
+        "T50",
+        "T56",
+        "T53",
+        "T04"
+      ],
+      "optional_techniques": [
+        "T40",
+        "T41",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "强Drop并非只有响度；先检查两套Bass的重叠与尾音"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "ukg",
+      "label": "UK Garage/2-step",
+      "aliases": [
+        "UK Garage",
+        "2-step",
+        "2 step"
+      ],
+      "traits": [
+        "细分与切分",
+        "鼓点留白"
+      ],
+      "priority_techniques": [
+        "T58",
+        "T02",
+        "T37",
+        "T08"
+      ],
+      "optional_techniques": [
+        "T38",
+        "T46",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "不同UKG细分不同；同BPM不保证口袋感兼容"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "disco_funk",
+      "label": "Disco/Funk",
+      "aliases": [
+        "disco",
+        "funk",
+        "放克",
+        "迪斯科"
+      ],
+      "traits": [
+        "演奏律动",
+        "贝斯/吉他切分"
+      ],
+      "priority_techniques": [
+        "T52",
+        "T33",
+        "T03",
+        "T58"
+      ],
+      "optional_techniques": [
+        "T44",
+        "T47",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "先区分有意微时差、老录音漂移和现代稳定Remix"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "latin",
+      "label": "Latin拉丁大类",
+      "aliases": [
+        "latin",
+        "拉丁"
+      ],
+      "traits": [
+        "多种不同节奏家族",
+        "打击乐与人声重音"
+      ],
+      "priority_techniques": [
+        "T57",
+        "T08",
+        "T37",
+        "T50"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T46",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "此为入口大类；Salsa、Bachata、Reggaeton应进一步确认具体节奏，不能混为一种"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "reggaeton",
+      "label": "Reggaeton",
+      "aliases": [
+        "reggaeton",
+        "雷鬼顿"
+      ],
+      "traits": [
+        "Dembow节奏候选",
+        "人声重音与低频"
+      ],
+      "priority_techniques": [
+        "T57",
+        "T37",
+        "T56",
+        "T08"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T45",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "检查实际Dembow变体与主唱停顿；不套Salsa的节奏模板"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "salsa",
+      "label": "Salsa",
+      "aliases": [
+        "salsa",
+        "萨尔萨"
+      ],
+      "traits": [
+        "Clave及乐队层次候选",
+        "低音与打击乐重音"
+      ],
+      "priority_techniques": [
+        "T57",
+        "T54",
+        "T08",
+        "T01"
+      ],
+      "optional_techniques": [
+        "T37",
+        "T47",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "具体Clave方向、局部速度与重音需人工核查；尚无自动Clave识别"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "bachata",
+      "label": "Bachata",
+      "aliases": [
+        "bachata",
+        "巴恰塔"
+      ],
+      "traits": [
+        "吉他型与打击乐层次候选",
+        "歌词与情绪"
+      ],
+      "priority_techniques": [
+        "T57",
+        "T51",
+        "T08",
+        "T37"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T46",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "保留实际吉他起音与段落；不因为属于Latin就使用Reggaeton鼓型"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "afro",
+      "label": "Afrobeats/Afropop",
+      "aliases": [
+        "afrobeats",
+        "afropop",
+        "非洲流行"
+      ],
+      "traits": [
+        "分层打击乐与切分",
+        "不同地区/子风格的重音"
+      ],
+      "priority_techniques": [
+        "T57",
+        "T08",
+        "T03",
+        "T37"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T46",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "Afrobeats与Afro House不是同一速度或结构，先确认子风格与实际脉冲"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "afro_house",
+      "label": "Afro House",
+      "aliases": [
+        "afro house",
+        "非洲浩室"
+      ],
+      "traits": [
+        "稳定House脉冲候选",
+        "分层打击乐与低频"
+      ],
+      "priority_techniques": [
+        "T30",
+        "T05",
+        "T57",
+        "T03"
+      ],
+      "optional_techniques": [
+        "T37",
+        "T41",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "先核查四拍脉冲与打击乐相容性；不能直接套Afrobeats计数"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "rock",
+      "label": "摇滚/乐队",
+      "aliases": [
+        "rock",
+        "摇滚",
+        "乐队"
+      ],
+      "traits": [
+        "现场鼓可能漂移",
+        "吉他与镲片密度"
+      ],
+      "priority_techniques": [
+        "T54",
+        "T33",
+        "T01",
+        "T37"
+      ],
+      "optional_techniques": [
+        "T44",
+        "T47",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "不要把所有摇滚假定为速度漂移；分轨后重点核查镲片和吉他残影"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "acoustic",
+      "label": "民谣/原声",
+      "aliases": [
+        "acoustic",
+        "folk",
+        "民谣",
+        "原声",
+        "unplugged"
+      ],
+      "traits": [
+        "呼吸与拨弦起音",
+        "自由速度候选"
+      ],
+      "priority_techniques": [
+        "T54",
+        "T51",
+        "T01",
+        "T55"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T31",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "保留拨弦瞬态、呼吸和尾响；先问用户希望保留多少原貌"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "jazz",
+      "label": "爵士",
+      "aliases": [
+        "jazz",
+        "爵士",
+        "swing jazz"
+      ],
+      "traits": [
+        "多样拍号与细分",
+        "即兴与自然动态"
+      ],
+      "priority_techniques": [
+        "T58",
+        "T54",
+        "T55",
+        "T07"
+      ],
+      "optional_techniques": [
+        "T47",
+        "T08",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "爵士不一定Swing或4/4；明确拍号后才做小节换算"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "ambient",
+      "label": "氛围/Ambient",
+      "aliases": [
+        "ambient",
+        "氛围",
+        "chillout"
+      ],
+      "traits": [
+        "织体与持续音",
+        "可能没有明确鼓点"
+      ],
+      "priority_techniques": [
+        "T55",
+        "T07",
+        "T51",
+        "T12"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T10",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "先判断有没有稳定脉冲；不自动套Lo-fi/Hip-hop鼓型"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "lofi",
+      "label": "Lo-fi/Chill-hop",
+      "aliases": [
+        "lofi",
+        "lo-fi",
+        "chill hop",
+        "chillhop",
+        "低保真"
+      ],
+      "traits": [
+        "低保真审美与鼓点候选",
+        "微时差与柔和动态"
+      ],
+      "priority_techniques": [
+        "T52",
+        "T58",
+        "T31",
+        "T07"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T51",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "区分有意底噪/磁带感和损坏伪影；不默认所有Lo-fi都有Swing或都无鼓点"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "orchestral",
+      "label": "古典/影视配乐",
+      "aliases": [
+        "古典",
+        "影视配乐",
+        "电影配乐",
+        "classical",
+        "cinematic",
+        "orchestral"
+      ],
+      "traits": [
+        "动态范围与配器",
+        "自由速度/变拍号候选"
+      ],
+      "priority_techniques": [
+        "T55",
+        "T54",
+        "T07",
+        "T01"
+      ],
+      "optional_techniques": [
+        "T08",
+        "T12",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "不强制4/4和固定速度；保护乐章/动机与原始动态"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "chinese_instrumental",
+      "label": "国风/民族器乐",
+      "aliases": [
+        "国风器乐",
+        "民族器乐",
+        "国风",
+        "古风器乐",
+        "中国风"
+      ],
+      "traits": [
+        "器乐音色与装饰音",
+        "可能有自由节奏/现代鼓点"
+      ],
+      "priority_techniques": [
+        "T55",
+        "T51",
+        "T07",
+        "T01"
+      ],
+      "optional_techniques": [
+        "T06",
+        "T44",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "先确认是纯器乐还是流行歌曲；不把五声音阶当作免检和声兼容"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "live",
+      "label": "现场/自由速度版本",
+      "aliases": [
+        "现场版",
+        "live version",
+        "自由速度"
+      ],
+      "traits": [
+        "版本属性，非独立曲风",
+        "局部漂移与临时停顿"
+      ],
+      "priority_techniques": [
+        "T33",
+        "T54",
+        "T02",
+        "T01"
+      ],
+      "optional_techniques": [
+        "T51",
+        "T55",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "现场不必然漂移；发现漂移后优先用局部窗口与短接"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    },
+    {
+      "id": "open_format",
+      "label": "跨风格/Open Format",
+      "aliases": [
+        "跨风格",
+        "open format",
+        "开放格式"
+      ],
+      "traits": [
+        "多种节奏和情绪",
+        "转场语义与意外感"
+      ],
+      "priority_techniques": [
+        "T29",
+        "T08",
+        "T50",
+        "T04",
+        "T12"
+      ],
+      "optional_techniques": [
+        "T45",
+        "T46",
+        "T47",
+        "T48",
+        "T59",
+        "T60",
+        "T61",
+        "T62",
+        "T63",
+        "T64",
+        "T65",
+        "T66",
+        "T67"
+      ],
+      "checks": [
+        "先选自然交棒或有意反差；不承诺任意两歌都适合长叠"
+      ],
+      "evidence_basis": "design_adaptation_of_reviewed_recipes; genre label is a prior, not measured applicability"
+    }
+  ],
+  "features": {
+    "vocal_dense": {
+      "label": "主唱/歌词密集",
+      "prefer": [
+        "T37",
+        "T01",
+        "T32",
+        "T65"
+      ],
+      "avoid": [],
+      "checks": [
+        "一次一个主唱主角，核查完整词句与呼吸"
+      ]
+    },
+    "vocal_sparse": {
+      "label": "人声稀疏/清唱空间",
+      "prefer": [
+        "T31",
+        "T51",
+        "T06",
+        "T65"
+      ],
+      "avoid": [],
+      "checks": [
+        "稀疏不等于无和声冲突；新伴奏进入需复核"
+      ]
+    },
+    "bass_dense": {
+      "label": "低频/长尾Bass密集",
+      "prefer": [
+        "T56",
+        "T03",
+        "T35"
+      ],
+      "avoid": [],
+      "checks": [
+        "先选择一个低频主角；静态低频不是动态侧链"
+      ]
+    },
+    "tempo_drift": {
+      "label": "实际速度漂移",
+      "prefer": [
+        "T33",
+        "T54",
+        "T52",
+        "T66"
+      ],
+      "avoid": [
+        "T05",
+        "T30",
+        "T11",
+        "T38"
+      ],
+      "checks": [
+        "当前先用局部稳定段短接；长同步需弹性Warp，不强行恒定变速"
+      ]
+    },
+    "rubato": {
+      "label": "自由速度/伸缩演唱",
+      "prefer": [
+        "T55",
+        "T54",
+        "T51"
+      ],
+      "avoid": [
+        "T05",
+        "T30",
+        "T11",
+        "T38"
+      ],
+      "checks": [
+        "优先乐句和尾响，不强行套固定网格"
+      ]
+    },
+    "broken_beat": {
+      "label": "碎拍/复杂鼓型",
+      "prefer": [
+        "T49",
+        "T58",
+        "T02",
+        "T66"
+      ],
+      "avoid": [],
+      "checks": [
+        "检查实际Kick/Snare与细分；曲风标签只是先验"
+      ]
+    },
+    "swung": {
+      "label": "Swing/Shuffle细分",
+      "prefer": [
+        "T58",
+        "T52",
+        "T02",
+        "T66"
+      ],
+      "avoid": [],
+      "checks": [
+        "先辨细分、微时差和重音，不自动直拍量化"
+      ]
+    },
+    "short_intro": {
+      "label": "前奏太短",
+      "prefer": [
+        "T60",
+        "T63",
+        "T38",
+        "T04",
+        "T08"
+      ],
+      "avoid": [],
+      "checks": [
+        "先比较原有前奏、延长低密度段或分层重编；自动干净选环仍缺，不能把普通选段冒充Loop。"
+      ]
+    },
+    "long_tail": {
+      "label": "长尾音/长混响",
+      "prefer": [
+        "T51",
+        "T55",
+        "T09"
+      ],
+      "avoid": [],
+      "checks": [
+        "先保留原尾音，再决定是否添加效果；避免叠加糊字"
+      ]
+    },
+    "harmonic_dense": {
+      "label": "旋律/和声密集",
+      "prefer": [
+        "T07",
+        "T55",
+        "T37"
+      ],
+      "avoid": [],
+      "checks": [
+        "同调号不是逐和弦兼容；必要时缩短同响"
+      ]
+    },
+    "high_energy": {
+      "label": "实际高密度/高能量",
+      "prefer": [
+        "T53",
+        "T12",
+        "T04"
+      ],
+      "avoid": [],
+      "checks": [
+        "按实际层次安排能量，不能只按BPM或响度排序"
+      ]
+    },
+    "sparse_arrangement": {
+      "label": "稀疏编曲",
+      "prefer": [
+        "T31",
+        "T51",
+        "T30"
+      ],
+      "avoid": [],
+      "checks": [
+        "先检查能否承载新角色，再增加层数"
+      ]
+    },
+    "degraded_stems": {
+      "label": "分轨有伪影/噪声",
+      "prefer": [
+        "T35",
+        "T16",
+        "T51"
+      ],
+      "avoid": [
+        "T06",
+        "T31",
+        "T44",
+        "T59",
+        "T61",
+        "T63"
+      ],
+      "checks": [
+        "先对比原始源和分轨；有损源缺失细节不能靠提亮恢复"
+      ]
+    },
+    "non_four_four": {
+      "label": "非4/4或拍号未确认",
+      "prefer": [
+        "T55",
+        "T02",
+        "T54"
+      ],
+      "avoid": [
+        "T05",
+        "T30",
+        "T11",
+        "T38",
+        "T50"
+      ],
+      "checks": [
+        "确认具体拍号和拍子单位，禁止直接套4/4小节换算"
+      ]
+    }
+  },
+  "goals": {
+    "transition": {
+      "label": "两曲交接",
+      "prefer": [
+        "T01",
+        "T08",
+        "T04",
+        "T07",
+        "T59",
+        "T62",
+        "T64"
+      ],
+      "avoid": [],
+      "checks": [
+        "确认交接窗口与主导角色"
+      ]
+    },
+    "mashup": {
+      "label": "人声伴奏叠搭",
+      "prefer": [
+        "T06",
+        "T37",
+        "T31",
+        "T07"
+      ],
+      "avoid": [
+        "T32",
+        "T04"
+      ],
+      "checks": [
+        "保留人声伴奏叠搭目标，不能暗中改成两首整轨顺序切走",
+        "确认真实分轨角色、局部节奏与和声"
+      ]
+    },
+    "continuous": {
+      "label": "连续串烧",
+      "prefer": [
+        "T12",
+        "T27",
+        "T01",
+        "T35",
+        "T59",
+        "T62",
+        "T64"
+      ],
+      "avoid": [],
+      "checks": [
+        "逐处交接试听，再检查完整结构与结尾"
+      ]
+    },
+    "remix": {
+      "label": "改造/创意重组",
+      "prefer": [
+        "T44",
+        "T46",
+        "T47",
+        "T45",
+        "T48"
+      ],
+      "avoid": [],
+      "checks": [
+        "先说明改造程度与所缺工具，遵守用户原貌锁"
+      ]
+    },
+    "polish": {
+      "label": "清晰度/尾音/交付",
+      "prefer": [
+        "T16",
+        "T17",
+        "T35",
+        "T51",
+        "T71",
+        "T72",
+        "T73",
+        "T74",
+        "T75",
+        "T76",
+        "T77",
+        "T78"
+      ],
+      "avoid": [],
+      "checks": [
+        "等响度比较；检查尾音、真峰值和编码后成品",
+        "先区分人声遮蔽、齿音、动态、侧链、设备低频、单声道、源削波和口播目标；细化问题检索对应方法。",
+        "方法入库不等于新增DSP；去齿音、音轨压缩、自动侧链、饱和、立体声矩阵与削波重建保持未实现。"
+      ]
+    }
+  },
+  "workflow": {
+    "prepare": [
+      "T35",
+      "T01",
+      "T02",
+      "T07",
+      "T68",
+      "T69"
+    ],
+    "creative": [
+      "T06",
+      "T08",
+      "T12",
+      "T31",
+      "T37",
+      "T46"
+    ],
+    "delivery": [
+      "T16",
+      "T17",
+      "T70"
+    ]
+  },
+  "universal_checks": [
+    "遵守用户必留片段、原貌锁和修改权限",
+    "确认素材保真度与真实分轨角色",
+    "先检查实际交接片段，再采用曲风先验",
+    "未处理音频、未实际试听时不得声称音质已通过",
+    "接歌突兀时检查伴奏密度、角色与铺垫；拍点相近不能替代编排判断。",
+    "丝滑是独立验收维度：检查低频断层、旧鼓相位、自然乐句与分轨音色切换；峰值或包络合格不能代替试听。",
+    "若新创意被用户否定，保留上一版已认可的维度作为参考；局部单变量排查后再做整段升级。"
+  ],
+  "cross_style_notes": [
+    "先核对两曲的脉冲/拍号、局部调性和实际角色；类型差异不等于必然冲突或兼容",
+    "比较短交棒、稀疏打击乐桥接、人声换伴奏三条路径；只有条件成立才长叠",
+    "BPM差大时先确认半速/倍速解释，不能为对齐数字暗中大幅变速主唱"
+  ]
+}

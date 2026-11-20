@@ -1,0 +1,15 @@
+.continuous{margin:32px 0;padding:28px;border:1px solid #54617b;border-radius:20px;background:linear-gradient(135deg,#1b2234,#18252b)}.continuous h2{font-size:27px;margin-bottom:14px}.set-setup{display:flex;flex-wrap:wrap;gap:12px;margin:22px 0}.set-setup select{flex:1;min-width:180px}.set-fields{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin:14px 0}.set-clip{padding:20px;border:1px solid #46536a;background:#121b29;border-radius:14px;margin-top:20px}.set-clip h3{font-size:15px;overflow-wrap:anywhere;margin:0 0 12px}.set-join{margin:0 15px;padding:18px 20px;border-left:2px solid #779bba;display:grid;grid-template-columns:auto 1fr 1fr auto;gap:14px;align-items:center}.set-join p{grid-column:1/-1}.set-join strong{font-size:12px}.set-output{border-top:1px solid #53617a;padding-top:22px;margin-top:22px}.set-output>button{margin:0 8px 12px 0}.set-output audio{margin-bottom:14px}.continuous .quiet{color:#cbd5e6}.guide-corrections,.guide-evidence{font-size:11px;line-height:1.7;margin:12px 0;color:#b8c9e1}.guide-corrections summary,.guide-evidence summary{cursor:pointer;color:#e0ebff}.guide-barline{stroke:#d9b8ff;stroke-width:2;opacity:.7}@media(max-width:760px){.continuous{padding:18px}.continuous h2{font-size:22px}.set-join{grid-template-columns:1fr 1fr;padding:14px;margin:0 7px}.set-fields{grid-template-columns:1fr 1fr}.set-output>button{width:100%}}
+
+/* Shared subtitles leave the stage and playback controls visible. */
+.subtitle-strip{box-sizing:border-box;background:rgb(0 0 0 / 64%);color:#fff;border-radius:7px;padding:5px 12px;overflow-wrap:anywhere}
+.subtitle-strip[hidden]{display:none!important}
+.set-output #set-caption{width:fit-content;max-width:100%;margin:0 auto 8px;text-align:center;font-size:14px;line-height:1.5}
+
+.set-chapters{margin:12px 0;color:#e0ebff;overflow-wrap:anywhere}
+.set-chapters[hidden]{display:none}
+.set-chapters summary{cursor:pointer;min-height:36px;padding:8px 0}
+.set-chapters ol{margin:4px 0 12px;padding-inline-start:24px}
+.set-chapters li{margin:6px 0}
+.set-chapters li button{max-width:100%;text-align:left;font-variant-numeric:tabular-nums;white-space:normal}
+.set-chapters li button[aria-current="true"]{border-color:#bfb2ff;background:#302858;color:#fff}
+.set-chapters li small{margin-inline-start:8px;color:#bac6db}

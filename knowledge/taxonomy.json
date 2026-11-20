@@ -1,0 +1,378 @@
+{
+  "schema_version": 1,
+  "version": "2026-11-13",
+  "categories": {
+    "transition": "接歌与交接",
+    "rhythm": "对拍与律动",
+    "harmony": "调性与和声",
+    "stems": "分轨与叠搭",
+    "eq": "频率与音量角色",
+    "fx": "效果与空间",
+    "arrangement": "结构与连续编排",
+    "quality": "听感与交付检查"
+  },
+  "styles": {
+    "any": "跨风格原则",
+    "house": "House",
+    "techno": "Techno",
+    "pop": "流行",
+    "rnb": "R&B/Soul",
+    "hiphop": "Hip-hop/说唱",
+    "open_format": "跨风格/Open Format",
+    "live": "现场/自由速度版本",
+    "ballad": "抒情/慢歌",
+    "trap": "Trap/808",
+    "edm": "EDM/大房间舞曲",
+    "trance": "Trance/迷幻舞曲",
+    "dnb": "Drum & Bass",
+    "dubstep": "Dubstep/低音电子",
+    "ukg": "UK Garage/2-step",
+    "disco_funk": "Disco/Funk",
+    "latin": "Latin拉丁大类",
+    "afro": "Afrobeats/Afropop",
+    "rock": "摇滚/乐队",
+    "acoustic": "民谣/原声",
+    "jazz": "爵士",
+    "ambient": "氛围/Ambient",
+    "orchestral": "古典/影视配乐",
+    "chinese_instrumental": "国风/民族器乐",
+    "reggaeton": "Reggaeton",
+    "salsa": "Salsa",
+    "bachata": "Bachata",
+    "afro_house": "Afro House",
+    "lofi": "Lo-fi/Chill-hop"
+  },
+  "capabilities": {
+    "trim": {
+      "label": "选择片段",
+      "available": true,
+      "tools": [
+        "edit_project"
+      ],
+      "extent": "双轨/串烧起止时间；需保持必留片段"
+    },
+    "gain": {
+      "label": "静态音量",
+      "available": true,
+      "tools": [
+        "edit_project"
+      ],
+      "extent": "逐轨增益，不是动态包络或自动匹配响度"
+    },
+    "bass_static": {
+      "label": "静态低频",
+      "available": true,
+      "tools": [
+        "edit_project"
+      ],
+      "extent": "110Hz低搁架，不是动态EQ交换或人声提取"
+    },
+    "tempo_constant": {
+      "label": "恒定变速",
+      "available": true,
+      "tools": [
+        "edit_project",
+        "music_guides"
+      ],
+      "extent": "已有Rubberband恒定变速，需明确同意及检查失真"
+    },
+    "pitch_constant": {
+      "label": "恒定移调",
+      "available": true,
+      "tools": [
+        "edit_project"
+      ],
+      "extent": "需用户同意；不改变原貌锁"
+    },
+    "crossfade": {
+      "label": "淡变或短交接",
+      "available": true,
+      "tools": [
+        "edit_project",
+        "apply_mix_strategy"
+      ],
+      "extent": "只支持现有交接形态；不能保证首拍自动对齐"
+    },
+    "stem_mashup": {
+      "label": "人声伴奏叠搭",
+      "available": true,
+      "tools": [
+        "recommend_mix",
+        "edit_project"
+      ],
+      "extent": "实际人声与伴奏、清唱开场及伴奏延后"
+    },
+    "stem_separation": {
+      "label": "本地分轨",
+      "available": true,
+      "tools": [
+        "workbench_action"
+      ],
+      "extent": "真实分离任务；质量受原始素材与模型限制"
+    },
+    "echo_fixed": {
+      "label": "基础固定回声",
+      "available": true,
+      "tools": [
+        "edit_project",
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "保留双轨全局/串烧尾段基础回声；逐轨delay支持局部wet包络、湿声高低通及stereo_mode=pingpong，湿输入折单声道后交替16个有界回声，干声不变。slot尾响裁到片段长度；不是递归模拟反馈或自动拍网确认。"
+    },
+    "set_sequence": {
+      "label": "多段连续编排",
+      "available": true,
+      "tools": [
+        "create_set",
+        "edit_set_clips",
+        "edit_project"
+      ],
+      "extent": "2–8段顺序、选段和现有三种接法"
+    },
+    "guide_candidates": {
+      "label": "候选标记和人工校正",
+      "available": true,
+      "tools": [
+        "music_guides",
+        "inspect_music"
+      ],
+      "extent": "局部候选拍网/调性/变化参考，不是歌词句法识别"
+    },
+    "preview_export": {
+      "label": "试听与导出",
+      "available": true,
+      "tools": [
+        "workbench_action"
+      ],
+      "extent": "真实渲染含响度/真峰值机器报告；不代表主观听感通过"
+    },
+    "semantic_phrases": {
+      "label": "自动识别歌词完整乐句",
+      "available": false,
+      "tools": [],
+      "extent": "已接本地多语言ASR词级时间和同词候选；唱歌识别不稳定，未保证完整歌词语义或音乐乐句，保留未完成状态"
+    },
+    "elastic_warp": {
+      "label": "有界分段弹性时序",
+      "available": true,
+      "tools": [
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "真实Rubberband分段映射，整体时长不变；自动轻修须实测完整覆盖且≤60ms，不保证跟随整曲自由速度"
+    },
+    "eq_automation": {
+      "label": "随时间的频段交换",
+      "available": true,
+      "tools": [
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "逐轨三段频率增益包络，不是动态检测侧链；≤8效果、每效果≤16点"
+    },
+    "chord_matching": {
+      "label": "和弦级兼容判断",
+      "available": false,
+      "tools": [],
+      "extent": "已接真实逐窗谐波音高分布、三和弦候选、共同音/冲突音比例与有限移调对照；不是和弦识别/功能分析，不能仅凭全局同调判定兼容，仍保留局部证据和人工试听"
+    },
+    "loop_playback": {
+      "label": "离线精确循环渲染",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "真实源片段按时间重复，单事件≤16次；循环边界须试听，不保证整小节"
+    },
+    "tempo_ramp": {
+      "label": "有界相对速度坡度",
+      "available": true,
+      "tools": [
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "分段相对速度形状，整体时长不变；不是自动曲线BPM跟踪"
+    },
+    "cue_trigger": {
+      "label": "多Cue离线时序编排",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "≤64取样事件，真实离线渲染；未提供低延迟现场按键触发"
+    },
+    "sample_layer": {
+      "label": "短音效素材叠加",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "引用本机素材ID与源时间，5ms边缘保护；Cue可加≤16点相对取样时长的线性振幅包络，不自动生成鸟鸣或水滴录音"
+    },
+    "drum_sequencer": {
+      "label": "鼓事件编序",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "kick/snare/hat确定性合成鼓与真实drums取样；不把模板当Latin/Afro节奏识别"
+    },
+    "reverb": {
+      "label": "局部混响反射",
+      "available": true,
+      "tools": [
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "12个不等延时并逐步暗化的反射包络；可加0–200ms预延迟和仅湿声高低通，干声不滤波；尾响仍裁到片段长度，不是卷积大厅建模"
+    },
+    "fx_automation": {
+      "label": "局部效果包络",
+      "available": true,
+      "tools": [
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "真实随时间EQ/滤波/延迟/混响，效果尾部裁齐选段须试听"
+    },
+    "filter_sweep": {
+      "label": "高低通动态扫频",
+      "available": true,
+      "tools": [
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "高低通截止频率包络；共振Q固定，未提供任意共振旋钮"
+    },
+    "loudness_ab": {
+      "label": "自动等响度A/B试听",
+      "available": true,
+      "tools": [
+        "start_automatic_mix"
+      ],
+      "extent": "逐候选静态响度匹配、共同降增益保峰值，WAV和MP3重新实测"
+    },
+    "delivery_target": {
+      "label": "按用途交付目标",
+      "available": true,
+      "tools": [
+        "start_automatic_mix"
+      ],
+      "extent": "试听/分享/聆听项目建议值；保动态可能降低目标，不是平台硬标准或完整母带审美判断"
+    },
+    "gain_automation": {
+      "label": "双轨分段音量",
+      "available": true,
+      "tools": [
+        "shape_dynamics"
+      ],
+      "extent": "双轨及串烧逐片段≤16点，变速后片段内秒数，连续线性振幅；不是自动检测侧链"
+    },
+    "staged_stem_roles": {
+      "label": "分轨角色连续交接",
+      "available": true,
+      "tools": [
+        "start_automatic_mix"
+      ],
+      "extent": "明确请求分轨接力可用真实A×B→B→B×C；新建串烧明确请求人声桥/铺垫过渡时可原速执行前曲伴奏收束→后曲清唱→伴奏渐入。需要实际对应分轨，不确认语义乐句或全曲分层改编。"
+    },
+    "drum_stem_selection": {
+      "label": "真实独立鼓组换装",
+      "available": true,
+      "tools": [
+        "workbench_action",
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "实际htdemucs导出vocal/instrumental/drums/bass/other，同次共同缩放；原vocal+other+bass与供体drums重建，排除原鼓"
+    },
+    "pitched_sample_trigger": {
+      "label": "短样本逐音移调触发",
+      "available": true,
+      "tools": [
+        "set_advanced_mix",
+        "start_automatic_mix"
+      ],
+      "extent": "整数±12半音，真实事件渲染；自动Tone Play仅独立人声前8秒可靠单声部候选，不是通用复调转写"
+    },
+    "groove_compatibility": {
+      "label": "自动鼓型与节奏口袋相容诊断",
+      "available": false,
+      "tools": [],
+      "extent": "双方有独立drums分轨时可做局部周期、16格重音分布与偏拍差异代理；不能确认鼓件身份、细分、力度、音色衰减或口袋听感，仍须复核实际音频。"
+    },
+    "adaptive_emotion_planning": {
+      "label": "全曲情绪与多交接角色自适应规划",
+      "available": false,
+      "tools": [],
+      "extent": "已接聊天创作意图检查；未完成全曲情绪识别和多处自适应编排。"
+    },
+    "transition_continuity_diagnosis": {
+      "label": "素材级连续性与候选听感自动验收",
+      "available": false,
+      "tools": [],
+      "extent": "个案低频和包络诊断可执行，但未完成通用律动连续性、乐句及主观听感自动验收。"
+    },
+    "multitrack_coherence_validation": {
+      "label": "自动多轨相干处理与路径选择",
+      "available": false,
+      "tools": [],
+      "extent": "同次分轨与时间对应已有；联合保相位变速、处理后相干重建及自动路径选择未完成。"
+    },
+    "spatial_continuity_validation": {
+      "label": "自动空间连续性判断及独立房间参数匹配",
+      "available": false,
+      "tools": [],
+      "extent": "已有局部反射混响、wet/decay、独立预延迟与湿声高低通；没有独立早反射、自动去混响或房间匹配，尾响仍裁到片段长度。"
+    },
+    "deessing": {
+      "label": "频段检测去齿音",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "effects.deesser提供intensity/amount/frequency归一化参数与processed/sibilance侧听；没有逐词语义齿音标签，不保证去除分轨金属感。"
+    },
+    "dynamic_compression": {
+      "label": "可调音轨动态压缩",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "effects.compressor提供阈值/比率/起音/释放/手动补偿及wet包络，固定硬拐点、峰值检测、声道最大链接；末端限制器另行保留。"
+    },
+    "external_sidechain": {
+      "label": "外部音频检测侧链",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "effects.sidechain由明确本地触发源原速选段检测，key_time为目标局部时钟；触发源不进输出，无自动底鼓分离或语义对齐。"
+    },
+    "harmonic_excitation": {
+      "label": "饱和与谐波增强",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "effects.saturation提供4倍过采样tanh软饱和、drive/output与wet；会产生谐波及失真，不证明手机听感通过。"
+    },
+    "stereo_matrix": {
+      "label": "立体声矩阵与单声道校验",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "effects.stereo提供Mid增益及0–2倍Side宽度，width=0为(L+R)/2；所有正式PCM输出含全长求和抵消检查。无任意极性/房间自动修复。"
+    },
+    "declip_restoration": {
+      "label": "削波波形重建",
+      "available": true,
+      "tools": [
+        "set_advanced_mix"
+      ],
+      "extent": "effects.declip提供10–20ms窗口、固定2%阶数及50%重叠的有限AR重建，threshold为算法参数；仅轻微削波对照验证，不保证恢复受损源。"
+    }
+  }
+}

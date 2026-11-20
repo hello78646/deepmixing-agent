@@ -1,0 +1,31 @@
+.view-switch{display:flex;gap:5px;pointer-events:auto;margin:16px 0 6px;width:max-content;padding:4px;border:1px solid #b5a2d124;border-radius:30px;background:#10101bc9}
+.view-switch button{font-size:10px;padding:7px 12px;border:0;border-radius:20px;background:transparent;color:#b7abc9}
+.view-switch button[aria-pressed=true]{background:#c3afd9;color:#20162e;box-shadow:0 2px 12px #c5aaff16}
+.intro .eyebrow{font-size:8px;letter-spacing:2px}.tag{margin-top:6px}
+dialog>img{max-height:52vh;object-fit:contain;background:#171321}
+details{border-top:1px solid #ffffff18;padding-top:12px;color:#b6abc7;font-size:11px}
+summary{cursor:pointer;padding:8px 0}details img{margin-top:10px}
+.controls{width:min(950px,94vw);padding:13px 18px}
+.expressions{border-top:1px solid #ffffff12;padding-top:11px;gap:7px}
+.expressions>span{font-size:10px;color:#c6b7db;margin-right:4px}
+.expressions button{padding:7px 11px;border-radius:18px;font-size:10px}
+.expressions label{margin-left:auto}.expressions input{width:65px}
+#expression-status{font-size:9px;color:#b4a3cb;min-width:110px}
+.appearance{padding:10px 0 5px;gap:17px}.appearance label{font-size:9px}
+.appearance span{margin-left:auto;font-size:9px;color:#9686ad}
+.intro{max-width:420px}.intro h1{font-size:clamp(20px,2.3vw,32px)}
+@media(max-width:1000px){
+  body[data-camera-view="face"] .intro>p,body[data-camera-view="face"] .intro>h1,body[data-camera-view="face"] .intro>.tag,
+  body[data-camera-view="character"] .intro>p,body[data-camera-view="character"] .intro>h1,body[data-camera-view="character"] .intro>.tag{display:none}
+  body[data-camera-view="face"] .intro,body[data-camera-view="character"] .intro{top:12px}
+  body[data-camera-view="face"] .view-switch,body[data-camera-view="character"] .view-switch{margin:0}
+}
+@media(max-width:760px){
+  .controls{padding:10px 12px}.expressions{gap:6px;padding-top:9px}
+  .expressions>span{width:100%;font-size:9px}.expressions button{padding:7px 8px;font-size:9px}
+  .expressions label{margin-left:0}#expression-status{min-width:0;font-size:8px}
+  .appearance{gap:12px;padding-top:7px}.appearance span{display:none}
+  .actions{padding:9px 0}.feedback{gap:6px}.boundary{margin-top:5px}
+  .view-switch button{padding:6px 8px}.intro .eyebrow{display:none}
+}
+@media(max-width:760px){.view-switch{margin-top:10px}.view-switch button{font-size:9px;padding:6px 10px}.intro p:not(.eyebrow){display:none}.intro .tag{display:none}.intro{top:12px}.intro h1{font-size:20px}}

@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-11",
+  "topics": [
+    {
+      "id": "phrase_arrival",
+      "label": "乐句到达与弱起空间",
+      "focus": [
+        "vocal"
+      ],
+      "features": [
+        "vocal_dense",
+        "short_intro",
+        "rubato"
+      ],
+      "techniques": [
+        "T01",
+        "T65",
+        "T37"
+      ],
+      "source_ids": [
+        "S01",
+        "S43"
+      ],
+      "symptoms": [
+        "拍点对齐但下一句像插进来",
+        "首字抢拍或尾句被截",
+        "释放只靠凑拍数"
+      ],
+      "observations_needed": [
+        "双方局部乐句与源时间",
+        "后曲首字、弱起和目标音乐到达分别标记",
+        "前曲尾句与用户必留范围"
+      ],
+      "alternatives": [
+        {
+          "id": "phrase_arrival_align",
+          "label": "定目标到达，再倒推弱起空间",
+          "techniques": [
+            "T01",
+            "T65"
+          ],
+          "requires": [
+            "确认实际局部网格、弱起与目标事件；不补造片段外内容"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        },
+        {
+          "id": "phrase_reselect",
+          "label": "两侧换段，比较自然收束与进入",
+          "techniques": [
+            "T01",
+            "T37"
+          ],
+          "requires": [
+            "必留内容未被裁掉；段落边界有可回查时间"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        }
+      ],
+      "switch_when": [
+        "确认不了乐句就保留候选，不宣称精准强拍；无法容纳完整句则换片段而非强切"
+      ]
+    },
+    {
+      "id": "groove_exchange",
+      "label": "鼓型骨架与密度接管",
+      "focus": [
+        "groove"
+      ],
+      "features": [
+        "swung",
+        "broken_beat",
+        "tempo_drift"
+      ],
+      "techniques": [
+        "T66",
+        "T58",
+        "T13",
+        "T44"
+      ],
+      "source_ids": [
+        "S48",
+        "S52",
+        "S43"
+      ],
+      "symptoms": [
+        "同BPM仍像踉跄",
+        "双军鼓或Hat细分互抢",
+        "后曲进来后鼓花仍太满"
+      ],
+      "observations_needed": [
+        "实际Kick/Snare重音与Hat细分",
+        "时序、力度、鼓音高和尾长分别观察",
+        "用户是否允许改鼓；分轨是否可用"
+      ],
+      "alternatives": [
+        {
+          "id": "groove_reselect",
+          "label": "选兼容局部，减少一套冲突骨架",
+          "techniques": [
+            "T66",
+            "T58"
+          ],
+          "requires": [
+            "核实旧曲离开和新曲接管；维持目标律动，不预设都用四拍鼓"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        },
+        {
+          "id": "groove_stem_rebuild",
+          "label": "保一套骨架，定向补另一曲鼓角色",
+          "techniques": [
+            "T66",
+            "T44",
+            "T13"
+          ],
+          "requires": [
+            "真实分轨/已知事件可用；遵守原貌锁；不是自动鼓型识别"
+          ],
+          "needs_breath": false,
+          "needs_stems": true
+        }
+      ],
+      "switch_when": [
+        "无事件证据先换段或缩短同响；不随机移动整套鼓；蓄势后收回装饰密度"
+      ]
+    },
+    {
+      "id": "harmonic_handoff",
+      "label": "局部和声与旋律主角交棒",
+      "focus": [
+        "melody"
+      ],
+      "features": [
+        "harmonic_dense",
+        "vocal_sparse"
+      ],
+      "techniques": [
+        "T07",
+        "T55",
+        "T37"
+      ],
+      "source_ids": [
+        "S05",
+        "S43"
+      ],
+      "symptoms": [
+        "同调仍别扭",
+        "双旋律各唱各的",
+        "前曲尾音撞上后曲和弦"
+      ],
+      "observations_needed": [
+        "真实同响窗口",
+        "人声持续音、bass、和弦及主旋律角色",
+        "局部调性候选的可靠性；是否允许移调",
+        "同响音高证据的持续时长、不同窗口支持和候选歧义；相似度不是听感评分",
+        "局部三和弦候选、共同音比例与冲突音比例；候选不是已确认和弦"
+      ],
+      "alternatives": [
+        {
+          "id": "harmonic_short_overlap",
+          "label": "轮换旋律主角，换段或缩短同响",
+          "techniques": [
+            "T07",
+            "T55"
+          ],
+          "requires": [
+            "检查局部持续音；短接不代表整首和声兼容"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        },
+        {
+          "id": "harmonic_pivot",
+          "label": "核实共享音后比较支点或有限移调",
+          "techniques": [
+            "T07"
+          ],
+          "requires": [
+            "实际音符/和弦证据可靠；移调遵守锁与许可；不能由调号补全",
+            "现有谐波候选如建议整体移调，需至少3组不同窗口、1.5秒去重覆盖、汇总置信度至少0.5，且全部可靠窗口一致；不同移调近似并列时不强选",
+            "上述阈值仅是本机保守试听门槛，不确认和弦、正确率或音色可接受；和弦候选冲突或证据未知时保调换段、缩短同响或轮换旋律主角"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        },
+        {
+          "id": "harmonic_vocal_gap",
+          "label": "允许呼吸时比较少伴奏的人声连接",
+          "techniques": [
+            "T51",
+            "T07"
+          ],
+          "requires": [
+            "明确允许短暂降能量；清唱仍有音高且须核查新和声"
+          ],
+          "needs_breath": true,
+          "needs_stems": true
+        }
+      ],
+      "switch_when": [
+        "和弦未知不宣称枢纽成立；移调伤害音色或情绪则保调换段"
+      ]
+    },
+    {
+      "id": "space_timbre",
+      "label": "空间、音色和尾响连续",
+      "focus": [],
+      "features": [
+        "long_tail",
+        "sparse_arrangement",
+        "degraded_stems"
+      ],
+      "techniques": [
+        "T40",
+        "T51",
+        "T55",
+        "T69",
+        "T09",
+        "T10"
+      ],
+      "source_ids": [
+        "S51",
+        "S30",
+        "S50",
+        "S53"
+      ],
+      "symptoms": [
+        "节奏接上但声音突然变薄或变远",
+        "尾响盖住下一句",
+        "空间像突然换房间"
+      ],
+      "observations_needed": [
+        "原素材自带尾响与新增效果分开记录",
+        "干声首辅音和底鼓瞬态",
+        "实际分轨/变速路径与单声道对照",
+        "每项新增效果的音乐目的、受保护主角、素材依据和听感代价；不以效果数量作质量指标。"
+      ],
+      "alternatives": [
+        {
+          "id": "space_dry_baseline",
+          "label": "先保原空间，对比不加效果版本",
+          "techniques": [
+            "T69",
+            "T55"
+          ],
+          "requires": [
+            "结构与和声先核查；撤新增效果不能修复原源噪声"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        },
+        {
+          "id": "space_tail_handoff",
+          "label": "保旧尾响，让新干声清楚到达",
+          "techniques": [
+            "T40",
+            "T51"
+          ],
+          "requires": [
+            "尾部不覆盖下一句；可比较pre_delay_ms及wet_highpass_hz/wet_lowpass_hz，干声不滤波；wet按输出时刻控制且片段外尾响不会自动保留",
+            "只有具体音乐目的与素材依据成立才作为备选；保留关闭该效果的等响度对照，无明确收益则撤掉，更多效果不自动优先。"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        },
+        {
+          "id": "space_rhythmic_tail",
+          "label": "节拍回声或左右湿声回应",
+          "techniques": [
+            "T09",
+            "T51"
+          ],
+          "requires": [
+            "先核查工程速度及实际人声密度，delay_ms可由拍数换算但不确认拍网；漂移或自由节奏不机械套节拍。",
+            "湿声高低通让出主唱/底鼓；pingpong折单声道后左右交替，需复核相消；湿返回在后曲亮相时收束，不替代选段整改。",
+            "普通slot尾响仍裁到片段长度；跨交接湿返回目前为明确离线派生事件实验，不是自动尾音规划。",
+            "只有具体音乐目的与素材依据成立才作为备选；保留关闭该效果的等响度对照，无明确收益则撤掉，更多效果不自动优先。"
+          ],
+          "needs_breath": false,
+          "needs_stems": false
+        }
+      ],
+      "switch_when": [
+        "更湿更糊时先退新增效果，并比较预延迟/仅湿声滤波；独立早反射、自动房间匹配和去混响尚未实现，不用效果掩盖节奏或和声冲突",
+        "新增效果分散主唱、削弱律动或移除后表达不减时，保留更克制的组合；某次不错不能成为所有歌曲的模板。"
+      ]
+    }
+  ],
+  "feedback_source": "U04"
+}

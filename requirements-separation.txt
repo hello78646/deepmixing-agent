@@ -1,0 +1,6 @@
+# Install only into reference-analysis/separation-venv.
+torch==2.8.0
+torchaudio==2.8.0
+demucs==4.0.1
+numpy==2.2.6
+soundfile==0.13.1

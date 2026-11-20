@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="deepmixing-token" content="__TOKEN__">
+  <title>deepmixing · 零氪星球工作台</title>
+  <link rel="icon" href="/assets/headphone-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/workbench-opening.css">
+  <link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/imports.css"><link rel="stylesheet" href="/stems.css"><link rel="stylesheet" href="/avatar-entry.css"><link rel="stylesheet" href="/live-stage.css"><script defer src="/app.js"></script><script defer src="/imports.js"></script><script defer src="/stems.js"></script><script defer src="/cues.js"></script><script defer src="/avatar-entry.js"></script><script defer src="/live-stage.js"></script>
+  <link rel="stylesheet" href="/music-guides.css"><script defer src="/music-guide-math.js"></script><script defer src="/guide-corrections.js"></script><script defer src="/music-guides.js"></script>
+  <link rel="stylesheet" href="/continuous.css"><script defer src="/continuous.js"></script>
+<link rel="stylesheet" href="/agent-chat.css"><link rel="stylesheet" href="/workbench-shell.css"><script defer src="/workbench-shell.js"></script><script defer src="/agent-actions.js"></script><script defer src="/agent-beginner.js"></script><script defer src="/agent-settings.js"></script><script defer src="/agent-chat.js"></script><script defer src="/automation.js"></script><link rel="stylesheet" href="/immersive-shell.css"><script defer src="/immersive-shell.js"></script><script defer src="/agent-voice.js"></script><link rel="stylesheet" href="/mix-vision.css"><script defer src="/mix-vision-rules.js"></script><script defer src="/mix-vision.js"></script></head>
+<body class="shell-page" data-workbench-mode="smart">
+<dialog id="workbench-opening" class="workbench-opening" aria-label="Deepmixing 开场" aria-describedby="opening-transcript">
+  <p id="opening-transcript" class="opening-transcript">我是零氪星球。你说想法，我来选段接歌。让人人都能混出自己的版本。</p>
+  <button id="workbench-opening-skip" class="opening-skip" type="button" autofocus>跳过开场</button>
+  <div class="opening-orb" aria-hidden="true">
+    <span class="opening-wave opening-wave-a"></span><span class="opening-wave opening-wave-b"></span>
+    <img src="/assets/headphone-mark.svg" alt="" width="88" height="88">
+    <svg class="opening-signal" viewBox="0 0 64 64" fill="none" focusable="false">
+      <path class="opening-signal-a" d="M10 43V29a22 22 0 1 1 44 0v14" pathLength="100"/>
+      <path class="opening-signal-b" d="M54 43V29a22 22 0 0 0-44 0v14" pathLength="100"/>
+    </svg>
+  </div>
+  <div class="opening-copy">
+    <p class="opening-eyebrow">全 民 混 音</p>
+    <strong>Deepmixing</strong>
+    <div class="opening-cues" aria-hidden="true">
+      <div class="opening-cue" data-opening-at="0"><span>01 / 你好</span><p>我是零氪星球。</p></div>
+      <div class="opening-cue" data-opening-at="1900" hidden><span>02 / 说着混</span><p>你说想法，我来选段接歌。</p></div>
+      <div class="opening-cue" data-opening-at="4390" hidden><span>03 / 人人会混</span><p>让人人都能混出自己的版本。</p></div>
+    </div>
+    <div class="opening-steps" aria-hidden="true"><i class="is-current"></i><i></i><i></i></div>
+  </div>
+  <div class="opening-credit"><span>零氪星球 · 全民混音</span></div>
+</dialog>
+<script src="/workbench-opening.js"></script>
+<div id="shell-root" class="workbench-shell">
+  <div class="shell-ocean-waves" aria-hidden="true">
+    <svg viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" focusable="false">
+      <defs>
+        <linearGradient id="shell-wave-ink"><stop stop-color="#3b78ca" stop-opacity="0"/><stop offset=".28" stop-color="#4b8ee6"/><stop offset=".55" stop-color="#83b3fa"/><stop offset=".8" stop-color="#3b78ca"/><stop offset="1" stop-color="#3b78ca" stop-opacity="0"/></linearGradient>
+        <path id="shell-wave-contour" d="M-180 0 C-60 0 -40 7 40 3 S140 -26 205 -8 S270 90 340 15 S405 -110 475 -13 S540 90 610 9 S675 -67 745 -7 S810 50 880 5 S945 -33 1015 -3 S1080 25 1150 2 S1280 -8 1450 0"/>
+      </defs>
+      <g class="shell-wave-drift shell-wave-drift-a"><g class="shell-wave-ribbon shell-wave-ribbon-a">
+        <use href="#shell-wave-contour" transform="translate(0 340) scale(1 .65)"/><use href="#shell-wave-contour" transform="translate(0 351) scale(1 .8)"/><use href="#shell-wave-contour" transform="translate(0 362)"/><use href="#shell-wave-contour" transform="translate(0 373) scale(1 1.2)"/><use href="#shell-wave-contour" transform="translate(0 384) scale(1 1.4)"/>
+      </g></g>
+      <g class="shell-wave-drift shell-wave-drift-b"><g class="shell-wave-ribbon shell-wave-ribbon-b">
+        <use href="#shell-wave-contour" transform="translate(240 610) scale(.95 -.7)"/><use href="#shell-wave-contour" transform="translate(240 621) scale(.95 -.9)"/><use href="#shell-wave-contour" transform="translate(240 632) scale(.95 -1.1)"/><use href="#shell-wave-contour" transform="translate(240 643) scale(.95 -1.3)"/>
+      </g></g>
+      <g class="shell-wave-drift shell-wave-drift-c"><g class="shell-wave-ribbon shell-wave-ribbon-c">
+        <use href="#shell-wave-contour" transform="translate(-260 155) scale(1.2 .45)"/><use href="#shell-wave-contour" transform="translate(-260 166) scale(1.2 .65)"/><use href="#shell-wave-contour" transform="translate(-260 177) scale(1.2 .85)"/>
+      </g></g>
+    </svg>
+  </div>
+  <div class="shell-space-field" aria-hidden="true"><span class="space-star space-star-a"></span><span class="space-star space-star-b"></span><span class="space-star space-star-c"></span><span class="space-orbit space-orbit-a"></span><span class="space-orbit space-orbit-b"></span></div>
+  <header class="shell-header">
+    <a href="/workbench" class="shell-brand" aria-label="deepmixing新版工作台"><span class="shell-headphone-mark" aria-hidden="true"><img src="/assets/headphone-mark.svg" alt="" width="22" height="22"></span>deepmixing<i>.</i></a>
+    <div class="shell-mode-switch" role="group" aria-label="工作台模式"><button id="shell-mode-smart" aria-pressed="true">智能模式</button><button id="shell-mode-pro" aria-pressed="false">开发者模式</button></div>
+    <span id="shell-project-name" class="shell-project-name">未命名的灵感</span>
+    <button id="shell-stage-button" class="shell-icon-button" data-tool="stage" aria-label="舞台与显示设置">◌</button>
+    <span class="shell-local"><i></i> 本机创作</span>
+  </header>
+  <div class="immersive-corner immersive-top" aria-label="星球对话操作"><button id="immersive-chat" type="button" aria-expanded="false" aria-controls="agent-messages">对话 <span id="immersive-unread" hidden>·</span></button><button id="immersive-settings" type="button">API / 设置</button></div>
+  <div class="immersive-corner immersive-bottom"><button id="immersive-visit" type="button" aria-label="让星球飞近摘墨镜">✦ 靠近一点</button><button class="vision-entry" type="button" aria-expanded="false" aria-controls="mix-vision">视觉反馈</button><button id="immersive-output" type="button" aria-expanded="false">播放 / 作品</button></div>
+  <div class="shell-body">
+    <nav class="shell-sidebar" aria-label="工作区导航">
+      <button id="shell-home" class="shell-nav active" aria-label="返回创作"><span aria-hidden="true">✳</span><small>创作</small></button>
+      <button id="shell-materials-button" class="shell-nav"><span aria-hidden="true">⊞</span><small>素材</small></button>
+      <button class="shell-nav" data-tool="versions"><span aria-hidden="true">◴</span><small>版本</small></button>
+      <button id="agent-guide-nav" class="shell-nav"><span aria-hidden="true">?</span><small>指引</small></button>
+      <span class="shell-nav-spacer"></span><span class="shell-side-label">MAKE<br>YOUR<br>MIX.</span>
+      <button id="agent-settings-nav" class="shell-nav"><span aria-hidden="true">⚙</span><small>设置</small></button>
+    </nav>
+    <div id="shell-canvas" class="shell-canvas">
+      <section id="shell-smart" class="shell-conversation" aria-labelledby="shell-chat-heading">
+        <div class="shell-conversation-top"><span class="shell-tag">YOUR IDEA, YOUR MIX</span><span id="agent-connection" class="shell-offline" role="status">检查文字Agent配置…</span></div>
+        <div class="agent-toolbar"><button id="agent-guide-open">第一次混音？看使用指引 ↗</button><details class="agent-connection-menu"><summary>对话设置</summary><span id="agent-model">DeepSeek</span><button id="agent-settings-open">我的 API 接口</button><button id="agent-check">检查连接</button><button id="agent-clear">清空对话</button></details></div>
+        <details id="agent-config-help" class="agent-config-help" hidden><summary>连接零氪星球的文字 Agent</summary><p>打开左侧“设置”或“对话设置 → 我的 API 接口”，填写自己的供应商、模型和 API Key，即可保存启用。每位用户在自己的电脑独立配置，密钥请勿发进聊天。</p><p>发送消息会将本轮文字、最近对话、素材名与工程参数摘要发送给你配置的模型。原始音频保留本机。未配置时可用开发者模式调音台。</p></details>
+        <div class="shell-chat-welcome"><div class="shell-avatar-mark" aria-hidden="true">✦</div><p class="shell-speaker">零氪星球 · 你的混音搭子</p><h1 id="shell-chat-heading">今晚，<br>想混出什么感觉<span>？</span></h1><p>把灵感留在这里。<br>熟悉的旋律，也能有你的新玩法。</p></div>
+        <div class="shell-idea-chips" aria-label="灵感示例"><button data-idea="先清唱，再让伴奏在情绪抬起时突然进入">清唱开场，重拍进伴奏 ↗</button><button data-idea="把这几首接成一整场，过渡自然一些">接成一整场 ↗</button><button data-idea="保留人声原调，换一套更有律动的伴奏">给人声换个律动 ↗</button></div>
+        <div id="agent-messages" role="log" aria-label="混音对话" aria-live="polite" aria-relevant="additions" tabindex="0"></div><button id="agent-jump-latest" class="agent-jump-latest" type="button" hidden>查看最新消息 ↓</button><p id="agent-progress" role="status"></p>
+        <div class="shell-chat-bottom"><p id="agent-material-summary" class="shell-preview-note">添加音乐，聊聊你的想法</p>
+          <div id="planet-subtitle" class="planet-subtitle"><span id="planet-presence">零氪星球</span><p id="set-stage-caption" hidden></p><p id="planet-caption" aria-live="polite">音乐交给我，灵感交给你。</p><button id="planet-stop-speaking" type="button" hidden>停止播报</button></div>
+          <label id="shell-voice-language-row" class="shell-voice-language" hidden>录音语言
+            <select id="shell-voice-language"><option value="">请选择</option><option value="zh">普通话</option><option value="en">英语</option><option value="ja">日语</option><option value="ko">韩语</option><option value="auto">自动识别</option></select>
+          </label>
+          <div class="shell-composer"><button id="shell-mic" type="button" aria-label="切换到语音输入" aria-pressed="false" title="切换到语音输入">🎙</button><label class="shell-visually-hidden" for="shell-draft">写下你的混音灵感</label><textarea id="shell-draft" maxlength="2000" rows="1" placeholder="说说你想怎么混…"></textarea><button id="shell-hold-to-talk" type="button" aria-describedby="agent-voice-status" hidden>按住说话</button><div class="shell-composer-actions"><button id="shell-add" class="shell-add">＋ 添加素材</button><span id="shell-draft-status" role="status">可以直接说“我该怎么开始”</span><button id="shell-send" disabled aria-label="发送混音灵感">↑</button></div></div>
+          <p id="agent-voice-status" class="agent-voice-status" role="status" hidden></p>
+          <p class="agent-chat-privacy">文字与工程摘要发送至模型 · 音频留在本机</p><button id="shell-use-draft" class="shell-open-studio" hidden>带着灵感进入调音台 ↗</button>
+        </div>
+      </section>
+      <section id="shell-pro" class="shell-pro" aria-labelledby="shell-studio-heading" hidden>
+        <div class="shell-pro-heading"><div><p class="shell-tag">DEEP INTO YOUR MIX</p><h1 id="shell-studio-heading">调音工作区<span> / STUDIO</span></h1></div><button id="shell-chat-return">回到星球聊天 ↗</button></div>
+        <div id="shell-pro-host"></div>
+      </section>
+      <aside id="shell-stage-host" class="shell-stage-host" aria-label="零氪星球舞台"><div class="shell-stage-title"><span>LINGKE RADIO</span><span>✦ LIVE WITH YOUR MUSIC</span></div><div id="shell-stage-mount"></div><div class="shell-stage-caption"><span class="shell-stage-light"></span><span>零氪星球</span><button data-tool="stage">舞台设置 ↗</button></div><p class="shell-stage-caption-note">你的灵感主场。播放音乐，让它跟着动。</p></aside>
+    </div>
+  </div>
+  <footer class="shell-player" aria-label="统一播放与导出"><div class="shell-player-identity"><span class="shell-player-symbol">≋</span><div><label class="shell-visually-hidden" for="shell-work">当前编辑的作品类型</label><select id="shell-work"><option value="pair">双轨混音</option><option value="set">连续串烧</option></select><p id="shell-player-label">尚无可播放音频</p><p id="shell-version-status" role="status">双轨 · 尚未建立工程</p></div></div><div id="shell-transport-mount"></div><div class="shell-render-actions"><button id="shell-preview">生成试听</button><button id="shell-export">完整导出 ↗</button></div></footer>
+  <div id="shell-task-line" class="shell-task-line"><span id="shell-engine">连接本地引擎…</span><span id="shell-task-message" role="status">准备好，放入音乐开始。</span></div>
+</div>
+<dialog id="agent-settings" class="agent-beginner-dialog agent-settings-dialog" aria-labelledby="agent-settings-title">
+  <header><div><p class="shell-tag">YOUR KEY, YOUR MIX</p><h2 id="agent-settings-title">连接你的 AI 接口</h2></div><button id="agent-settings-close" type="button">返回创作 ×</button></header>
+  <p>每位用户在自己的电脑配置。零氪星球通过你的接口理解灵感、调用混音工具；音频处理留在本机。</p>
+  <p id="agent-settings-mode" class="agent-settings-notice" role="status"></p>
+  <form id="agent-settings-form" autocomplete="off">
+    <label for="agent-provider">模型服务</label><select id="agent-provider"><option value="deepseek">DeepSeek 官方</option><option value="qwen">阿里云百炼 / 千问</option><option value="compatible">其他兼容 Chat Completions 的服务</option></select>
+    <label for="agent-base-url">接口地址 · Base URL</label><input id="agent-base-url" type="url" required maxlength="1000" placeholder="https://api.deepseek.com" spellcheck="false"><small>使用供应商提供的 HTTPS 地址，不包含 /chat/completions。</small>
+    <label for="agent-model-name">模型名称</label><input id="agent-model-name" required maxlength="120" placeholder="deepseek-flash" spellcheck="false"><small>模型需支持工具调用。请按供应商控制台填写可用模型。</small>
+    <label for="agent-api-key">API Key</label><input id="agent-api-key" name="personal-api-token" type="password" maxlength="8192" autocomplete="off" data-lpignore="true" data-1p-ignore="true" placeholder="输入你自己的 API Key" spellcheck="false"><small id="agent-key-state">密钥仅发送给本机服务保存，不回显到网页。</small>
+    <label class="agent-billing-choice"><input id="agent-billing-ack" type="checkbox" required><span>我使用自己的 API 账号，并知晓聊天会产生该供应商的调用费用。个人接口按实际调用计费。</span></label>
+    <div class="agent-settings-actions"><button id="agent-settings-save" type="submit">保存并启用个人接口</button><button id="agent-settings-check" type="button">检查已保存接口</button><button id="agent-settings-forget" type="button">移除本机密钥</button></div>
+  </form>
+  <p id="agent-settings-status" role="status" aria-live="polite"></p>
+  <section class="voice-preferences" aria-labelledby="voice-title"><h3 id="voice-title">星球声音 · 多语言对话</h3><p id="agent-voice-note">正在检查本机音色。语音发送后会自动播报回复。</p><label><input id="agent-voice-auto" type="checkbox"> 打字对话时也自动播报回复</label><div><button id="agent-voice-preview" type="button">试听当前声音</button><button id="agent-voice-stop" type="button">停止播报</button></div><p>切到语音输入后先选择录音语言，按住才录音，松手后自动识别并发送，零氪会直接用语音回答。手指或鼠标移出按钮再松手可取消。播报不会打开麦克风。方言或混说可能误识别，可在对话里核对。</p></section>
+  <details><summary>费用、数据与密钥如何处理？</summary><p>费用由你配置的模型账号结算。个人接口独立于开发验收额度，不会自动充值。可用余额、限流及模型能力由供应商决定。</p><p>文字、最近对话、素材名、工程参数及检索到的音乐技巧会发给所选模型。更换供应商或地址时需要重新输入对应密钥。</p><p>Windows 使用当前系统用户的加密保护保存新密钥；其他系统使用本机私有权限配置文件。网页不回显已保存密钥，不写入浏览器存储、聊天记录或音乐工程。当前是本机版本，同一操作系统用户共用这份配置。</p></details>
+</dialog>
+<dialog id="agent-guide" class="agent-beginner-dialog" aria-labelledby="agent-guide-title">
+  <header><div><p class="shell-tag">YOUR FIRST MIX</p><h2 id="agent-guide-title">从灵感，到你的第一版。</h2></div><button id="agent-guide-close" aria-label="关闭使用指引">返回聊天 ×</button></header>
+  <p class="agent-guide-intro">不用先学旋钮。告诉零氪星球你想听到什么，随时试听、调整或撤销。</p>
+  <p><strong>想直接交给星球制作？</strong>添加并选中2–8份素材，发送“全自动混音”或“自动串烧”。本地引擎会准备所需分轨、分析、编排、检查并导出完整作品，不需要文字模型配置。默认允许改造人声和伴奏，原貌锁与已有手动设置优先。结果卡可以取消任务、试听候选、下载和撤销。</p>
+  <button data-guide-idea="全自动混音，第一首先清唱，再加入第二首伴奏">自动做：清唱 → 新伴奏 ↗</button><button data-guide-idea="全自动混音，鼓组换装，保留第一首的人声和旋律，使用第二首的鼓组">自动做：保留旋律，换上另一首的鼓 ↗</button><button data-guide-idea="自动串烧，分轨接力，让下一首伴奏先出现，再交给它的人声">自动做：分轨接力串烧 ↗</button>
+  <p>遇到不好搭的歌，可以先让星球检查交接处：结合已核实的DJ方法，解释风险，再做一版实际试听。不会仅凭歌名断定适配，也不会强行改变音高或速度。</p><button data-guide-idea="这两首难混，请先检查交接处，结合知识库解释原因，保持原速原调，采用你推荐的可执行接法并生成试听">试试：这两首难混，帮我想个接法 ↗</button>
+  <ol class="agent-guide-steps">
+    <li><strong>添加音乐</strong><p>点聊天框“＋ 添加素材”，可一次选多份音频或视频，并勾选本轮想混的素材。视频提取原音轨；原文件保留。</p></li>
+    <li><strong>描述灵感</strong><p>说清“哪份声音 + 想怎么变”。接歌、换伴奏和2–8段串烧由星球选择对应编排，不需要先切类型。</p><button data-guide-idea="把选中的音乐自然接起来，保持原速原调，并生成试听">试试：把这些歌自然接起来 ↗</button><button data-guide-idea="第一首先清唱，再让第二首的伴奏突然进入；没有独立人声或伴奏就先分轨">试试：清唱开场，伴奏突然进来 ↗</button></li>
+    <li><strong>试听，再聊哪里想改</strong><p>点结果卡的“播放试听”。可以说人声音量、起止秒数、低频、回声、速度或升降调；音乐依据和参数在卡片里展开查看。串烧可指定试听第几处交接。</p><button data-guide-idea="第二轨的音量降低2dB，其他不变，再生成试听">试试：第二轨音量小一点 ↗</button><button data-guide-idea="把串烧第三段移到最前面，保留各段现有调音">试试：第三段放到开头 ↗</button><p>不满意？直接说“撤销”或“重做”。原貌锁涉及的变速、移调等调整，需要你在开发者模式亲手确认。</p></li>
+    <li><strong>满意，再完整导出</strong><p>先生成当前版本试听，再点“确认这版 · 完整导出”，下载WAV、MP3和可恢复工程。试听只检查交接附近，完整成品保留工程中全部选段。</p></li>
+  </ol>
+  <details><summary>功能在哪里？还有哪些边界？</summary><p>智能模式用聊天完成现有混音操作；开发者模式保留全部专业工具。左侧“版本”管理工程，素材窗口中的“更多导入方式”可打开曲名查找和链接入口。</p><p>分轨完成后，聊天会给出独立人声/伴奏试听与“继续完成刚才的灵感”。自动制作任务刷新后可以继续查看，完成后提供WAV、MP3和工程下载。</p><p>拍点、ASR词句、调性和局部谐波均为分析候选，需要试听；可上传鸟鸣、水滴等素材让聊天安排局部叠加。尚未内置自动生成这些录音、3D环绕和定制音色。平台曲名搜索和分享链接不等于已导入完整音频。</p></details>
+</dialog>
+<dialog id="agent-materials" class="agent-beginner-dialog" aria-labelledby="agent-material-title">
+  <header><div><p class="shell-tag">BRING YOUR MUSIC</p><h2 id="agent-material-title">这次，想混哪几首？</h2></div><button id="agent-material-close">选好了 · 回聊天 ×</button></header>
+  <label class="agent-file-drop" for="agent-files"><strong>＋ 选择音频或视频</strong><span>支持多选 · 每份最多80 MiB / 20分钟</span><input id="agent-files" type="file" multiple accept="audio/*,video/*,.mp3,.wav,.m4a,.flac,.aif,.aiff,.mp4,.mov,.mkv,.webm"></label>
+  <p id="agent-import-status" role="status" aria-live="polite">导入会保留当前作品、调音和历史，不会自动发送消息。</p><p id="agent-material-count"></p><div id="agent-material-list"></div>
+  <button id="agent-import-advanced" class="quiet">更多导入方式 · 曲名、链接与专业选源 ↗</button>
+</dialog>
+<dialog id="shell-drawer" class="shell-drawer" aria-labelledby="shell-drawer-title"><div class="shell-drawer-heading"><div><span class="shell-tag">YOUR CREATIVE TOOLKIT</span><h2 id="shell-drawer-title">创作工具</h2></div><button id="shell-drawer-close" aria-label="关闭工具，返回创作">返回创作 ×</button></div><div id="shell-drawer-body">
+ <div id="shell-tool-host" class="shell-tool-host"><nav class="shell-tool-tabs" aria-label="混音工具"><button data-tool="materials">素材</button><button data-tool="separate">分轨</button><button data-tool="mix">调音台</button><button data-tool="guides">拍网 · 调性</button><button data-tool="sets">连续编排</button><button data-tool="delivery">交付</button><button data-tool="versions">版本</button></nav>
+ <section id="shell-panel-materials" class="shell-tool-panel" hidden><div class="shell-panel-intro"><span class="shell-tag">01 / SOURCES</span><h2>让声音进场。</h2><p>本机上传、已有素材与链接，集中在这里。</p></div></section>
+ <section id="shell-panel-separate" class="shell-tool-panel" hidden><div class="shell-panel-intro"><span class="shell-tag">02 / STEMS</span><h2>留下人声，换一种律动。</h2><p>先在素材中选好音乐，再分离人声与伴奏。</p></div></section>
+ <section id="shell-panel-mix" class="shell-tool-panel" hidden><div class="shell-panel-intro"><span class="shell-tag">03 / MIXING DESK</span><h2>这一次，由你掌控。</h2><p>选择两份素材，给它们一个起点，再亲手调成你的版本。</p><button class="quiet" data-tool="materials">选择 / 更换素材 ↗</button></div></section>
+ <section id="shell-panel-guides" class="shell-tool-panel" hidden><p id="shell-guides-empty" class="shell-empty">先在调音台选择一个起点，或在版本中载入工程，再检查当前选段。</p></section>
+ <section id="shell-panel-sets" class="shell-tool-panel" hidden></section>
+ <section id="shell-panel-delivery" class="shell-tool-panel" hidden><div class="shell-panel-intro"><span class="shell-tag">06 / FINISH YOUR MIX</span><h2>给灵感，一个完整作品。</h2><p>双轨混音与连续串烧分别生成试听和完整导出。底部可切换当前作品。</p></div><p id="shell-delivery-empty" class="shell-empty">双轨作品尚未准备好。先在调音台选一个起点；串烧成品可在连续编排中下载。</p><button class="quiet" data-tool="sets">打开连续串烧 ↗</button></section>
+ <section id="shell-panel-versions" class="shell-tool-panel" hidden><div class="shell-panel-intro"><span class="shell-tag">07 / KEEP EXPLORING</span><h2>每个决定，都可以再来。</h2><p>本次会话可撤销、重做。导出的工程文件可载入继续调整。</p></div><article class="shell-history-card"><h3>双轨混音</h3><p id="shell-pair-history"></p><div id="shell-pair-history-mount"></div></article><article class="shell-history-card"><h3>连续串烧</h3><p id="shell-set-history"></p><div id="shell-set-history-mount"></div></article></section>
+ <section id="shell-panel-stage" class="shell-tool-panel" hidden><div class="shell-panel-intro"><span class="shell-tag">STAGE / PREFERENCES</span><h2>你的星球，留在你的节奏里。</h2><p>穿搭按歌曲风格叠加，对话可同时显示文字与播放语音。</p></div><div id="shell-stage-settings"></div><div class="shell-voice-note"><h3>星球语音 · 多语言对话</h3><p>在对话设置中可试听当前音色、开启语音回复；点输入框旁的麦克风切换输入方式，按住说话、松开发送。播报结束后不会继续收音。不支持的播报语种保留文字。</p></div><div id="shell-avatar-mount"></div><a href="/" target="_blank" rel="noopener" class="quiet">打开原版工作台 ↗</a></section>
+ </div>
+</div></dialog>
+<header class="topbar"><a class="brand" href="/" aria-label="deepmixing首页"><span class="brand-icon">≋</span>deepmixing<span class="brand-dot">.</span></a><span class="edition">全民混音 / 本地工作台 01</span><a id="avatar-entry" class="quiet" href="/avatar" target="_blank" rel="noopener">我的DJ形象 ↗</a><span id="connection" class="connection">连接中</span></header>
+<main id="legacy-main">
+  <section class="intro"><div><p class="eyebrow">YOUR IDEA. YOUR MIX.</p><h1>你的灵感，<br>由你混出来。</h1><p class="intro-copy">让熟悉的声音，遇见新的律动。<br>选一个起点，亲手把它调成你的样子。</p></div><div class="intro-art" aria-hidden="true"><div class="record record-a"><i></i></div><div class="record record-b"><i></i></div><div class="art-label">A ↔ B <span>MAKE IT YOURS</span></div></div></section>
+  <ol class="steps"><li><span>01</span>放入音乐</li><li><span>02</span>选择起点</li><li><span>03</span>动手调整</li><li><span>04</span>试听与完成</li></ol>
+  <section class="import-hub" aria-labelledby="import-heading">
+    <div class="section-title"><h2 id="import-heading">换一种方式，找到灵感</h2><label class="target-label">放入哪一轨<select id="import-target"><option value="a">A · 主导声音</option><option value="b">B · 新的律动</option></select></label></div>
+    <div class="import-grid">
+      <article><h3>按歌名找素材</h3><p class="hint">先查本地素材，也可前往网易云或QQ音乐确认歌手与版本。</p><div class="inline-form"><input id="library-query" type="search" maxlength="200" aria-label="输入歌名或本地素材名" placeholder="歌名 / 歌手 / 本地素材名"><button id="library-search" class="quiet">查找</button></div><div id="library-results" class="library-results" aria-live="polite"></div><div id="platform-links" class="platform-links"></div><p class="hint">国内平台优先。平台搜索会打开新页面，目前不会自动取得完整歌曲。</p></article>
+      <article><h3>粘贴链接或分享文案</h3><p class="hint">音视频文件直链可导入；抖音等平台链接会先识别来源。</p><textarea id="import-link" rows="2" maxlength="8192" aria-label="音视频链接或抖音分享文案" placeholder="https://…/song.mp3，或粘贴抖音分享文案"></textarea><button id="link-import" class="quiet">识别链接并尝试导入 ↗</button><p id="link-result" class="hint" aria-live="polite"></p><label id="video-fallback" class="quiet import-label" for="file-video">上传已保存的视频 · 提取音轨<input id="file-video" type="file" accept="video/*,.mp4,.mov,.mkv,.webm"></label><p class="hint">提取会保留视频原音轨中的人声、对白和配乐；不会自动分离纯音乐。</p></article>
+    </div>
+  </section>
+  <section id="legacy-sources" aria-labelledby="sources-heading"><div class="section-title"><h2 id="sources-heading">把音频或视频放进来</h2><span>文件保存在本机 · 每份最多80 MiB / 20分钟</span></div><div class="decks">
+    <article class="deck deck-a"><div class="deck-head"><span class="channel">A</span><div><h3>主导声音</h3><p>接歌的第一首，或你想保留的人声</p></div></div><label class="upload" for="file-a"><span class="upload-plus">＋</span><strong>选择音频或视频</strong><span>音频 / MP4 / MOV / MKV / WebM</span><input id="file-a" type="file" accept="audio/*,video/*,.m4a,.flac,.aif,.aiff,.mp4,.mov,.mkv,.webm"></label><label>本地素材<select id="track-a"><option value="">上传后选择</option></select></label><div class="source-details"><label>这份素材是<select id="role-a"><option value="full_mix">完整歌曲 / 混合音轨</option><option value="vocal">已有独立人声</option><option value="instrumental">已有伴奏</option></select></label><p id="info-a" class="source-info">等待你的第一份灵感</p></div><audio id="source-a" controls preload="none" aria-label="试听A轨"></audio></article>
+    <article class="deck deck-b"><div class="deck-head"><span class="channel">B</span><div><h3>新的律动</h3><p>接进来的下一首，或替换整套伴奏</p></div></div><label class="upload" for="file-b"><span class="upload-plus">＋</span><strong>选择音频或视频</strong><span>音频 / MP4 / MOV / MKV / WebM</span><input id="file-b" type="file" accept="audio/*,video/*,.m4a,.flac,.aif,.aiff,.mp4,.mov,.mkv,.webm"></label><label>本地素材<select id="track-b"><option value="">上传后选择</option></select></label><div class="source-details"><label>这份素材是<select id="role-b"><option value="full_mix">完整歌曲 / 混合音轨</option><option value="instrumental">已有伴奏</option><option value="vocal">已有独立人声</option></select></label><p id="info-b" class="source-info">等待与你碰撞的另一种声音</p></div><audio id="source-b" controls preload="none" aria-label="试听B轨"></audio></article>
+  </div></section>
+  <section id="legacy-inspiration" class="inspiration"><div><p class="eyebrow">START WITH A FEELING</p><h2>这次，想混出什么感觉？</h2><p>先选接歌入门，也可以用已有分轨开始叠搭。</p></div><div class="inspiration-form"><label>创作方式<select id="mode"><option value="transition">接歌：把两首音乐连起来</option><option value="mashup">叠搭：独立人声 × 已有伴奏</option></select></label><label for="prompt">灵感备注<textarea id="prompt" rows="2" maxlength="2000" placeholder="比如：温柔一点，保留人声原调，接歌不要太突然"></textarea></label><div class="mood-chips"><button data-mood="温柔舒缓">温柔舒缓</button><button data-mood="更有动感">更有动感</button><button data-mood="保持原貌">保持原貌</button></div><p class="hint">首版只识别少量情绪关键词。更具体的灵感可在下方亲手调整。叠搭请使用独立人声与伴奏，也可先在上方分轨区处理完整歌曲。</p><button id="recommend" class="primary">给我三个起点 <span>↗</span></button></div></section>
+  <section id="recommendation-section" hidden><div class="section-title"><h2>从一个起点开始</h2><span id="intent-note"></span></div><div id="candidates" class="candidates"></div><details class="evidence"><summary>看看方法依据与适用边界</summary><div id="evidence"></div></details></section>
+  <section id="editor" hidden><div class="section-title"><h2>现在，交给你的耳朵</h2><div class="history"><button id="undo" class="quiet">↶ 撤销</button><button id="redo" class="quiet">↷ 重做</button><label class="quiet import-label" for="import-project">载入工程<input id="import-project" type="file" accept="application/json,.json"></label></div></div><p class="hint">可在下方检查候选拍网、变化位置和局部调性，再校正起止点与偏移。强拍和完整乐句仍需试听确认。</p><div class="track-controls" id="track-controls"></div><div class="mix-controls">
+      <label>目标 BPM<input id="target-bpm" type="number" min="40" max="240" step="0.01" data-path="target_bpm" placeholder="留空保持原速"><small>两轨源BPM都填好，才可自动对速</small></label>
+      <label id="overlap-label">交接时长 / 秒<input id="transition-seconds" type="number" min="0" max="120" step="0.01" data-path="transition_seconds"><small>0秒为直接切换；更长需要足够选段</small></label>
+      <label id="offset-label">伴奏延后 / 秒<input id="b-offset" type="number" min="0" max="60" step="0.01" data-path="b_offset_seconds"><small>调整人声与伴奏的相对进入位置</small></label>
+      <label>回声强度<input id="echo" type="range" min="0" max="0.4" step="0.01" data-path="echo"><small id="echo-value">0</small></label>
+    </div><label class="title-field">作品名称<input id="project-title" maxlength="120" data-path="title" placeholder="给这次灵感起个名字"></label>
+  </section>
+  <section class="finish" id="finish" hidden><div class="finish-text"><p class="eyebrow">LISTEN. TWEAK. MAKE IT YOURS.</p><h2>先听这一段，再完成整首。</h2><p id="preview-note">试听会呈现交接附近最多25秒；完整导出保留你选择的全部片段。</p></div><div class="finish-actions"><button id="preview" class="primary">生成这一版试听</button><button id="export" class="secondary" disabled>确认这版 · 完整导出</button></div><audio id="preview-audio" controls preload="none" aria-label="混音预览" hidden></audio><div id="downloads" hidden><h3>这次灵感，有了自己的声音。</h3><audio id="full-audio" controls preload="none" aria-label="完整混音"></audio><div id="download-links" class="download-links"></div><p id="quality" class="hint"></p></div></section>
+  <aside class="resume"><label class="quiet import-label" for="import-anywhere">已有工程？载入继续调整<input id="import-anywhere" type="file" accept="application/json,.json"></label><span>工程引用本机素材；迁移设备需重新提供音频。</span></aside>
+</main>
+<div class="statusbar" role="status" aria-live="polite"><span id="status-dot"></span><p id="status">准备好，放入两份音频开始。</p></div>
+<footer>deepmixing / 全民混音 <span>本地音频处理 · 规则推荐首版 · 你的选择始终优先</span></footer>
+<dialog id="avatar-workshop" aria-labelledby="avatar-workshop-heading"><div class="avatar-workshop-bar"><h2 id="avatar-workshop-heading">我的DJ形象</h2><span>原混音进度保留</span><button id="avatar-workshop-close" type="button">保存并返回混音 ×</button></div><div id="avatar-workshop-content"></div></dialog>
+<button class="vision-entry vision-pro" type="button" aria-expanded="false" aria-controls="mix-vision">视觉反馈</button>
+<aside id="mix-vision" class="mix-vision" aria-labelledby="mix-vision-title" hidden>
+  <header><div><span>DEEP MIXING / LIVE</span><h2 id="mix-vision-title" tabindex="-1">听感观察窗</h2></div><button data-action="close" aria-label="关闭听感观察窗" type="button">×</button></header>
+  <p class="vision-note">喜欢哪段，就对镜头竖拇指。请只拍自己；手势在本机识别，不判断情绪，不上传或保存画面，也不打开麦克风。</p>
+  <div class="vision-frame"><div class="vision-idle">摄像头未开启</div><video autoplay muted playsinline disablepictureinpicture aria-label="本机实时摄像头预览" hidden></video><span class="vision-quality" hidden></span></div>
+  <div class="vision-row"><p id="mix-vision-playback">等待播放混音作品</p><button data-action="camera" type="button">开启摄像头</button></div>
+  <p id="mix-vision-status" role="status">不打开摄像头也能标记。</p>
+  <div class="vision-draft" hidden><strong class="vision-badge">刚才这段值得回听？</strong><p class="vision-draft-time"></p><label class="vision-focus">喜欢在哪里？<select aria-label="喜欢的混音部分"><option value="">暂不指定</option><option value="transition">转场衔接</option><option value="groove">节奏律动</option><option value="balance">人声与伴奏</option><option value="tone">音色与空间</option></select></label><div class="vision-actions"><button data-action="like" type="button">喜欢这段</button><button data-action="dismiss" type="button">忽略</button></div></div>
+  <div class="vision-actions"><button data-action="manual" type="button" disabled>标记刚听到的片段</button></div>
+  <details><summary>已确认的训练候选 <span class="vision-count">0</span></summary><p class="vision-note">仅保存你确认的版本和时间段。导出后可用于复听和整理训练方向，不会自动训练。</p><p class="vision-directions" hidden></p><ul></ul><div class="vision-actions"><button data-action="export" type="button" disabled>导出反馈</button><button data-action="clear" type="button" disabled>清空</button></div></details>
+</aside>
+</body></html>
+

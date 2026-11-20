@@ -1,0 +1,2765 @@
+[
+  {
+    "id": "S01",
+    "title": "What is phrase mixing in DJing? How to seamlessly blend two tracks",
+    "url": "https://www.native-instruments.com/blogs/blog/phrase-mixing",
+    "publisher": "Native Instruments",
+    "author": "Sara Simms",
+    "published": "2024-07-19",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "按音乐结构选择进入和退出位置；乐句长度需要实际识别。",
+      "分轨叠搭仍要对齐乐句；变速音乐需要校正节拍网格。",
+      "乐句可长可短；按具体退出与到达关系选接法，分轨不取消乐句约束。"
+    ],
+    "quote": null,
+    "limits": [
+      "产品教学文章，不是所有风格的强制规则。",
+      "本轮核读公开正文；未听辨嵌入视频、未核验互动热度。",
+      "具体到达、局部和声与干湿交棒为产品设计适配，不冒充作者给本次素材的秒数或听感验收。"
+    ],
+    "observed_on": "2026-11-10",
+    "capture_method": "public_publisher_html_to_text",
+    "evidence_language": "en",
+    "name": "ni-phrase",
+    "http_status": 200,
+    "artifact": "docs/research/2026-11-10/musical-continuity/ni-phrase.txt",
+    "raw_artifact": "docs/research/2026-11-10/musical-continuity/ni-phrase.html",
+    "text_sha256": "1f14b2028a3967cd60e9a894267d1b2ecf64aea16f1b6ef70d2da64aa32df95c",
+    "raw_sha256": "3cd5507e0b6be307357b941842931bd7c19e36ca0055d8ffc73bae919db5a87a",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "verified_quotes": [
+      {
+        "locator": "What is a phrase?",
+        "quote": "A phrase is a short section of music generally eight to sixteen bars in length, though phrases can be longer or shorter."
+      },
+      {
+        "locator": "5. Adjust your transition",
+        "quote": "Depending on the phrases you selected, one type of transition may work better than another."
+      },
+      {
+        "locator": "Using stems in phrase mixing",
+        "quote": "You will still need to mark phrases using cue points on your stems and plan your phrase mixing before your sets."
+      }
+    ]
+  },
+  {
+    "id": "S02",
+    "title": "5 basic DJ transitions to keep your music in the flow",
+    "url": "https://www.native-instruments.com/blogs/blog/dj-transitions",
+    "publisher": "Native Instruments",
+    "author": "Sara Simms",
+    "published": "2024-02-21",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "比较淡化、硬切、单乐句对拍、低频交换、滤波淡化。",
+      "低频交换可减少重叠混浊；接法选择与风格和结构有关。"
+    ],
+    "quote": "The type of transitions you use in your sets will depend on the style of music you play.",
+    "limits": [
+      "文中接近BPM等建议是教学起点，不是普适硬阈值。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S03",
+    "title": "Mixing in Key: the DJ’s Cheat Sheet",
+    "url": "https://wearecrossfader.co.uk/blog/mixing-in-key-for-djs/",
+    "publisher": "Crossfader",
+    "published": "2019-01-22",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "人声和旋律长时间叠加时，和声兼容更值得检查。",
+      "纯鼓与打击乐交接时，调性约束较弱。"
+    ],
+    "quote": "But don’t let it become a strict rule that stops you playing a great track.",
+    "limits": [
+      "同调不保证和弦进行、局部旋律与演唱音符全部匹配。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S04",
+    "title": "3 Ways To Mix House Music",
+    "url": "https://wearecrossfader.co.uk/blog/3-ways-to-mix-house-music/",
+    "publisher": "Crossfader",
+    "published": "2022-09-05",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "同一组歌曲通过长融合、即时EQ交换与叠搭，得到不同能量表现。",
+      "示例在人声进入时降低另一轨中频，并利用人声自然停顿交接。"
+    ],
+    "quote": "Each of these techniques achieves a different outcome, despite the same tracks being used in the same order.",
+    "limits": [
+      "示例来自特定House歌曲；EQ位置与小节数不能照搬为所有音乐默认值。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S05",
+    "title": "Harmonic mixing rules (and how to break them)",
+    "url": "https://www.native-instruments.com/blogs/blog/harmonic-mixing-rules-and-how-to-break-them",
+    "publisher": "Native Instruments",
+    "published": "2019-07-16",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "Open Key可辅助选择同调、相邻调和关系大小调。",
+      "强调听感优先及打击乐例外；文章链接Chris Liebing的相关演示。",
+      "调性轮用于筛选候选；人声与合成器同响时和声尤其需要核查，不把同调视作逐和弦保证。"
+    ],
+    "quote": null,
+    "limits": [
+      "Open Key编号不能当成Camelot编号直接混用。",
+      "未听辨嵌入的Chris Liebing视频，不归因视频中的具体操作。",
+      "本轮核读公开正文；未听辨嵌入视频、未核验互动热度。",
+      "具体到达、局部和声与干湿交棒为产品设计适配，不冒充作者给本次素材的秒数或听感验收。",
+      "不采纳大调必然快乐/小调必然忧郁的简化，不把Open Key编号差当半音差；文章例子不保证任意段落兼容。"
+    ],
+    "observed_on": "2026-11-10",
+    "capture_method": "public_publisher_html_to_text",
+    "evidence_language": "en",
+    "name": "ni-harmonic",
+    "http_status": 200,
+    "artifact": "docs/research/2026-11-10/musical-continuity/ni-harmonic.txt",
+    "raw_artifact": "docs/research/2026-11-10/musical-continuity/ni-harmonic.html",
+    "text_sha256": "de0ea44b374dce62d1827f167977f954f49a7ee876c2eed0e19376e42d0a3c96",
+    "raw_sha256": "4ae9f511c15adaf21f2e155a9316efa383abf2eb6f5c68696b452811732d4099",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "verified_quotes": [
+      {
+        "locator": "The energy boost",
+        "quote": "This is an example of trusting your ears, and using the circle as a guide rather than a rulebook."
+      },
+      {
+        "locator": "The energy boost",
+        "quote": "If you’re mixing a track with lots of vocals into another track with plenty of synths, then making sure they’re harmonically matched is a good idea."
+      }
+    ]
+  },
+  {
+    "id": "S06",
+    "title": "Our Top 10 James Hype Moments 2025 (Insane DJ Tricks & Backstage Reveals)",
+    "url": "https://www.digitaldjtips.com/our-top-10-james-hype-moments-insane-dj-tricks-backstage-reveals/",
+    "publisher": "Digital DJ Tips",
+    "author": "Phil Morse",
+    "updated": "2026-05-03",
+    "type": "expert_public_commentary",
+    "access": "read",
+    "facts": [
+      "公开文字将Brooklyn Mirage的过渡与Hype Loops相联系。",
+      "文章强调现场技巧背后的准备和排练，以及为具体演出制作专用remix。"
+    ],
+    "quote": "he puts in a TON of work behind the scenes planning and rehearsing all his tricks.",
+    "limits": [
+      "正文不是付费课程内容；未还原Hype Loops完整参数与操作步骤。",
+      "是教学机构公开评论，不是对每个嵌入演出的直接音频分析。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S07",
+    "title": "How to use mixer effects with TRAKTOR",
+    "url": "https://www.native-instruments.com/blogs/blog/how-to-use-mix-effects-with-traktor",
+    "publisher": "Native Instruments",
+    "author": "Sara Simms",
+    "published": "2019-01-28",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "讲解Delay的滤波、反馈、速度与立体声扩展，以及效果快照。",
+      "描述在乐句尾部运用Delay T3及逐步学习单效果再组合效果链。"
+    ],
+    "quote": "Start out by learning the effects one by one",
+    "limits": [
+      "设备旋钮百分比不能直接映射成其他效果器的物理参数。",
+      "Richie Hawtin风格的提及来自该文章，未逐耳复核其演出。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S08",
+    "title": "Syncopation, Body-Movement and Pleasure in Groove Music",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0094446",
+    "publisher": "PLOS ONE",
+    "author": "Witek et al.",
+    "published": "2014-04-16",
+    "type": "peer_reviewed_study",
+    "access": "read",
+    "facts": [
+      "实验中的放克鼓片段呈现切分复杂度与愉悦/想运动评分的倒U形关系。",
+      "适宜复杂度受语境、音乐经验和偏好影响。"
+    ],
+    "quote": "medium degrees of syncopation elicited the most desire to move and the most pleasure",
+    "limits": [
+      "刺激材料与样本限制，不是抖音总体用户研究，也不是每人都喜欢中等切分。",
+      "已同时查阅2015年勘误。"
+    ],
+    "correction_source": "S09",
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S09",
+    "title": "Correction: Syncopation, Body-Movement and Pleasure in Groove Music",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0139409",
+    "publisher": "PLOS ONE",
+    "author": "Witek et al.",
+    "published": "2015-09-24",
+    "type": "research_correction",
+    "access": "read",
+    "facts": [
+      "修正补充材料的刺激索引及记谱；作者声明不改变研究结论与意义。"
+    ],
+    "quote": "the errors do not affect the outcome, interpretations or significance of the study findings",
+    "limits": [
+      "不能使用旧补充材料复现切分指数而忽略勘误。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S10",
+    "title": "Loudness normalization on Spotify",
+    "url": "https://support.spotify.com/us/artists/article/loudness-normalization/",
+    "publisher": "Spotify for Artists",
+    "type": "official_platform_guidance",
+    "access": "read",
+    "facts": [
+      "页面说明Normal播放响度及真峰值/有损编码余量建议。",
+      "更响母带会被降增益；不同设备和播放设置存在例外。"
+    ],
+    "quote": "Loudness normalization is applied during playback.",
+    "limits": [
+      "Spotify建议不是抖音、所有视频平台或酒吧演出的统一交付标准。",
+      "平台规则需按发布时间和实际发布目标复核。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S11",
+    "title": "TikTok與市場監測機構Luminate公佈合作進行的最新年度音樂影響力報告",
+    "url": "https://www.tmc.taipei/tw/media/article/3bF846C2450F",
+    "publisher": "台北流行音乐中心",
+    "published": "2025-02-20",
+    "type": "secondary_industry_report",
+    "access": "read",
+    "facts": [
+      "介绍基于2024年数据的TikTok/Luminate音乐发现与消费报告。",
+      "正文多项消费数据针对美国人群；描述的是发现、传播和消费关联。"
+    ],
+    "quote": null,
+    "limits": [
+      "二手报道；原报告和TikTok正文当前访问失败。",
+      "不能外推为2026年中国抖音混音偏好或因果关系。",
+      "不据此设置普遍适用的节奏、风格或高潮秒数。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "zh-Hant"
+  },
+  {
+    "id": "S12",
+    "title": "ANR4N 第62集：35分钟公路音乐电台",
+    "url": "https://www.douyin.com/video/7696682924086725929",
+    "publisher": "抖音",
+    "author": "ANR4N",
+    "published": "2026-10-15",
+    "type": "performance_case",
+    "access": "read",
+    "facts": [
+      "页面章节00:00 Maps X Booty Music，01:11 Booty Music，02:00下一曲。",
+      "抽样评论表达对Maps的熟悉和怀旧，也有不同搭配意见。"
+    ],
+    "quote": null,
+    "metrics": {
+      "views": null,
+      "likes": "97.0万",
+      "favorites": "47.2万",
+      "shares": "12.8万",
+      "comments": "5089"
+    },
+    "limits": [
+      "没有直接音频听辨，不能从标题确定每个音轨的来源或作者原始工程。",
+      "不满足赞/藏/转三项同时超过50万。",
+      "本次计数为2026-11-06公开页面近似值；播放量未展示，不能用点赞数代替。"
+    ],
+    "observed_on": "2026-11-06",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "zh-Hans",
+    "metric_observations": [
+      {
+        "observed_on": "2026-11-03",
+        "metrics": {
+          "likes": "92.6万",
+          "favorites": "45.1万",
+          "shares": "12.3万",
+          "comments": "4727"
+        }
+      },
+      {
+        "observed_on": "2026-11-06",
+        "metrics": {
+          "views": null,
+          "likes": "97.0万",
+          "favorites": "47.2万",
+          "shares": "12.8万",
+          "comments": "5089"
+        },
+        "artifact": "docs/research/2026-11-06/anr4n-visible.txt"
+      }
+    ],
+    "artifact": "docs/research/2026-11-06/anr4n-visible.txt"
+  },
+  {
+    "id": "S13",
+    "title": "SCOTT斯尬 第13集：郑润泽等无缝合集",
+    "url": "https://www.douyin.com/video/7693165109631257866",
+    "publisher": "抖音",
+    "author": "SCOTT斯尬",
+    "published": "2026-10-05",
+    "type": "performance_case",
+    "access": "read",
+    "facts": [
+      "页面列出遐想、玻璃、我只能离开等连续章节。",
+      "部分评论表达持续聆听和情绪共鸣。"
+    ],
+    "quote": null,
+    "metrics": {
+      "views": null,
+      "likes": "56.6万",
+      "favorites": "24.9万",
+      "shares": "8.1万",
+      "comments": "2615"
+    },
+    "limits": [
+      "仅核实页面和可见评论，未直接听辨混音。",
+      "不把作者累计获赞或粉丝数当作单条作品数据。",
+      "不满足赞/藏/转三项同时超过50万。",
+      "本次计数为2026-11-06公开页面近似值；播放量未展示，不能用点赞数代替。"
+    ],
+    "observed_on": "2026-11-06",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "zh-Hans",
+    "metric_observations": [
+      {
+        "observed_on": "2026-11-03",
+        "metrics": {
+          "likes": "55.2万",
+          "favorites": "24.3万",
+          "shares": "7.9万",
+          "comments": "3202"
+        }
+      },
+      {
+        "observed_on": "2026-11-06",
+        "metrics": {
+          "views": null,
+          "likes": "56.6万",
+          "favorites": "24.9万",
+          "shares": "8.1万",
+          "comments": "2615"
+        },
+        "artifact": "docs/research/2026-11-06/scott-visible.txt"
+      }
+    ],
+    "artifact": "docs/research/2026-11-06/scott-visible.txt"
+  },
+  {
+    "id": "S14",
+    "title": "Boiler Room: London (07-2022)",
+    "url": "https://boilerroom.tv/playlist/boiler-room-london-fred-again/",
+    "publisher": "Boiler Room",
+    "type": "official_performance_catalog",
+    "access": "read",
+    "facts": [
+      "官方目录列出Fred again..伦敦演出并标记Bass、House、Pop。"
+    ],
+    "quote": null,
+    "metrics": {
+      "likes": null,
+      "favorites": null,
+      "shares": null
+    },
+    "limits": [
+      "目录不展示可核实的互动量。",
+      "未听辨该演出，不据此创造具体技巧或宣称满足50万门槛。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en"
+  },
+  {
+    "id": "U01",
+    "title": "deepmixing用户已确认的产品原则",
+    "url": null,
+    "publisher": "本次用户对话",
+    "type": "user_requirements",
+    "access": "user_provided",
+    "facts": [
+      "全民混音，以亲手操控的成就感为核心；主动推荐、解释，用户自由探索。",
+      "完整伴奏替换、分轨增强、局部锁定、完整交付；视频只作为风格参考；IP后续讨论。"
+    ],
+    "quote": null,
+    "limits": [
+      "是产品需求，不是外部DJ技术验证或市场研究。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "user_provided",
+    "evidence_language": "zh-Hans"
+  },
+  {
+    "id": "L01",
+    "title": "ANR4N开头135秒的本地信号分析",
+    "url": "https://www.douyin.com/video/7696682924086725929",
+    "publisher": "deepmixing本地分析",
+    "type": "local_signal_measurement",
+    "access": "local_analysis",
+    "artifact": "reference-analysis/measurements.json",
+    "facts": [
+      "本地自动估计主脉冲约120 BPM；两个章节窗口综合响度约-7.8/-7.7 LUFS。",
+      "平台AAC播放音频真峰值约+1.3/+1.1 dBTP。"
+    ],
+    "quote": null,
+    "limits": [
+      "音频测量不等于直接听辨；章节不是精准边界。",
+      "平台转码后的超零峰值不证明原工程削波。"
+    ],
+    "observed_on": "2026-11-03",
+    "capture_method": "local_analysis",
+    "evidence_language": "zh-Hans"
+  },
+  {
+    "id": "X01",
+    "title": "James Hype | How I DJ: Watch",
+    "url": "https://djmag.com/content/james-hype-how-i-dj",
+    "publisher": "DJ Mag",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "浏览器安全验证；未完成挑战，未读取正文。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "en"
+  },
+  {
+    "id": "X02",
+    "title": "Luminate TikTok music discovery case study",
+    "url": "https://luminatedata.com/case-studies/tiktok-music-discovery-monetization-chart-success/",
+    "publisher": "Luminate",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "连接重置。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "en"
+  },
+  {
+    "id": "X03",
+    "title": "Fred again.. | Boiler Room: London",
+    "url": "https://www.youtube.com/watch?v=c0-hvjV2A5Y",
+    "publisher": "YouTube / Boiler Room",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "浏览器导航超时，互动数未知。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "en"
+  },
+  {
+    "id": "X04",
+    "title": "TikTok and Luminate release latest Music Impact Report",
+    "url": "https://newsroom.tiktok.com/en-us/tiktok-and-luminate-release-latest-music-impact-report",
+    "publisher": "TikTok",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "浏览器导航超时；只通过S11追溯到链接。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "en"
+  },
+  {
+    "id": "X05",
+    "title": "James Hype's Mixing Skills course information",
+    "url": "https://pages.digitaldjtips.com/hype-course-info",
+    "publisher": "Digital DJ Tips",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "安全验证；不访问付费课程正文。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "en"
+  },
+  {
+    "id": "X06",
+    "title": "TikTok music impact report reveals platform's key role",
+    "url": "https://www.musicweek.com/digital/read/tiktok-music-impact-report-reveals-platform-s-key-role-in-music-consumption-and-discovery/091395",
+    "publisher": "Music Week",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "导航超时。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "en"
+  },
+  {
+    "id": "X07",
+    "title": "抖音站内混音搜索",
+    "url": "https://www.douyin.com/search/%E6%B7%B7%E9%9F%B3",
+    "publisher": "抖音",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "登录后才显示搜索结果；未提交登录或协议。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "zh-Hans"
+  },
+  {
+    "id": "X08",
+    "title": "Music Impact Report press release mirror",
+    "url": "https://ebs.publicnow.com/view/003C45803AF491772AFA18B1BF8E7B2922CE56A8",
+    "publisher": "Publicnow",
+    "type": "candidate",
+    "access": "blocked",
+    "reason": "安全验证，正文未读取。",
+    "observed_on": "2026-11-03",
+    "capture_method": "blocked",
+    "evidence_language": "en"
+  },
+  {
+    "id": "S15",
+    "title": "Creative Trick for Genre Transitions: 128bpm–150bpm",
+    "url": "https://blog.wearecrossfader.co.uk/blog/creative-trick-for-genre-transitions-128bpm-150bpm/",
+    "publisher": "Crossfader",
+    "type": "public_tutorial",
+    "access": "read",
+    "facts": [
+      "示例从128 BPM bass house过渡到150 BPM hardstyle；先准备切出点和pre-drop合成器Hot Cue。",
+      "短暂对速混入后，在8小节合成器build中回到原速；该示例关闭key lock以获得音高上升。",
+      "主动跳过拉慢后不自然的人声；交接用EQ低频交棒，并给一小节break留出呼吸。"
+    ],
+    "limits": [
+      "8/16小节及key lock选择仅为特定曲例，不是普适参数。",
+      "网页关于百分比与半音的算法是近似表述，不作为本产品计算依据。",
+      "本机尚无变速坡度、循环和动态EQ自动化；当前只能改编为短交接或人工选段。",
+      "未取得关联YouTube视频播放量或听辨证据。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-06",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-06/crossfader-genre-visible.txt",
+    "published": "2022-08-16"
+  },
+  {
+    "id": "S16",
+    "title": "The Mixing Technique ALL House DJs Should Know!",
+    "url": "https://wearecrossfader.co.uk/blog/house-mixing-tutorial/",
+    "publisher": "Crossfader",
+    "type": "public_tutorial",
+    "access": "read",
+    "facts": [
+      "以Deep Inside的稀疏人声段设置8拍loop，与OG Chunker的kick层搭配。",
+      "先分配频率角色，滤波逐渐揭示新曲，同时补偿音量变化，避免两个低频主角叠加。",
+      "提前准备Hot Cue，在下一乐句附近结束旧loop，把舞台交给新曲。"
+    ],
+    "limits": [
+      "仅阅读公开文字教学，未访问付费课或听辨视频。",
+      "网页频段划分为教学简化；人声不限于200Hz–1kHz，不能用此范围硬切所有人声。",
+      "独立分轨可帮助角色分配，静态低频控制不等于动态滤波和循环已实现。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-06",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-06/crossfader-house-visible.txt",
+    "published": "2022-08-16"
+  },
+  {
+    "id": "S17",
+    "title": "你可能不认识我，但你一定听过或用过我Remix的歌",
+    "url": "https://www.bilibili.com/video/BV1MR98BiEUQ/",
+    "publisher": "哔哩哔哩",
+    "type": "performance_case",
+    "access": "read",
+    "facts": [
+      "作者页面展示Remix/修改歌曲系列；单条作品公开显示65.9万播放。",
+      "合集标题可见短版、完整版、纯旋律及不同搭配版本；属于作品组织证据，不是制作工程分析。"
+    ],
+    "limits": [
+      "未听辨或取得作者工程，不从播放量、标签和作品名倒推出DSP技巧。",
+      "合集291.2万播放与单条65.9万播放分开；标题的自述不作为平台认证。",
+      "单一高播放案例不能证明当代年轻人的总体偏好或搭配效果因果。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-06",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "zh-Hans",
+    "artifact": "docs/research/2026-11-06/mario-visible.txt",
+    "author": "马里奥顶蘑菇Mario",
+    "metrics": {
+      "views": "65.9万",
+      "likes": "3.9万",
+      "favorites": "4.6万",
+      "shares": null
+    },
+    "published": "2026-04-30"
+  },
+  {
+    "id": "S18",
+    "title": "【DJ教学】DJ Carlo教你三种方式混合不同流派的歌曲",
+    "url": "https://www.bilibili.com/video/BV1rX4y1h76a/",
+    "publisher": "哔哩哔哩",
+    "type": "tutorial_candidate_metadata",
+    "access": "read",
+    "facts": [
+      "页面显示1370播放；简介给出DJ Carlo原视频YouTube链接。"
+    ],
+    "limits": [
+      "这是转载教学入口与低播放对照；未读到字幕/听辨，不能据此提炼三种具体技巧。",
+      "低播放不代表方法差；不得写成50万以上热门教程。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-06",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "zh-Hans",
+    "artifact": "docs/research/2026-11-06/bilibili-carlo-metadata.txt",
+    "author": "DJ-Marvicl",
+    "metrics": {
+      "views": 1370,
+      "likes": 38,
+      "favorites": 77,
+      "shares": null
+    },
+    "published": "2023-05-26"
+  },
+  {
+    "id": "S19",
+    "title": "How to set cue points for better arrangements when DJing",
+    "url": "https://www.native-instruments.com/blogs/blog/cue-points-djing",
+    "publisher": "Native Instruments",
+    "author": "Sara Simms",
+    "published": "2024-06-05",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "备曲时标记主歌、副歌/drop、人声进入、outro和交接位置；避免主唱同时争抢。",
+      "loop可延长短intro/outro或层搭器乐；cue drumming用Cue按钮有节奏触发样本。",
+      "标记帮助预备routine与即兴，不要求所有歌曲都照固定模板切段。"
+    ],
+    "limits": [
+      "仅阅读公开正文，未听辨嵌入视频、未还原艺术家工程或验证其参数。",
+      "文中设备旋钮、拍数与调性同步描述不构成本产品执行证明；实际素材仍须试听。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-07",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-07/cue-points-visible.txt"
+  },
+  {
+    "id": "S20",
+    "title": "5 Traktor effects every DJ should use to make sets stand out",
+    "url": "https://www.native-instruments.com/blogs/blog/traktor-effects",
+    "publisher": "Native Instruments",
+    "author": "Sara Simms",
+    "published": "2025-04-04",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "Delay可在不同段落短暂启用；速率、反馈和干湿比共同决定节奏与密度。",
+      "示例在breakdown增加reverb空间，在drop落点停用效果获得反差。",
+      "Filter示例按乐句末端渐变后关闭；先单独学习每个效果。"
+    ],
+    "limits": [
+      "仅阅读公开正文，未听辨嵌入视频、未还原艺术家工程或验证其参数。",
+      "文中设备旋钮、拍数与调性同步描述不构成本产品执行证明；实际素材仍须试听。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-07",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-07/effects-visible.txt"
+  },
+  {
+    "id": "S21",
+    "title": "Richie Hawtin: deconstructing the dancefloor with Traktor",
+    "url": "https://www.native-instruments.com/blogs/blog/richie-hawtin-traktor",
+    "publisher": "Native Instruments",
+    "author": "Native Instruments",
+    "published": "2026-02-26",
+    "type": "artist_setup_commentary",
+    "access": "read",
+    "facts": [
+      "公开正文描述拆解与叠加的DJ观念，以及Traktor、模拟混音与现场制作结合。",
+      "Launchpad与Bitwig用于打击乐/旋律编序；正文描述Traktor向Bitwig发送调性信息。",
+      "熟练操作后关注听众能量反馈，保持自己的审美。"
+    ],
+    "limits": [
+      "仅阅读公开正文，未听辨嵌入视频、未还原艺术家工程或验证其参数。",
+      "文中设备旋钮、拍数与调性同步描述不构成本产品执行证明；实际素材仍须试听。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-07",
+    "capture_method": "browser_rendered_text",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-07/richie-hawtin-visible.txt"
+  },
+  {
+    "id": "S22",
+    "title": "7 Things Nobody Tells You About Mixing House Music",
+    "url": "https://www.digitaldjtips.com/7-things-nobody-tells-you-about-mixing-house-music/",
+    "publisher": "Digital DJ Tips",
+    "author": "Digital DJ Tips",
+    "published": "2026-11-05",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "乐句对齐还需明确哪首作品主导；在乐句处交换主导低频。",
+      "铺垫与释放应相互配合，目标下一乐句首拍前完成计划中的操作。"
+    ],
+    "limits": [
+      "只阅读公开正文，未听辨嵌入视频；无可核实播放量、收藏量或用户口味统计。",
+      "House教学不外推为所有风格定律；不采纳忽略Camelot大小调字母的简化建议。",
+      "正文介绍或教学不证明本次素材已对齐、和弦兼容或听感通过。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/ddjt-house-text.txt",
+    "raw_sha256": "2d6a0a912147187f0732dc46d8c286bc6908d2e215c5c551dd987b0075f2228c",
+    "verified_quotes": [
+      {
+        "locator": "1. Mix phrases, not beats",
+        "quote": "But if the phrases of your two tracks don’t line up, so things come and go at the same time in both, your mixes will never sound professional."
+      },
+      {
+        "locator": "4. Mix in key, but trust your ears",
+        "quote": "As long as the phrases are lined up, you can play music over music and it’s likely to sound good."
+      },
+      {
+        "locator": "5. Always know which track is dominating",
+        "quote": "Your audience needs one track to listen to, with the other as the backup act."
+      },
+      {
+        "locator": "5. Always know which track is dominating",
+        "quote": "To switch which track is dominating, swap the bass over – down on one, up on the other, on a phrase of course."
+      },
+      {
+        "locator": "6. Balance tension and release",
+        "quote": "Then, just before the drop, producers often take everything out for a beat or two."
+      },
+      {
+        "locator": "7. Emphasise and complement what the producer has done",
+        "quote": "Whatever you do, be finished when the first beat of the next phrase arrives."
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S23",
+    "title": "DJ Fundamentals: How Phrasing Can Make or Break a DJ Mix",
+    "url": "https://djtechtools.com/2019/11/11/dj-fundamentals-how-phrasing-can-make-or-break-a-dj-mix/",
+    "publisher": "DJTechTools",
+    "author": "DJTechTools",
+    "published": "2019-11-11",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "公开介绍提出数乐句并将其用于跨风格混音；具体方法主要在嵌入视频中。"
+    ],
+    "limits": [
+      "只阅读公开正文，未听辨嵌入视频；无可核实播放量、收藏量或用户口味统计。",
+      "House教学不外推为所有风格定律；不采纳忽略Camelot大小调字母的简化建议。",
+      "正文介绍或教学不证明本次素材已对齐、和弦兼容或听感通过。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/djtt-phrasing-text.txt",
+    "raw_sha256": "315332cd2074ed7553db0a49fbd02aab1479c8135f835049bb037d3fe28dd7af",
+    "verified_quotes": [
+      {
+        "locator": "public introduction",
+        "quote": "Learn how to count phrases, and how to practically apply them in different genres for creative results."
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S24",
+    "title": "Easy Trick For Mixing Different Genres Using Half & Double Time BPMs",
+    "url": "https://www.digitaldjtips.com/how-to-mix-using-half-time-and-double-time-bpms/",
+    "publisher": "Digital DJ Tips",
+    "author": "Digital DJ Tips",
+    "published": "2019-06-13",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "在已确认4/4且拍子定义相同时，60 BPM一小节与120 BPM两小节时间相同。",
+      "半速/倍速混合时按实际时间匹配不同小节数，不能只比较BPM标签或相同小节数。"
+    ],
+    "limits": [
+      "只阅读公开正文，未听辨嵌入视频；无可核实播放量、收藏量或用户口味统计。",
+      "House教学不外推为所有风格定律；不采纳忽略Camelot大小调字母的简化建议。",
+      "正文介绍或教学不证明本次素材已对齐、和弦兼容或听感通过。"
+    ],
+    "quote": null,
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/ddjt-half-double-text.txt",
+    "raw_sha256": "ae1c1abe84472ce7aade431145e26f7d5f80fdc9cf47d9bd7d1a7f8178b19607",
+    "verified_quotes": [
+      {
+        "locator": "Half Time? Double Time?",
+        "quote": "Example: one bar at 60BPM = two bars at 120BPM"
+      },
+      {
+        "locator": "How to do it, step 4",
+        "quote": "Begin beatmix keeping the number of double/half time bars to have proper phrasing (eg four bars of 60BPM song = eight bars of 120 BPM song)"
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S25",
+    "title": "Choosing Tracks For A DJ Set: Start With The Story, Not The Mix",
+    "url": "https://www.digitaldjtips.com/how-to-choose-tracks-ferry-corsten/",
+    "publisher": "Digital DJ Tips",
+    "published": "2026-03-29",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "公开正文将混搭预告下一首再进入该曲列为搭配方法。",
+      "先按套曲故事与时长选曲，安排主唱段和器乐段的呼吸。"
+    ],
+    "quote": null,
+    "limits": [
+      "只阅读免费公开正文，未听辨嵌入视频或访问付费课程。",
+      "这是专业教学依据，不能据此声称ANR4N使用了相同工程、参数或设备。",
+      "教学示例不证明本产品已具备完整执行能力或实际素材听感通过。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/anr4n/story-text.txt",
+    "raw_sha256": "0542f68a46be6473dd271bf393e2e6bf8aab49fcbeae8a4fd05ec6b6e6c3c55e",
+    "text_sha256": "ca5dcfd2caf78e745267ca216379040bdafe9555683a7251599d1432b9578c1b",
+    "verified_quotes": [
+      {
+        "locator": "Build the selection around a story / Mashups and pairs",
+        "quote": "a mashup that teases another tune before leading into it"
+      },
+      {
+        "locator": "Build the selection around a story / Vocal spacing",
+        "quote": "Space them out – a couple of instrumentals, a vocal, a couple more instrumentals – and each one becomes a moment."
+      },
+      {
+        "locator": "Next Steps",
+        "quote": "choose tracks for the story they’ll tell, then worry about how to mix them."
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S26",
+    "title": "Live Redrums: How To Make Any Track Hit Harder Using Stems",
+    "url": "https://www.digitaldjtips.com/stems-live-redrums/",
+    "publisher": "Digital DJ Tips",
+    "published": "2026-02-18",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "Redrum可抽取其他曲目的鼓组，放在原曲下方保留原曲主体。",
+      "强调准确拍网与老歌速度漂移风险；另举鼓组加贝斯的变体。"
+    ],
+    "quote": null,
+    "limits": [
+      "只阅读免费公开正文，未听辨嵌入视频或访问付费课程。",
+      "这是专业教学依据，不能据此声称ANR4N使用了相同工程、参数或设备。",
+      "教学示例不证明本产品已具备完整执行能力或实际素材听感通过。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/anr4n/redrum-text.txt",
+    "raw_sha256": "cbb765f0e4cd05d455c197d8841bb77e76993b19e4ec85d1219207341ed7e1b0",
+    "text_sha256": "4d06cec79ee4d9d58e7ceb191c72df72cdf7030ddae8a048e36d5ecb17d43297",
+    "verified_quotes": [
+      {
+        "locator": "What’s a redrum?",
+        "quote": "extract the drums from a track you’re already playing, then mix an older song in and out underneath that beat."
+      },
+      {
+        "locator": "What you need to make it work",
+        "quote": "The whole technique relies on your tracks staying in sync, so if your grids aren’t accurate, everything falls apart."
+      },
+      {
+        "locator": "Bonus lesson",
+        "quote": "we bring in a bassline with the drum stem"
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S27",
+    "title": "How To Use Marker Hotcues For Better DJing",
+    "url": "https://www.digitaldjtips.com/marker-hotcues-for-better-djing/",
+    "publisher": "Digital DJ Tips",
+    "published": "2026-03-29",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "区分只供观察的标记Cue与真正触发的Cue。",
+      "预标可跳到outro的位置用于缩短长曲；正文未给普适安全拍数。"
+    ],
+    "quote": null,
+    "limits": [
+      "只阅读免费公开正文，未听辨嵌入视频或访问付费课程。",
+      "这是专业教学依据，不能据此声称ANR4N使用了相同工程、参数或设备。",
+      "教学示例不证明本产品已具备完整执行能力或实际素材听感通过。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/anr4n/marker-text.txt",
+    "raw_sha256": "0542f68a46be6473dd271bf393e2e6bf8aab49fcbeae8a4fd05ec6b6e6c3c55e",
+    "text_sha256": "8a667146ffbbd763ae3c7edc3dec201b85605607ba36a9094af1b96ced775b51",
+    "verified_quotes": [
+      {
+        "locator": "Public introduction",
+        "quote": "flag safe points in long tracks where you can jump to the outro and shorten a track on the fly."
+      },
+      {
+        "locator": "Public introduction",
+        "quote": "which pads are “press me” and which are “just look at me”"
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "U02",
+    "title": "用户提供的ANR4N主页截图与开场偏好",
+    "url": null,
+    "publisher": "本次用户对话",
+    "type": "user_reference",
+    "access": "user_provided",
+    "observed_on": "2026-11-08",
+    "capture_method": "user_provided_image_and_feedback",
+    "evidence_language": "zh-Hans",
+    "artifact": "docs/research/2026-11-08/anr4n/author-observation.json",
+    "quote": null,
+    "facts": [
+      "截图显示作者ANR4N、抖音号_benormal_；用于确认研究对象。",
+      "用户明确赞赏Maps人声与Booty Music律动组合，及上轮示范的切入与旋律转换。",
+      "截图可见75分钟R&B合集、35分钟公路音乐电台和Chill类作品封面。"
+    ],
+    "limits": [
+      "截图未提供其他作品音频、完整标题或精确链接，不能还原其接法。",
+      "账号累计互动与粉丝数不是单条播放、收藏或转发数；用户偏好不代表平台所有人。"
+    ]
+  },
+  {
+    "id": "S28",
+    "title": "12 High-Energy DJ Transitions You Can Learn!",
+    "url": "https://wearecrossfader.co.uk/blog/12-high-energy-dj-transitions/",
+    "publisher": "Crossfader",
+    "published": "2023-05-04",
+    "modified": "2025-07-09T15:52:34",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "正文逐步讲解歌词接龙、同歌不同remix切换和用Pitch Play预演下一首旋律。",
+      "设备示例包含循环、热Cue与特定硬件效果；不是本产品已实现清单。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读免费公开正文，未听辨嵌入视频、未访问付费课程；没有核验互动量。",
+      "配方是deepmixing对正文教学的适配，不是ANR4N原工程还原或听感验收。",
+      "设备旋钮位置、示例拍数与营销保证不能直接转成通用DSP参数。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/creative-expansion/223673-text.txt",
+    "raw_sha256": "98e25ce86f285596942747acc567880ddb37512bb6d3ed59cab2f25abbebdf27",
+    "text_sha256": "adf9b95a66e93750d3b81b3906bb01013e5e0415d910b0a6cef5c36dadf178ab",
+    "verified_quotes": [
+      {
+        "locator": "#1 Wordplay",
+        "quote": "This involves taking two tracks that are linked lyrically."
+      },
+      {
+        "locator": "#2 Same Song Switch Up",
+        "quote": "Mixing one version of a song into another is as old a trick as they come."
+      },
+      {
+        "locator": "#6 Toneplay",
+        "quote": "using PITCH PLAY and playing it live with the Performance Pads!"
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S29",
+    "title": "How To Mix Hip Hop – The Ultimate Guide",
+    "url": "https://wearecrossfader.co.uk/blog/how-to-mix-hip-hop/",
+    "publisher": "Crossfader",
+    "published": "2022-05-25",
+    "modified": "2026-05-13T13:16:55",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "歌词接龙可依共同词或互补短句交接；采样源曲与采样新歌可组成接法。",
+      "鼓击可预告下一首kick/snare节奏；BPM与感知能量并非一一对应。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读免费公开正文，未听辨嵌入视频、未访问付费课程；没有核验互动量。",
+      "配方是deepmixing对正文教学的适配，不是ANR4N原工程还原或听感验收。",
+      "设备旋钮位置、示例拍数与营销保证不能直接转成通用DSP参数。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/creative-expansion/222697-text.txt",
+    "raw_sha256": "98e25ce86f285596942747acc567880ddb37512bb6d3ed59cab2f25abbebdf27",
+    "text_sha256": "68071c9eb818676d30762256f718590f12b9241d8dbafb9c5d0a0a19a4b3a715",
+    "verified_quotes": [
+      {
+        "locator": "Using Wordplay",
+        "quote": "Have two tracks communicate with each other or hand over to one another with a word or phrase on an incoming track directly complementing or mirroring that which had just been said on an outgoing track."
+      },
+      {
+        "locator": "Sampling",
+        "quote": "bringing together tracks that have been sampled with those that are sampling from it."
+      },
+      {
+        "locator": "Finger Drumming",
+        "quote": "An excellent technique is listening to an incoming track’s drum beat and emulating its kick and snare pattern."
+      },
+      {
+        "locator": "Tips for Mixing Hip Hop Tracks",
+        "quote": "have high energy but a low BPM, or vice-versa, a chilled vibe with a high BPM"
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S30",
+    "title": "How to Create a DJ Mashup in Ableton Live",
+    "url": "https://wearecrossfader.co.uk/blog/dj-mashup-tutorial/",
+    "publisher": "Crossfader",
+    "published": "2025-10-08",
+    "modified": "2026-05-11T13:36:00",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "逐句检查人声对齐，必要时修正句内漂移；不一定使用完整人声线。",
+      "剪辑边缘短淡变、克制空间效果和分段音量用于抛光。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读免费公开正文，未听辨嵌入视频、未访问付费课程；没有核验互动量。",
+      "配方是deepmixing对正文教学的适配，不是ANR4N原工程还原或听感验收。",
+      "设备旋钮位置、示例拍数与营销保证不能直接转成通用DSP参数。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/creative-expansion/227482-text.txt",
+    "raw_sha256": "7bf84642971e816cc71fd9c87d8dc93814a505c7e4ad7cbdd3bde4e14fdbe70d",
+    "text_sha256": "65e6815f5005dca3c2611c8b863d5ccef202cf4885fcecc9265519cf4045daa6",
+    "verified_quotes": [
+      {
+        "locator": "Importing and Warping in Ableton",
+        "quote": "Scroll through the rest of the track to make sure the timing stays tight."
+      },
+      {
+        "locator": "Layering the Vocal",
+        "quote": "You don’t always need the full vocal line"
+      },
+      {
+        "locator": "Layering the Vocal",
+        "quote": "use the faders on the edges of the clips to add short crossfades"
+      },
+      {
+        "locator": "Polishing the Mashup",
+        "quote": "Keep it light to avoid washing out the sound and losing the details."
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S31",
+    "title": "5 Bad DJ Habits Ruining Your Mixes (And How to Fix Them)",
+    "url": "https://wearecrossfader.co.uk/blog/5-bad-dj-habits/",
+    "publisher": "Crossfader",
+    "published": "2026-05-21",
+    "modified": "2026-05-21T13:28:42",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "同调不保证组合好听，异调也不必自动淘汰；需判断实际声音与接法。",
+      "效果应有明确目的，不能为操作而操作。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读免费公开正文，未听辨嵌入视频、未访问付费课程；没有核验互动量。",
+      "配方是deepmixing对正文教学的适配，不是ANR4N原工程还原或听感验收。",
+      "设备旋钮位置、示例拍数与营销保证不能直接转成通用DSP参数。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/creative-expansion/228151-text.txt",
+    "raw_sha256": "7bf84642971e816cc71fd9c87d8dc93814a505c7e4ad7cbdd3bde4e14fdbe70d",
+    "text_sha256": "87360baca662075027221ab2aad6faedca760cb0167b216d262ecb4e6e64bd0a",
+    "verified_quotes": [
+      {
+        "locator": "Mixing In Key",
+        "quote": "Two tracks in different keys can blend fantastically if the vibes gel and you mix them right, while two tracks in the same key that should work can often sound rubbish."
+      },
+      {
+        "locator": "Overusing Effects",
+        "quote": "every time you touch that effects knob, it should be a deliberate choice"
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S32",
+    "title": "Mastering the Art of Drum & Bass Mixing: A DJ’s Guide to Creating Electrifying Sets",
+    "url": "https://wearecrossfader.co.uk/blog/howtomixdnb/",
+    "publisher": "Crossfader",
+    "published": "2024-08-14",
+    "modified": "2024-09-25T09:01:58",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "BPM一致仍需检查break的节奏图案与局部对齐。",
+      "密集D&B素材使用较轻效果，并安排氛围、强度与旋律的能量起伏。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读免费公开正文，未听辨嵌入视频、未访问付费课程；没有核验互动量。",
+      "配方是deepmixing对正文教学的适配，不是ANR4N原工程还原或听感验收。",
+      "设备旋钮位置、示例拍数与营销保证不能直接转成通用DSP参数。"
+    ],
+    "observed_on": "2026-11-08",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "evidence_language": "en",
+    "artifact": "docs/research/2026-11-08/creative-expansion/225146-text.txt",
+    "raw_sha256": "7bf84642971e816cc71fd9c87d8dc93814a505c7e4ad7cbdd3bde4e14fdbe70d",
+    "text_sha256": "0fbaba74a76f241b37d1bb1d91090ff3cc9949aa26cd20507e049f39723a1f6e",
+    "verified_quotes": [
+      {
+        "locator": "Beatmatching",
+        "quote": "pay close attention to the rhythmic patterns in the drum breaks"
+      },
+      {
+        "locator": "Use Effects to Help Your Mixes Stand Out",
+        "quote": "use effects with less intensity than with other genres"
+      },
+      {
+        "locator": "Carefully Choose Tracks for Energy Control",
+        "quote": "bringing it back down again with a more melodic sound."
+      }
+    ],
+    "engagement_metrics": null
+  },
+  {
+    "id": "S36",
+    "publisher": "Crossfader",
+    "title": "Elevate Your Hip-Hop Mixing: Unleashing Serato DJ Stems",
+    "url": "https://wearecrossfader.co.uk/blog/serato-dj-stems-tutorial/",
+    "published": "2023-12-04",
+    "modified": "2025-07-09T15:41:12",
+    "artifact": "docs/research/2026-11-09/accompaniment-bridges/crossfader-224382.txt",
+    "raw_sha256": "b3bfb84cd1c884f405adaeb734377949cce73bfd0ef25aa67da0d3e976a98cb2",
+    "text_sha256": "6f865cf581a422ac2743ac92dc35a7652a5b4df6a511ffadfbcef56392c5ad27",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "By having the ability to isolate parts of a song in real time you can seamlessly make mash-ups, intro edits, instrumentals and acapella."
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Understanding Serato DJ Stems",
+        "quote": "By having the ability to isolate parts of a song in real time you can seamlessly make mash-ups, intro edits, instrumentals and acapella."
+      }
+    ],
+    "limits": [
+      "只读公开正文，未听辨嵌入视频、未进入付费课程，未核验互动热度。",
+      "案例描述是出版方的文字说明，不是deepmixing对视频的独立听辨或原工程还原。",
+      "教程概念不提供通用阈值；具体秒数、包络与选段是deepmixing设计适配，需真实试听。",
+      "免费正文仅概述能力，不能独自支持详细动作参数或逐拍重建。"
+    ]
+  },
+  {
+    "id": "S33",
+    "publisher": "Crossfader",
+    "title": "DJ Looping Guide: How to Set and Use Loops",
+    "url": "https://wearecrossfader.co.uk/blog/dj-looping-guide/",
+    "published": "2025-06-19",
+    "modified": "2026-05-11T14:02:29",
+    "artifact": "docs/research/2026-11-09/accompaniment-bridges/crossfader-227178.txt",
+    "raw_sha256": "e746f9de98ce64d4be3d6d8f93492bfe9c24d32c34225c3631e2d15cf4c210ef",
+    "text_sha256": "4b62f92e8cf01967ec80223128ddf324b10da80ec14d734a1dbe7cba85387bc4",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "You can take a section of the outro or intro of a song (especially instrumental sections) and extend it with loops to give you more time to transition.",
+      "A 1-beat loop might sound cool for a build-up, but it’s not generally the best bet for transitions."
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Why DJs Use Loops",
+        "quote": "You can take a section of the outro or intro of a song (especially instrumental sections) and extend it with loops to give you more time to transition."
+      },
+      {
+        "locator": "Looping Mistakes to Avoid",
+        "quote": "A 1-beat loop might sound cool for a build-up, but it’s not generally the best bet for transitions."
+      }
+    ],
+    "limits": [
+      "只读公开正文，未听辨嵌入视频、未进入付费课程，未核验互动热度。",
+      "案例描述是出版方的文字说明，不是deepmixing对视频的独立听辨或原工程还原。",
+      "教程概念不提供通用阈值；具体秒数、包络与选段是deepmixing设计适配，需真实试听。"
+    ]
+  },
+  {
+    "id": "S37",
+    "publisher": "Digital DJ Tips",
+    "title": "Understanding Mixloops: The Secret To Smoother DJ Transitions",
+    "url": "https://www.digitaldjtips.com/mixloops-smoother-dj-transitions/",
+    "published": "2026-04-15",
+    "modified": "2026-06-03T16:23:20",
+    "artifact": "docs/research/2026-11-09/accompaniment-bridges/ddjt-2798184.txt",
+    "raw_sha256": "08e9868c7d255ec36000e1958a02ab63f962b2abfc22f78580d259858cce4c9a",
+    "text_sha256": "dd736c02d5e088521be46cb604afd9272b69229ec00d7aa3b6354bc8b4e65001",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "the different types available (saved, active, and “mixloops”), and why they matter for smooth transitions."
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Public introduction only",
+        "quote": "the different types available (saved, active, and “mixloops”), and why they matter for smooth transitions."
+      }
+    ],
+    "limits": [
+      "只读公开正文，未听辨嵌入视频、未进入付费课程，未核验互动热度。",
+      "案例描述是出版方的文字说明，不是deepmixing对视频的独立听辨或原工程还原。",
+      "教程概念不提供通用阈值；具体秒数、包络与选段是deepmixing设计适配，需真实试听。",
+      "免费正文仅概述能力，不能独自支持详细动作参数或逐拍重建。"
+    ]
+  },
+  {
+    "id": "S34",
+    "publisher": "Digital DJ Tips",
+    "title": "Acapellas Are Everywhere – Can You Mix Like This?",
+    "url": "https://www.digitaldjtips.com/acapellas-are-everywhere/",
+    "published": "2024-01-31",
+    "modified": "2025-06-30T19:31:48",
+    "artifact": "docs/research/2026-11-09/accompaniment-bridges/ddjt-2784094.txt",
+    "raw_sha256": "af6e218eb1c4b585d13d6a1bdd1144d930f90a4932d932a4198b205978de7f62",
+    "text_sha256": "01155bbf9f79d8af8f6ec35469015fbb7a25f54a030ec4801703270601513acb",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "using an acapella as the “glue” in the middle.",
+      "before looping the vocal and gradually filtering up the next track for a massive drop.",
+      "He ends it by leaving the acapella solo for just a few seconds before masterfully scratching in the next tune."
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Fatboy Slim “All The Ladies” acapella bridge",
+        "quote": "using an acapella as the “glue” in the middle."
+      },
+      {
+        "locator": "James Hype’s “Flying Solo” Kanye West Acapella transition",
+        "quote": "before looping the vocal and gradually filtering up the next track for a massive drop."
+      },
+      {
+        "locator": "DJ Jazzy Jeff’s Stevie Wonderful Acapella Mix",
+        "quote": "He ends it by leaving the acapella solo for just a few seconds before masterfully scratching in the next tune."
+      }
+    ],
+    "limits": [
+      "只读公开正文，未听辨嵌入视频、未进入付费课程，未核验互动热度。",
+      "案例描述是出版方的文字说明，不是deepmixing对视频的独立听辨或原工程还原。",
+      "教程概念不提供通用阈值；具体秒数、包络与选段是deepmixing设计适配，需真实试听。"
+    ]
+  },
+  {
+    "id": "S35",
+    "publisher": "Crossfader",
+    "title": "3 Easy Transitions To Mix Any Genre",
+    "url": "https://wearecrossfader.co.uk/blog/3-easy-transitions-to-mix-any-genre/",
+    "published": "2019-12-14",
+    "modified": "2024-09-23T13:31:04",
+    "artifact": "docs/research/2026-11-09/accompaniment-bridges/crossfader-140559.txt",
+    "raw_sha256": "1494688d32b93a0e43fbef18f9b46a07e41edd6698301fb1ea6b448f9d987f49",
+    "text_sha256": "1b1e0fc788bc986e553116888eb470bfb40607492ce9ba1d349450aaf91fd982",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "Playing a song on a huge drop will feel unnatural and slightly forced.",
+      "If your track doesn’t feature a break down to give you a natural break to start your next track, you can always use the effects to create your own.",
+      "Set your loop on a suitable part of the track, try to avoid vocals or anything that will clash with the next track."
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Method One – Take advantage of the break downs!",
+        "quote": "Playing a song on a huge drop will feel unnatural and slightly forced."
+      },
+      {
+        "locator": "Method Two – Use the effects",
+        "quote": "If your track doesn’t feature a break down to give you a natural break to start your next track, you can always use the effects to create your own."
+      },
+      {
+        "locator": "Method Three – Wide BPM changes",
+        "quote": "Set your loop on a suitable part of the track, try to avoid vocals or anything that will clash with the next track."
+      }
+    ],
+    "limits": [
+      "只读公开正文，未听辨嵌入视频、未进入付费课程，未核验互动热度。",
+      "案例描述是出版方的文字说明，不是deepmixing对视频的独立听辨或原工程还原。",
+      "教程概念不提供通用阈值；具体秒数、包络与选段是deepmixing设计适配，需真实试听。"
+    ]
+  },
+  {
+    "id": "S38",
+    "publisher": "Crossfader",
+    "title": "How to Make DJ Edits in Ableton Live (Step-by-Step Guide)",
+    "url": "https://wearecrossfader.co.uk/blog/how-to-make-dj-edits/",
+    "published": "2025-10-13",
+    "modified": "2026-05-11T13:34:48",
+    "artifact": "docs/research/2026-11-09/progressive-entries/crossfader-227456.txt",
+    "raw_sha256": "4a6df81ac8dd2f76daf2a77e4bc55a5fbb0dda4a29a15e0b1fa79944f8420e09",
+    "text_sha256": "8024d78e2afca3aa56edf77c9dac5f0a94887aff74e5aebcedf88d6c11f4f925",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "DJ edit修改结构，保留歌曲辨识；用干净片段造前奏，避免在原曲上不断叠加。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Loop instrumental sections to create a new intro or outro."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未独立听辨嵌入视频、未核验播放或互动量。",
+      "教材动作不能直接证明deepmixing听感通过；进入顺序和秒数属于有边界的设计适配。"
+    ]
+  },
+  {
+    "id": "S39",
+    "publisher": "Digital DJ Tips",
+    "title": "How To Make DJ Intro Edits Quickly With Serato Studio",
+    "url": "https://www.digitaldjtips.com/making-dj-intro-edits-in-minutes-using-serato-studio/",
+    "published": "2020-02-07",
+    "modified": "2020-04-08T11:44:18",
+    "artifact": "docs/research/2026-11-09/progressive-entries/ddjt-2757768.txt",
+    "raw_sha256": "baba9be0e87d828268e9b7621a3497bbc25d00162fdae042126fb2840ccd5eec",
+    "text_sha256": "80b3b2de84cd026526cc336782471294ee4f150733218271cd7d64f689b5bdf0",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "Serato Studio intro edit从曲内1–4小节无词、不忙的段落建混入空间，检查到第一段主歌。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "An intro edit adds eight to 16 bars of a simple beat to the beginning of the song."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未独立听辨嵌入视频、未核验播放或互动量。",
+      "教材动作不能直接证明deepmixing听感通过；进入顺序和秒数属于有边界的设计适配。"
+    ]
+  },
+  {
+    "id": "S40",
+    "publisher": "Digital DJ Tips",
+    "title": "How To Make Short Edits & Intro Edits With Serato Flip",
+    "url": "https://www.digitaldjtips.com/how-to-make-dj-short-edits-dj-intro-edits-with-serato-flip/",
+    "published": "2020-04-22",
+    "modified": "2023-06-13T16:07:03",
+    "artifact": "docs/research/2026-11-09/progressive-entries/ddjt-2758868.txt",
+    "raw_sha256": "682f3ce523f290e3b54fc529fe6b1d0e3abdaddf7efe65c95f7f172df736f7e6",
+    "text_sha256": "8014048cde1aba88db3e130e17e7933841f1f7aeefaeb82cd07a9245dfb6fe9b",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "Serato Flip先测试低能量循环，再按cue接回人声或build；保存多种编辑且保留原版。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "The section you’ll want to find shouldn’t have many vocals and shouldn’t be too high energy – this is just the intro after all."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未独立听辨嵌入视频、未核验播放或互动量。",
+      "教材动作不能直接证明deepmixing听感通过；进入顺序和秒数属于有边界的设计适配。"
+    ]
+  },
+  {
+    "id": "S41",
+    "publisher": "Digital DJ Tips",
+    "title": "Everything You Ever Wanted To Know About DJ Edits",
+    "url": "https://www.digitaldjtips.com/everything-need-know-dj-edits/",
+    "published": "2014-06-04",
+    "modified": "2018-03-27T11:34:02",
+    "artifact": "docs/research/2026-11-09/progressive-entries/ddjt-2035762.txt",
+    "raw_sha256": "e0dd3dac2007cbbae583f0d40a92299516d752cf6af0d5f5546a312740faef1a",
+    "text_sha256": "81fabe761e62797086572b72edd227443fb4c1616bee4b875624b951c7d83db1",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "DJ edit围绕具体接歌问题修改结构；测试、复听而非堆效果。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Cut, paste, copy, listen, repeat."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未独立听辨嵌入视频、未核验播放或互动量。",
+      "教材动作不能直接证明deepmixing听感通过；进入顺序和秒数属于有边界的设计适配。"
+    ]
+  },
+  {
+    "id": "S42",
+    "publisher": "Crossfader",
+    "title": "Remixing for DJs: How to make a remix in Ableton",
+    "url": "https://wearecrossfader.co.uk/blog/remixing-for-djs/",
+    "published": "2025-10-16",
+    "modified": "2026-05-11T13:29:51",
+    "artifact": "docs/research/2026-11-09/progressive-entries/crossfader-227498.txt",
+    "raw_sha256": "43ab5a4bedc39174ac80444e8c7f87a2d5603b0676372e90ca588aa6e451633a",
+    "text_sha256": "69c54bd584a9a4682ca46e0ec164c516fcf5edca53623b0a88779e3f2df3737b",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "把鼓、贝斯、hook分别安排；先简单groove，留主唱空间，再做能量发展。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Duplicate sections that work and mute parts to create variation."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未独立听辨嵌入视频、未核验播放或互动量。",
+      "教材动作不能直接证明deepmixing听感通过；进入顺序和秒数属于有边界的设计适配。"
+    ]
+  },
+  {
+    "id": "S43",
+    "publisher": "Crossfader",
+    "title": "Learning to Listen Like a DJ",
+    "url": "https://wearecrossfader.co.uk/blog/learning-to-listen-like-a-dj/",
+    "published": "2025-11-10",
+    "modified": "2026-05-11T13:20:41",
+    "artifact": "docs/research/2026-11-09/progressive-entries/crossfader-227549.txt",
+    "raw_sha256": "58fc5bff9847dbe0b555f3387012f69644e97d8a720f9d7d18f26bdd75e2654b",
+    "text_sha256": "fb3dd21215bda0a1d1cabc1c5e6ee6453a4fd852a3ca16a9a6cf920b3ce40f45",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "同时观察乐句、能量、进入退出、密度与groove；对拍正确仍可能不自然。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Hear when a track sounds full and when it feels more open."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未独立听辨嵌入视频、未核验播放或互动量。",
+      "教材动作不能直接证明deepmixing听感通过；进入顺序和秒数属于有边界的设计适配。"
+    ]
+  },
+  {
+    "id": "S44",
+    "publisher": "Crossfader",
+    "title": "12 High-Energy DJ Transitions You Can Learn!",
+    "url": "https://wearecrossfader.co.uk/blog/12-high-energy-dj-transitions/",
+    "published": "2023-05-04",
+    "modified": "2025-07-09T15:52:34",
+    "artifact": "docs/research/2026-11-09/progressive-entries/crossfader-223673.txt",
+    "raw_sha256": "a8ea98b58d8a48923a6587306a9163460b8d6a3bfe15447af2895e7b60f2137f",
+    "text_sha256": "3e5cc1515d1567a6bc0581cc253852a8695fa2f70afed226a9582381da7ee10a",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "Gold Dust同曲版本交接先对齐主唱、撤后曲低频，再让后曲低频接管；其他案例有清唱、toneplay、slip、loop及变速。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Next, drop out the bass from the Tsuki Remix by fully twisting its low EQ pot for Deck 2 fully to the left."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未独立听辨嵌入视频、未核验播放或互动量。",
+      "教材动作不能直接证明deepmixing听感通过；进入顺序和秒数属于有边界的设计适配。"
+    ]
+  },
+  {
+    "id": "S45",
+    "publisher": "Digital DJ Tips",
+    "title": "The Easy Way To Beatgrid Acapellas",
+    "url": "https://www.digitaldjtips.com/the-easy-way-to-beatgrid-acapellas/",
+    "published": "2022-03-20T22:00:52",
+    "modified": "2022-03-21T10:21:57",
+    "artifact": "docs/research/2026-11-09/technique-gaps/ddjt-2772015.txt",
+    "raw_sha256": "cf2b1227ef0d626164aad115e978f55c61450eb26c2c468089123546b319371d",
+    "text_sha256": "bbd43f299a2e761c1966d1dcc143eefc243c0d529bf9f395dbe36e4d44331a88",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "原曲参照可以帮助校正清唱的BPM与网格相位；歌词起音可能弱起或延后，不能当作音乐首拍。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Therefore vocals often come in early or late, and so while it is a fair bet that the first kick drum of a song marks the first beat of the first meaningful bar and section of the track, no such promises can be made for the first note sung on an acapella."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未听辨嵌入视频或核验平台互动量。",
+      "教学原则的跨风格迁移和参数安排属于deepmixing设计适配，须对实际素材试听。"
+    ]
+  },
+  {
+    "id": "S46",
+    "publisher": "Digital DJ Tips",
+    "title": "Why Your DJ Mixes Sound Muddy (And 2 Easy Ways To Fix It)",
+    "url": "https://www.digitaldjtips.com/why-your-dj-mixes-sound-muddy/",
+    "published": "2026-11-06T17:52:56",
+    "modified": "2026-11-06T17:52:56",
+    "artifact": "docs/research/2026-11-09/technique-gaps/ddjt-2799689.txt",
+    "raw_sha256": "d2fd43813a48a33412a138cca3a9da62974a21098718446f4549d8b170888aca",
+    "text_sha256": "dd098754db88f6e7a2400a4888f2e20268a890da6aad77eec725898df50885cb",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "低频交棒先让后曲可辨认但不争低频主导；原文比较EQ与分轨两种方法，不证明分轨总是更好。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Before you start the new track, turn its bass EQ all the way down."
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未听辨嵌入视频或核验平台互动量。",
+      "教学原则的跨风格迁移和参数安排属于deepmixing设计适配，须对实际素材试听。"
+    ]
+  },
+  {
+    "id": "S47",
+    "publisher": "Crossfader",
+    "title": "How to know what to play next as a DJ",
+    "url": "https://wearecrossfader.co.uk/blog/how-to-know-what-to-play-next-as-a-dj/",
+    "published": "2026-10-27T10:33:03",
+    "modified": "2026-10-27T10:34:22",
+    "artifact": "docs/research/2026-11-09/technique-gaps/crossfader-228464.txt",
+    "raw_sha256": "ccfe1b6cd4eb25b2e4a09548fb32d3fada1ca5d766e8e4a144de82bc9407f147",
+    "text_sha256": "c990ddf2169e01657b37bf5818e8b917c6076096414fc10d730d0d5e595661b1",
+    "observed_on": "2026-11-09",
+    "capture_method": "public_publisher_wordpress_rest_content",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "把能量拆成速度、熟悉度、忙碌度、低频和氛围；选下一首时兼顾后续目的地，不只当前一处能否接上。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "Archived public text: exact substring",
+        "quote": "Tempo: how fast the track is"
+      }
+    ],
+    "limits": [
+      "仅核读公开正文；未听辨嵌入视频或核验平台互动量。",
+      "教学原则的跨风格迁移和参数安排属于deepmixing设计适配，须对实际素材试听。"
+    ]
+  },
+  {
+    "id": "S48",
+    "publisher": "Ableton",
+    "title": "Live 12 Manual — Using Grooves",
+    "url": "https://www.ableton.com/en/live-manual/12/using-grooves/",
+    "published": null,
+    "observed_on": "2026-11-09",
+    "artifact": "docs/research/2026-11-09/technique-gaps/ableton-using-grooves.txt",
+    "raw_artifact": "docs/research/2026-11-09/technique-gaps/ableton-using-grooves.html",
+    "raw_sha256": "0cb04b8a0d26adbf9b5f62863abb66fbe74c02ac2baf52f362c5b085dc26b1ef",
+    "text_sha256": "37ad777dbb81a48c2a902af9f5989dfa02a538d06c85aa1feee77fc272899b13",
+    "capture_method": "official_public_html_to_text",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "type": "professional_tutorial",
+    "access": "read",
+    "evidence_language": "en",
+    "facts": [
+      "Groove分别涉及Base、Quantize、Timing、Random和Velocity；提取使用实际播放片段的时序和音量信息。",
+      "单独对军鼓作轻微后置与对整套鼓随机化不同；音频Groove依赖Warp，不能把参考软件能力当deepmixing已实现。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "14.1.1 Adjusting Groove Parameters",
+        "quote": "Timing — adjusts how much the groove pattern will affect any clips which are using it."
+      },
+      {
+        "locator": "14.3.1 Grooving a Single Voice",
+        "quote": "For example, playing hi-hats in time but placing snare hits slightly behind the beat is a good way of creating a laid-back feel."
+      }
+    ],
+    "limits": [
+      "仅核读官方手册第14章正文；无视频或热门指标。",
+      "微时差/重音作用不等于两首任意鼓型相容；没有统一最佳Swing或人性化百分比。"
+    ]
+  },
+  {
+    "name": "ableton-warping",
+    "url": "https://www.ableton.com/en/live-manual/12/audio-clips-tempo-and-warping/",
+    "http_status": 200,
+    "observed_on": "2026-11-10",
+    "artifact": "docs/research/2026-11-10/smoothness-repair/ableton-warping.txt",
+    "raw_artifact": "docs/research/2026-11-10/smoothness-repair/ableton-warping.html",
+    "text_sha256": "398961a025d6a7a0f41614df326e92c4a1a64794d43264164e479c2f8e906218",
+    "raw_sha256": "ac13e77440b4a44ea818de040d9a3d9312ad45688a9a306e41dc9df5619e16f8",
+    "capture_method": "official_public_html_to_text",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "id": "S49",
+    "title": "Live 12 Manual — Audio Clips, Tempo, and Warping",
+    "publisher": "Ableton",
+    "type": "professional_tutorial",
+    "access": "read",
+    "published": null,
+    "evidence_language": "en",
+    "facts": [
+      "不同素材与变速算法会改变声音，统一BPM并不证明瞬态和质感被保留。",
+      "定向移动瞬态时要保护相邻区域；不能只为追求冲击而重新吸附整段演唱。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "9.2.1/9.3 Warp Modes",
+        "quote": "The Warp Mode defines the algorithm used for time-stretching the audio, which affects the clip’s sound."
+      },
+      {
+        "locator": "9.2.6 Manipulating Grooves",
+        "quote": "You may want to pin the adjacent transients as well, to avoid affecting neighboring regions in the sample."
+      }
+    ],
+    "limits": [
+      "核读官方公开正文，未听辨视频或核验互动指标。",
+      "相干重建检查与局部消融是本产品设计适配；不声称教材给出了本次歌曲的最佳秒数。"
+    ]
+  },
+  {
+    "name": "ableton-arrangement",
+    "url": "https://www.ableton.com/en/live-manual/12/arrangement-view/",
+    "http_status": 200,
+    "observed_on": "2026-11-10",
+    "artifact": "docs/research/2026-11-10/smoothness-repair/ableton-arrangement.txt",
+    "raw_artifact": "docs/research/2026-11-10/smoothness-repair/ableton-arrangement.html",
+    "text_sha256": "2d852255de14bc0dd39b7f2fdc7522912b9934f714e308845731c3040721ce42",
+    "raw_sha256": "3e2da1499bf83dfba54e910570d8f5279e595189f0c08b9327f3b457e23ab005",
+    "capture_method": "official_public_html_to_text",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "id": "S50",
+    "title": "Live 12 Manual — Arrangement View / Fades and Linked-Track Editing",
+    "publisher": "Ableton",
+    "type": "professional_tutorial",
+    "access": "read",
+    "published": null,
+    "evidence_language": "en",
+    "facts": [
+      "毫秒级短淡变用于避免编辑边缘点击，不证明鼓型、低频、乐句和音色交接自然。",
+      "同源多轨需要联动编辑与相位关系检查；手册能力不等于deepmixing已实现的处理。"
+    ],
+    "quote": null,
+    "verified_quotes": [
+      {
+        "locator": "6.8 Audio Clip Fades and Crossfades",
+        "quote": "These default fades help prevent pops or clicks at clip edges."
+      },
+      {
+        "locator": "6.14 Linked-Track Editing",
+        "quote": "Linked-track editing makes it possible to use the comping workflow and other phase-locked editing operations on multiple tracks at once."
+      }
+    ],
+    "limits": [
+      "核读官方公开正文，未听辨视频或核验互动指标。",
+      "相干重建检查与局部消融是本产品设计适配；不声称教材给出了本次歌曲的最佳秒数。"
+    ]
+  },
+  {
+    "id": "U03",
+    "title": "用户否定创意新版的接歌顺滑度",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-10",
+    "artifact": "docs/research/2026-11-10/smoothness-repair/case-audit.json",
+    "text_sha256": "5fff8c5ed7753984d31ca5792ce32f9952018ee46314b632298ca4465f67c902",
+    "listening_verdict": "rejected",
+    "quote": "新版接歌明显不丝滑，先去优化对应不足的技术库，再来调试",
+    "facts": [
+      "原安全版只得到接歌不突兀的认可，没有得到整体水平或惊艳的认可。",
+      "新版因接歌顺滑度退步被否定；机器峰值/时长合格不能覆盖用户听感。"
+    ],
+    "limits": [
+      "用户反馈是本次失败案例证据，不作为专业教材或所有歌曲的普适结论。"
+    ]
+  },
+  {
+    "name": "ableton-effects",
+    "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+    "http_status": 200,
+    "observed_on": "2026-11-10",
+    "access": "read",
+    "artifact": "docs/research/2026-11-10/musical-continuity/ableton-effects.txt",
+    "raw_artifact": "docs/research/2026-11-10/musical-continuity/ableton-effects.html",
+    "text_sha256": "1892e283763f6274ea50314c11a840060f7cf312168b52af4cbe61f677ccf7fb",
+    "raw_sha256": "417098a97e92fa549dc12032893db57e2eae3ee9089f8712489cf02d5ea11b61",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "capture_method": "public_publisher_html_to_text",
+    "id": "S51",
+    "publisher": "Ableton",
+    "title": "Live 12 Manual — Reverb / spatial parameters",
+    "type": "professional_tutorial",
+    "evidence_language": "en",
+    "quote": null,
+    "facts": [
+      "早期反射、预延迟、衰减、宽度及干湿分别影响空间，不能用增大wet替代空间连续性。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "29.32.2 Early Reflections",
+        "quote": "Their amplitude and distribution give an impression of the room’s character."
+      },
+      {
+        "locator": "29.32.5 Global Settings",
+        "quote": "Predelay controls the delay time, in milliseconds, before the onset of the first early reflection."
+      },
+      {
+        "locator": "29.32.5 Global Settings",
+        "quote": "The Decay control adjusts the time required for this reverb tail to drop to 1/1000th (-60 dB) of its initial amplitude."
+      }
+    ],
+    "limits": [
+      "本轮核读公开正文；未听辨嵌入视频、未核验互动热度。",
+      "具体到达、局部和声与干湿交棒为产品设计适配，不冒充作者给本次素材的秒数或听感验收。"
+    ]
+  },
+  {
+    "name": "ni-patterns",
+    "url": "https://www.native-instruments.com/blogs/blog/pattern-player-traktor-pro",
+    "http_status": 200,
+    "observed_on": "2026-11-10",
+    "access": "read",
+    "artifact": "docs/research/2026-11-10/musical-continuity/ni-patterns.txt",
+    "raw_artifact": "docs/research/2026-11-10/musical-continuity/ni-patterns.html",
+    "text_sha256": "e39351d858ecb362bb8fc822917aa8b30da5536de1a9435523777f4c85a92499",
+    "raw_sha256": "c070d063ac34373afe2dab8ff709f3129567c3f54f8a30565d07c1aaccb022c1",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "capture_method": "public_publisher_html_to_text",
+    "id": "S52",
+    "publisher": "Native Instruments",
+    "title": "Beyond four-on-the-floor: mixing with the Pattern Player in Traktor Pro 4",
+    "type": "professional_tutorial",
+    "evidence_language": "en",
+    "quote": null,
+    "facts": [
+      "示范中蓄势后会减少军鼓密度，鼓音色与衰减也要配合；不是每次过渡都增加滚奏。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "Starting the Pattern Player sequencer",
+        "quote": "The pitch of the drums can be changed and tuned by ear using the Pitch Knob, and the decay of the drums can be adjusted as well."
+      },
+      {
+        "locator": "Use the Pattern Player for transitions and builds",
+        "quote": "During the transition, you’ll want to play a pattern that has fewer snares in it."
+      },
+      {
+        "locator": "Create on-the-fly remixes",
+        "quote": "Choose a kit that complements the style, and select the drum type and a pattern to use."
+      }
+    ],
+    "limits": [
+      "本轮核读公开正文；未听辨嵌入视频、未核验互动热度。",
+      "具体到达、局部和声与干湿交棒为产品设计适配，不冒充作者给本次素材的秒数或听感验收。"
+    ]
+  },
+  {
+    "id": "U04",
+    "title": "局部低频/旧鼓对照未获明显改善评价",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-10",
+    "quote": "都差不多，继续补强其他技术库",
+    "listening_verdict": "no_clear_preference",
+    "selected_winner": null,
+    "facts": [
+      "用户未指出这轮局部候选中有明显更好的版本。",
+      "继续学习其他技术，不把未偏好误写为修复成功。"
+    ],
+    "limits": [
+      "无法由该反馈排除低频或鼓点问题；没有各处秒数、盲测或显著性证据。"
+    ],
+    "artifact": "docs/research/2026-11-10/musical-continuity/user-feedback.json",
+    "text_sha256": "cefd4638c6b27699275848069591d63a0fde2009bd585ca5146ba3c5836856a4"
+  },
+  {
+    "name": "ableton-delay",
+    "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+    "http_status": 200,
+    "observed_on": "2026-11-12",
+    "access": "read",
+    "artifact": "docs/research/2026-11-10/musical-continuity/ableton-effects.txt",
+    "raw_artifact": "docs/research/2026-11-10/musical-continuity/ableton-effects.html",
+    "text_sha256": "1892e283763f6274ea50314c11a840060f7cf312168b52af4cbe61f677ccf7fb",
+    "raw_sha256": "417098a97e92fa549dc12032893db57e2eae3ee9089f8712489cf02d5ea11b61",
+    "video_watched": false,
+    "engagement_metrics": null,
+    "capture_method": "public_publisher_html_to_text",
+    "id": "S53",
+    "publisher": "Ableton",
+    "title": "Live 12 Manual — Delay timing, filtering and Ping Pong",
+    "type": "professional_tutorial",
+    "evidence_language": "en",
+    "quote": null,
+    "facts": [
+      "延迟可用节拍划分或毫秒，湿声滤波与左右交替需分别控制；返回轨只输出湿声避免重复干声。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "29.11 Delay",
+        "quote": "The delay time can be set in tempo-synced beat divisions (Sync) or milliseconds (Time). You can switch between these options using the Delay Time Mode toggles."
+      },
+      {
+        "locator": "29.11 Delay",
+        "quote": "Activate the Ping Pong toggle to make the delay signal move back and forth between the left and right channels."
+      },
+      {
+        "locator": "29.11 Delay",
+        "quote": "Use the Dry/Wet control to adjust the balance between the dry and processed signals. When using Delay in a return track, set this control to 100% so that only the processed signal is output through the return track."
+      }
+    ],
+    "limits": [
+      "本轮重读已归档官方正文；没有新增平台抓取、嵌入视频听辨或热度核验。",
+      "本机采用有界16次前馈展开；乒乓回声湿输入折为单声道并交替声道，不是复刻Ableton反馈线路。",
+      "教材不证明本次歌曲的最佳延迟拍数或主观听感。"
+    ]
+  },
+  {
+    "id": "U05",
+    "title": "短尾响接力获得页面级正向评价",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-12",
+    "quote": "B只增加短尾响接力有提升，可以继续拓展补强",
+    "listening_verdict": "page_level_improvement",
+    "selected_winner": null,
+    "artifact": "docs/mix-demo/2026-11-09/new-song-lab/spatial-clarity-v2/user-feedback.json",
+    "text_sha256": "9d9f03192ffd9ac007e6cc7580477d4d387755b1555b36c3cbcc5cbc79b294f1",
+    "facts": [
+      "当前页面B方案被评价有提升。"
+    ],
+    "limits": [
+      "用户对当前页面B方案给出总体正向反馈；未逐组独立评价或指定全局胜者。",
+      "未说明评价覆盖完整音频还是接歌片段，不推断整曲串烧通过。",
+      "只绑定本页两份B的音频散列，不推出所有歌曲都应增加混响。"
+    ]
+  },
+  {
+    "id": "U06",
+    "title": "回声两组反馈与技巧须服务歌曲的选择原则",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-12",
+    "artifact": "docs/mix-demo/2026-11-09/new-song-lab/rhythmic-echo/user-feedback.json",
+    "text_sha256": "9ffa3b9caac31c29abce6015dd1afcc838c5bd2646b12ff94eb9ed84de8084f8",
+    "listening_verdict": "pair_specific_mixed_positive",
+    "selected_winner": null,
+    "quote": "Call Me Maybe → Circles：还行但不是所有音乐都适合堆技术，所以你要用得巧；Shape of You → Cheap Thrills：不错",
+    "facts": [
+      "两份C分别得到还行、不错的评价。",
+      "技巧选择应有具体音乐目的与收益，不能以技巧数量代替创作质量。"
+    ],
+    "limits": [
+      "分别绑定当前页面两份C；用户未比较C与基准谁更好，不指定胜者。",
+      "Call Me Maybe → Circles仅记为还行，不升级为惊艳或明显提升；Shape of You → Cheap Thrills记为不错。",
+      "未说明评价覆盖接歌片段还是完整音频，不推断完整串烧通过。",
+      "用巧是选择原则，不是所有歌曲统一减效果、禁用组合或固定只用一种技术。"
+    ]
+  },
+  {
+    "name": "ableton-effects",
+    "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+    "final_url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+    "http_status": 200,
+    "observed_on": "2026-11-13",
+    "artifact": "docs/research/2026-11-13/demand-library/ableton-effects.txt",
+    "raw_artifact": "docs/research/2026-11-13/demand-library/ableton-effects.html",
+    "raw_sha256": "48a79d8ded9d26b6353d8c5e55dcceed8a5de751462e6cde534a5299f43db475",
+    "text_sha256": "f48af6859a0df3c2a71de84bef9cab1786ffd3b172f9cd91e55e0fdf8dfbadf2",
+    "capture_method": "public_publisher_html_to_text",
+    "text_chars": 264484,
+    "normalized_text_sha256": "55fb49b015b23e645a84227c3bbf9cbe18fba6b88f22b826ac71c9ca318d798a",
+    "id": "S54",
+    "publisher": "Ableton",
+    "title": "Live 12 Manual — EQ, compression, de-essing and sidechain",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "EQ的频率、增益与带宽不同于动态压缩的阈值、比率、起音和释放。",
+      "高频段下压可用于去齿音；人声旁链配乐与底鼓旁链贝斯为不同的触发/被处理角色。",
+      "处理量须随素材调整；过度压缩会改变动态，输出增益不能证明听感更好。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读公开正文，未播放示例音频/视频，未核验互动热度。",
+      "教学控制与deepmixing当前能力分开记录；方案需实际素材、用户锁和试听复核。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "29.9 Compressor",
+        "quote": "A compressor reduces gain for signals above a user-settable threshold."
+      },
+      {
+        "locator": "29.9 Compressor / Attack and Release",
+        "quote": "Short release times can cause ”pumping”"
+      },
+      {
+        "locator": "29.9.2.1 Mixing a Voiceover",
+        "quote": "select the narration track’s output as the external sidechain source"
+      },
+      {
+        "locator": "29.9.2.2 Sidechaining in Dance Music",
+        "quote": "make room for the kick drum"
+      },
+      {
+        "locator": "29.26.4.2 De-essing",
+        "quote": "apply subtle downward compression"
+      },
+      {
+        "locator": "29.15 EQ Eight",
+        "quote": "As boosting will increase levels and cutting will decrease levels"
+      }
+    ],
+    "evidence_language": "en",
+    "video_watched": false,
+    "engagement_metrics": null
+  },
+  {
+    "name": "ableton-effects",
+    "url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+    "final_url": "https://www.ableton.com/en/live-manual/12/live-audio-effect-reference/",
+    "http_status": 200,
+    "observed_on": "2026-11-13",
+    "artifact": "docs/research/2026-11-13/demand-library/ableton-effects.txt",
+    "raw_artifact": "docs/research/2026-11-13/demand-library/ableton-effects.html",
+    "raw_sha256": "48a79d8ded9d26b6353d8c5e55dcceed8a5de751462e6cde534a5299f43db475",
+    "text_sha256": "f48af6859a0df3c2a71de84bef9cab1786ffd3b172f9cd91e55e0fdf8dfbadf2",
+    "capture_method": "public_publisher_html_to_text",
+    "text_chars": 264484,
+    "normalized_text_sha256": "55fb49b015b23e645a84227c3bbf9cbe18fba6b88f22b826ac71c9ca318d798a",
+    "id": "S55",
+    "publisher": "Ableton",
+    "title": "Live 12 Manual — Saturator, Utility and spatial signal paths",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "Saturator使用非线性波形整形，可改变低频谐波分布；这不是无代价的低频增强。",
+      "Utility的Mono、Width、Mid/Side和极性控制不同；左右声道反相分量合单声道可能消失。",
+      "混响预延迟、衰减与干湿比是不同维度；实际产品引擎不能据手册直接宣称有全部控制。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读公开正文，未播放示例音频/视频，未核验互动热度。",
+      "教学控制与deepmixing当前能力分开记录；方案需实际素材、用户锁和试听复核。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "29.34 Saturator",
+        "quote": "a smoother harmonic spectrum when driving low frequency signals"
+      },
+      {
+        "locator": "29.40 Utility",
+        "quote": "0% yields a mono signal"
+      },
+      {
+        "locator": "29.40 Utility",
+        "quote": "At 100S, only the side signal will be heard."
+      },
+      {
+        "locator": "29.40 Utility",
+        "quote": "the stereo input signal is converted to mono"
+      },
+      {
+        "locator": "29.32.5 Global Settings",
+        "quote": "This delays the reverberation relative to the input signal."
+      }
+    ],
+    "evidence_language": "en",
+    "video_watched": false,
+    "engagement_metrics": null
+  },
+  {
+    "name": "audacity-clip-fix",
+    "url": "https://manual.audacityteam.org/man/clip_fix.html",
+    "final_url": "https://manual.audacityteam.org/man/clip_fix.html",
+    "http_status": 200,
+    "observed_on": "2026-11-13",
+    "artifact": "docs/research/2026-11-13/demand-library/audacity-clip-fix.txt",
+    "raw_artifact": "docs/research/2026-11-13/demand-library/audacity-clip-fix.html",
+    "raw_sha256": "069a39f8eb1628b25b0e7e1790729c72377aadb39c5ae0b70fcd0b60092fdcdd",
+    "text_sha256": "11b4ecaa78e917a0b0bbf54572ed5f7c9dfd9f6baba719cdf6d293c6f31bd582",
+    "capture_method": "public_publisher_html_to_text",
+    "text_chars": 1937,
+    "normalized_text_sha256": "960269d90b15126fb52fb56448085d6e41206b6cdbc3436a2ddd9522edad1a82",
+    "id": "S56",
+    "publisher": "Audacity",
+    "title": "Clip Fix — limited reconstruction of lightly clipped audio",
+    "type": "professional_tutorial",
+    "access": "read",
+    "facts": [
+      "Clip Fix通过插值尝试重建，说明只可能对轻微削波有效。",
+      "修复后的峰值需要余量；降低已失真的文件音量不等于找回丢失波形。",
+      "文档注明效果可能渲染变速片段，并有包络被移除的已知问题；外部修复应使用副本并复核。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读公开正文，未播放示例音频/视频，未核验互动热度。",
+      "教学控制与deepmixing当前能力分开记录；方案需实际素材、用户锁和试听复核。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "Opening description",
+        "quote": "only likely to be effective for repairing lightly clipped audio"
+      },
+      {
+        "locator": "Reduce amplitude to allow for restored peaks",
+        "quote": "provide headroom for the clip-fixed reconstruction"
+      }
+    ],
+    "evidence_language": "en",
+    "video_watched": false,
+    "engagement_metrics": null
+  },
+  {
+    "name": "w3c-low-background",
+    "url": "https://www.w3.org/WAI/WCAG22/Techniques/general/G56",
+    "final_url": "https://www.w3.org/WAI/WCAG22/Techniques/general/G56",
+    "http_status": 200,
+    "observed_on": "2026-11-13",
+    "artifact": "docs/research/2026-11-13/demand-library/w3c-low-background.txt",
+    "raw_artifact": "docs/research/2026-11-13/demand-library/w3c-low-background.html",
+    "raw_sha256": "47bc6c24ebc96df19c086ede997953e6465a103065b87c0bea698ca3ef590af3",
+    "text_sha256": "c8095c4029241f690b1e889dbe6da094bee2e64918da7026ae7b2c2a7a40e518",
+    "capture_method": "public_publisher_html_to_text",
+    "text_chars": 5191,
+    "normalized_text_sha256": "d5cf8c7b0476c4418147a0e48621e37b7bc93ffd44c99533d59c1f3f13f9c45f",
+    "id": "S57",
+    "publisher": "W3C WAI",
+    "title": "WCAG 2.2 Technique G56 — speech/background audio contrast",
+    "type": "official_platform_guidance",
+    "access": "read",
+    "facts": [
+      "G56给出让非语音背景低于前景语音20 dB的可访问性方法示例。",
+      "配合SC 1.4.7限定范围阅读；不能变成所有歌曲、说唱或视频的固定混音比例。",
+      "轨道推子差、整体LUFS与真实语音/背景声级差不同；本项目没有自动WCAG验收。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读公开正文，未播放示例音频/视频，未核验互动热度。",
+      "教学控制与deepmixing当前能力分开记录；方案需实际素材、用户锁和试听复核。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "Description",
+        "quote": "without making it too hard for people with hearing problems"
+      },
+      {
+        "locator": "Technique title",
+        "quote": "lower than the speech audio content"
+      }
+    ],
+    "evidence_language": "en",
+    "video_watched": false,
+    "engagement_metrics": null
+  },
+  {
+    "name": "w3c-speech-scope",
+    "url": "https://www.w3.org/WAI/WCAG22/Understanding/low-or-no-background-audio.html",
+    "http_status": 200,
+    "observed_on": "2026-11-13",
+    "artifact": "docs/research/2026-11-13/demand-library/w3c-speech-scope.txt",
+    "raw_artifact": "docs/research/2026-11-13/demand-library/w3c-speech-scope.html",
+    "raw_sha256": "fb72115e383e5591ec238190b20bdc0305bbc6d7d5a8d7b5653f1f81bfd7d5c5",
+    "text_sha256": "30875be4b0dbf1cf3303a364e4339d83755b8b41921863439f38cc30c25f2f9c",
+    "capture_method": "public_publisher_html_to_text",
+    "normalized_text_sha256": "c73a3fe89c428f815d2d4cc7693dbfb4ac4b31f44d22cd265bc87842021535a8",
+    "id": "S58",
+    "publisher": "W3C WAI",
+    "title": "Understanding SC 1.4.7 — audio-only speech, scope and alternatives",
+    "type": "official_platform_guidance",
+    "access": "read",
+    "facts": [
+      "SC 1.4.7为AAA，针对以语音为主的预录纯音频，并排除以歌唱或说唱等为主的音乐表达。",
+      "不含背景、背景可关闭或背景至少低20 dB是备选路径；20 dB路径有短暂声音例外。",
+      "此处理解文档和G56是说明资料，不等于本软件已满足标准，也不是整曲响度目标。"
+    ],
+    "quote": null,
+    "limits": [
+      "仅核读公开正文，未播放示例音频/视频，未核验互动热度。",
+      "教学控制与deepmixing当前能力分开记录；方案需实际素材、用户锁和试听复核。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "Success Criterion (SC)",
+        "quote": "Low or No Background Audio (Level AAA)"
+      },
+      {
+        "locator": "Success Criterion (SC)",
+        "quote": "such as singing or rapping"
+      },
+      {
+        "locator": "Turn Off",
+        "quote": "The background sounds can be turned off."
+      }
+    ],
+    "evidence_language": "en",
+    "video_watched": false,
+    "engagement_metrics": null
+  },
+  {
+    "name": "ebu-tech3343",
+    "url": "https://tech.ebu.ch/docs/tech/tech3343.pdf",
+    "final_url": "https://tech.ebu.ch/docs/tech/tech3343.pdf",
+    "http_status": 200,
+    "mime": "application/pdf",
+    "observed_on": "2026-11-13",
+    "raw_artifact": "docs/research/2026-11-13/listening-curation/ebu-tech3343.pdf",
+    "raw_sha256": "92d6500c78c4fca586daad1e37c8d8dbe144d81ef1dbe413badf13330b18a36c",
+    "size": 1544183,
+    "content_verified": true,
+    "artifact": "docs/research/2026-11-13/listening-curation/ebu-tech3343.txt",
+    "text_sha256": "07d90c3067040d671f6d28e75b1a68163efc01d8201765230c9f65b93232710a",
+    "capture_method": "public_publisher_pdf_pypdf_text_extraction",
+    "sections_read": [
+      "1 Introduction, p5",
+      "2.1 Peak vs Loudness, p7",
+      "2.3, p9",
+      "10 Implementation, p37"
+    ],
+    "access": "read",
+    "id": "S59",
+    "publisher": "European Broadcasting Union (EBU)",
+    "title": "Tech 3343 v4 (November 2023) — Guidelines for Production of Programmes in accordance with EBU R 128",
+    "type": "official_platform_guidance",
+    "facts": [
+      "整体响度归一化不要求曲内始终等响，也不要求各分轨等响；曲内动态可服务艺术目的。",
+      "峰值归一化与平均感知响度不同；电平和真峰值检查不直接评定音乐质量。",
+      "据此将整体静态等响度作为本地比较条件，仍复听局部与前后文；此项为设计适配。"
+    ],
+    "verified_quotes": [
+      {
+        "locator": "2.1 Peak vs. Loudness, PDF p7",
+        "quote": "Loudness variation is an artistic tool"
+      },
+      {
+        "locator": "2.1 Peak vs. Loudness, PDF p7",
+        "quote": "It is the average, integrated"
+      },
+      {
+        "locator": "10. Implementation, PDF p37",
+        "quote": "Use and trust your ears!"
+      }
+    ],
+    "limits": [
+      "仅核读所列章节；未核读全部46页或执行EBU听测。",
+      "广播制作指南，不是本软件混音质量验证或四首歌曲的处理优劣实验。",
+      "不将广播−23 LUFS套作所有音乐的发布目标；本轮−18 LUFS仅作比较设置。"
+    ],
+    "engagement_metrics": null,
+    "evidence_language": "en"
+  },
+  {
+    "id": "U07",
+    "title": "四组调音比较差异不明显与委托取舍",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-13",
+    "artifact": "docs/mix-demo/2026-11-13/bass-handoff/music-lab/user-feedback.json",
+    "text_sha256": "b27bf5dabd112daaa2f2ad9972424ab29b659f3db56eed238a10cac30fa9eee2",
+    "quote": "感觉差不多，听不出很大区别，这个部分你根据互联网大数据取舍下吧",
+    "listening_verdict": "no_clear_difference_batch_level",
+    "selected_winner": null,
+    "facts": [
+      "用户整体未听出明显区别，委托结合公开信息取舍。",
+      "助手本轮暂留各A基准，B/C保留供回查；不声称用户逐一选择A。"
+    ],
+    "limits": [
+      "用户未逐组逐版本评分；不推断每个B/C均不可辨或更差。",
+      "非随机双盲ABX，未估计差异阈值、显著性或人群偏好。",
+      "公开资料用于适用条件；没有全网大样本、播放量或胜率统计。",
+      "不禁止其他歌曲或明确创意目标使用EQ、混响及组合效果。",
+      "report.json与case.json保留当时制作测量状态；当前反馈以此侧录为准。"
+    ]
+  },
+  {
+    "id": "S60",
+    "title": "RUBATO: A Multi-Version Benchmark for Robust Music Analysis and Transcription",
+    "url": "https://doi.org/10.5281/zenodo.18302105",
+    "publisher": "Zenodo",
+    "published": "2026-01-19",
+    "type": "independent_annotation_dataset",
+    "access": "read",
+    "facts": [
+      "官方包提供物理时间 beat、measure、structure、local-key 与 note-event 标注，并包含多条跨曲目演奏。",
+      "本地冻结的 5 条记录验证了 beat/measure/structure/起止 CSV 的时间单调性和跨命名空间对应关系。",
+      "物理拍间隔可提供局部 timing 变化诊断；该数据集没有显式人工 rubato/ritardando 事件命名空间。"
+    ],
+    "limits": [
+      "本轮只按 Range 提取小型标注 CSV，未下载 6.28 GB 音频，因此没有据此计算模型结构或漂移准确率。",
+      "由拍点推导的速度变化不计为人工漂移真值，也不授权自动弹性变速、首拍或乐句确认。",
+      "5 条冻结记录不能外推全部曲目、风格或音频版本；后续需取得对应音频并单独评测。"
+    ],
+    "observed_on": "2026-11-14",
+    "capture_method": "public_zenodo_zip64_range_members",
+    "artifact": "docs/research/2026-11-14/rubato/evaluation.json",
+    "text_sha256": "6d075151ee6ca922402ad881328ada0f633b2509ecbfa2087c78380ba3db15ae",
+    "evidence_language": "en",
+    "engagement_metrics": null
+  },
+  {
+    "id": "S61",
+    "title": "【万能接歌】头尾接歌（混2个4/8拍）",
+    "url": "https://www.bilibili.com/video/BV1Nb411T7R3/",
+    "publisher": "哔哩哔哩 / Dj-YYZ",
+    "type": "public_tutorial",
+    "access": "read",
+    "observed_on": "2026-11-14",
+    "capture_method": "edge_public_page_metadata",
+    "facts": [
+      "公开页面标题明确以头尾接歌和2个4/8拍为教学主题。",
+      "页面可见作者为Dj-YYZ，视频时长约5分22秒。"
+    ],
+    "limits": [
+      "本轮只读取页面可见元数据，没有播放或转录视频内容。",
+      "标题中的4/8拍不能直接证明任意素材的真实乐句边界或最佳秒点。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "5983",
+      "likes": "104",
+      "favorites": "203"
+    }
+  },
+  {
+    "id": "S62",
+    "title": "【万能接歌】基础接歌（混一个4/8拍）",
+    "url": "https://www.bilibili.com/video/BV1Gb411j7kZ/",
+    "publisher": "哔哩哔哩 / Dj-YYZ",
+    "type": "public_tutorial",
+    "access": "read",
+    "observed_on": "2026-11-14",
+    "capture_method": "edge_public_search_metadata",
+    "facts": [
+      "公开搜索结果将其标为基础接歌，并明确一个4/8拍。"
+    ],
+    "limits": [
+      "只读取搜索结果和页面标题，没有把固定拍数当成普适规则。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "6646",
+      "likes": "3"
+    }
+  },
+  {
+    "id": "S63",
+    "title": "【入坑DJ须知】进、出歌点详解",
+    "url": "https://www.bilibili.com/video/BV1Vb411M7XA/",
+    "publisher": "哔哩哔哩 / Dj-YYZ",
+    "type": "public_tutorial",
+    "access": "read",
+    "observed_on": "2026-11-14",
+    "capture_method": "edge_public_page_metadata",
+    "facts": [
+      "公开页面标题直接针对进歌点和出歌点。"
+    ],
+    "limits": [
+      "未播放视频，不能从标题推出具体点位算法。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "6629",
+      "likes": "15"
+    }
+  },
+  {
+    "id": "S64",
+    "title": "【万能接歌公式】Build UP接歌 / Drop接歌",
+    "url": "https://www.bilibili.com/video/BV1Jb411L7gN/",
+    "publisher": "哔哩哔哩 / Dj-YYZ",
+    "type": "public_tutorial",
+    "access": "read",
+    "observed_on": "2026-11-14",
+    "capture_method": "edge_public_related_metadata",
+    "facts": [
+      "视频页面的公开关联条目包含Build up、Drop接歌和进出歌点系列。"
+    ],
+    "limits": [
+      "只读取公开关联条目；没有把关联标题当作该视频正文的逐句证明。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "6443"
+    }
+  },
+  {
+    "id": "S65",
+    "title": "没有intro的歌该怎么接",
+    "url": "https://www.bilibili.com/video/BV1kZ4r6ZEX6/",
+    "publisher": "哔哩哔哩 / DJKingdomSH",
+    "type": "public_tutorial",
+    "access": "read",
+    "observed_on": "2026-11-14",
+    "capture_method": "edge_public_search_metadata",
+    "facts": [
+      "公开搜索结果显示该视频专门讨论无Intro歌曲的接法。"
+    ],
+    "limits": [
+      "没有下载或播放视频，不推断其中具体循环或效果参数。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "2680"
+    }
+  },
+  {
+    "id": "S66",
+    "title": "详解BEAT SYNC：大跨度BPM接歌",
+    "url": "https://www.bilibili.com/video/BV1vK4y167ym/",
+    "publisher": "哔哩哔哩 / 电音大X",
+    "type": "public_tutorial",
+    "access": "read",
+    "observed_on": "2026-11-14",
+    "capture_method": "edge_public_search_metadata",
+    "facts": [
+      "公开搜索结果将主题标为Beat Sync、大跨度BPM接歌。"
+    ],
+    "limits": [
+      "标题只说明教学主题，不能授权本项目对用户素材强制变速。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "4100"
+    }
+  },
+  {
+    "id": "S67",
+    "title": "EQ无缝接歌大法",
+    "url": "https://www.bilibili.com/video/BV1Vh411S7vJ/",
+    "publisher": "哔哩哔哩 / DJ-Shelter",
+    "type": "public_tutorial",
+    "access": "read",
+    "observed_on": "2026-11-14",
+    "capture_method": "edge_public_search_metadata",
+    "facts": [
+      "公开搜索结果将主题标为EQ无缝接歌。"
+    ],
+    "limits": [
+      "未播放视频，不把标题当作固定EQ频段或增益证明。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "5435",
+      "likes": "2"
+    }
+  },
+  {
+    "id": "S68",
+    "title": "ANR4N 第63集：35分钟公路音乐电台2.0",
+    "url": "https://www.douyin.com/video/7698542818297466147",
+    "publisher": "抖音 / ANR4N",
+    "author": "ANR4N",
+    "published": "2026-10-20",
+    "type": "performance_case",
+    "access": "read",
+    "observed_on": "2026-11-15",
+    "capture_method": "browser_rendered_text",
+    "facts": [
+      "页面可见总时长约36:18，章节列出27首歌。",
+      "章节将相邻歌曲成对组织：00:00为1-2，01:17为3-4，04:55为5-6，09:03为7-8，12:43为9-10，14:50为11-12，17:22为13-14，19:45为15-16，22:55为17-18，25:24为19-20，28:22为21-22，29:50为23-24，31:32为25-26，34:39为27。",
+      "页面作者为ANR4N，页面可见点赞约7.5万、收藏约3.1万、评论约7893。"
+    ],
+    "limits": [
+      "只读取抖音公开章节、简介和页面数据，没有下载或直接听辨视频音频。",
+      "章节时间是平台展示节点，不等于每首歌的精确出点、进点或交叉淡化长度。",
+      "不能据此推断ANR4N使用了哪种DAW、具体EQ曲线或固定BPM。"
+    ],
+    "video_watched": false,
+    "engagement_metrics": {
+      "views": "7.5万",
+      "likes": "402",
+      "favorites": "3.1万",
+      "comments": "7893"
+    }
+  },
+  {
+    "id": "U08",
+    "title": "用户确认冷冰冰退出未唱完、FRIDAY9 II源8秒开始新句",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-15",
+    "artifact": "docs/research/2026-11-15/vocal-tail-candidate/user-boundary-feedback.json",
+    "capture_method": "request_user_input_async_reply_bound_to_source_audio",
+    "quotes": [
+      "仍没唱完",
+      "正好开始新句"
+    ],
+    "facts": [
+      "前曲源40–52秒诊断片内5.6–6秒，即源45.6–46秒淡出退出时，用户确认仍未唱完。",
+      "后曲源4–14秒诊断片内4秒，即源8秒入口，用户确认正好开始新句。",
+      "保留后曲源8秒入口，不因源6.85秒更早有活动而自动补回预滚；声学活动不等于语义起句。"
+    ],
+    "limits": [
+      "用户没有给出前曲准确最后词尾或新出点；源49.1秒附近仍是待确认候选。",
+      "反馈不等于新的混音版本已通过听感验收，也不证明任何具体歌词文字。"
+    ]
+  },
+  {
+    "id": "U09",
+    "title": "用户暂认可尾句完成但指出交接变空掉能量",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-15",
+    "artifact": "docs/research/2026-11-15/vocal-tail-candidate/user-energy-feedback.json",
+    "capture_method": "user_message_and_request_user_input_async_reply",
+    "quotes": [
+      "应该唱完了，但这过渡的问题还是没优化完美",
+      "中间变空、能量掉下去"
+    ],
+    "facts": [
+      "针对tail-to-pause版本，用户对尾句完整性给出暂定认可，整体过渡仍未通过。",
+      "用户将最明显问题定位为中间变空、能量掉下去。",
+      "下一项比较仅提前后曲伴奏，保留前曲尾声、后曲源8秒起句和总时长。"
+    ],
+    "limits": [
+      "应该唱完了不是准确词尾或最终版本通过的确定陈述。",
+      "尚未收到后曲伴奏提前版本的听感反馈，不宣称新的主观胜者。"
+    ]
+  },
+  {
+    "id": "U10",
+    "title": "用户指出节奏或旋律不搭并选择保留两首尝试节奏桥",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-15",
+    "artifact": "docs/research/2026-11-15/vocal-tail-candidate/user-compatibility-feedback.json",
+    "capture_method": "user_message_and_two_request_user_input_async_replies",
+    "quotes": [
+      "有减轻但不理想",
+      "两首节奏或旋律不搭",
+      "保留这两首，先尝试节奏桥"
+    ],
+    "facts": [
+      "后曲伴奏提前减少空落感，但用户仍未接受过渡。",
+      "剩余主要问题被用户定位为节奏或旋律不搭，没有进一步区分两者。",
+      "在可换素材或保留两首尝试节奏桥之间，用户明确选择保留两首和节奏桥。"
+    ],
+    "limits": [
+      "反馈未确认BPM、实际和弦或节奏桥版本通过。",
+      "本轮保持原速原调，不把选择节奏桥扩写成移调或变速授权。"
+    ]
+  },
+  {
+    "id": "U11",
+    "title": "用户认可节奏桥并要求nonono唱完再沿用该方式交接",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-15",
+    "artifact": "docs/research/2026-11-15/vocal-tail-candidate/user-nonono-feedback.json",
+    "capture_method": "two_user_messages_bound_to_rhythm_bridge_excerpt",
+    "quotes": [
+      "节奏桥新版很棒，看看能不能再精进",
+      "让前首的nonono唱完同时按这个方式接后"
+    ],
+    "facts": [
+      "用户明确认可rhythm-bridge版本的本次接歌方式。",
+      "后续要求保留前曲nonono尾句，再用相同节奏桥交后曲；这一具体要求优先于先前暂定词尾完成判断。",
+      "下一候选延长前曲并整体后移原节奏桥及后曲，不重复改变后曲源8秒新句起点。"
+    ],
+    "limits": [
+      "用户未提供nonono的准确词级结束秒数。",
+      "原节奏桥获认可不等于延长后的新版本已经通过，也不推广为所有歌曲的默认技巧。"
+    ]
+  },
+  {
+    "id": "U12",
+    "title": "用户要求后曲鼓点与nonono补齐呼应",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-15",
+    "artifact": "docs/research/2026-11-15/vocal-tail-candidate/user-groove-fill-feedback.json",
+    "capture_method": "user_message_and_request_user_input_async_clarification",
+    "quotes": [
+      "后首动感跳动可以与nonono补齐",
+      "鼓点／律动"
+    ],
+    "facts": [
+      "用户澄清指的是后曲鼓点和律动，而非后曲某句人声。",
+      "下一候选将同一后曲鼓组短循环提前铺到保留的nonono之下，前曲伴奏同步让位，完整尾句和后曲主唱入口保持。"
+    ],
+    "limits": [
+      "没有精确逐字对拍或首拍标注，循环周期属于待听辨候选。",
+      "用户未确认新的鼓点呼应版本通过，原认可节奏桥保留。"
+    ]
+  },
+  {
+    "id": "U13",
+    "title": "用户指出鼓击未对齐no并要求精进逐击技术后继续待办",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-15",
+    "artifact": "docs/research/2026-11-15/vocal-tail-candidate/user-attack-sync-feedback.json",
+    "capture_method": "user_message_bound_to_nonono_groove_fill_audio",
+    "quote": "震动未与no对齐，对齐应该就差不多了，这部分再精进并学习优化这项技术，然后继续处理待办",
+    "facts": [
+      "前一固定鼓循环仍未满足人声no与鼓击的落点对应要求，不能因峰值或循环接缝通过就采用。",
+      "用户明确要求优化这项对齐技术，并继续处理待办。",
+      "本轮按四个待听辨人声声学起音放置单个真实鼓击，保留完整主唱及后曲源8秒起句；后续真实素材放置与保存恢复验证继续推进。"
+    ],
+    "limits": [
+      "用户没有提供逐字no时间戳，不能把声学候选当独立词级标注。",
+      "对齐应该就差不多了是预期，不是新版听感通过。"
+    ]
+  },
+  {
+    "id": "S69",
+    "title": "ANR4N 第63集：中途接歌现场画面与章节复核",
+    "url": "https://www.douyin.com/video/7698542818297466147",
+    "publisher": "抖音 / ANR4N",
+    "author": "ANR4N",
+    "published": "2026-10-20",
+    "type": "performance_case",
+    "access": "read",
+    "observed_on": "2026-11-15",
+    "capture_method": "edge_public_page_dom_and_screenshot",
+    "facts": [
+      "公开页面总时长约36:18，章节以相邻歌曲成对节点组织，最后一首Faded独立收束。",
+      "播放器公开画面显示连续DJ控制器与电脑工作流；画面不能证明具体EQ、推子或切点。",
+      "本轮把章节作为中途接歌搜索范围，并把退出前/退出尾/进入头/进入后四窗作为本地分析设计。"
+    ],
+    "limits": [
+      "只读取公开页面的可见章节、播放器状态和画面，没有下载或提取商业音频。",
+      "没有把视频章节、画面或互动数据当作本项目素材的精确切点和听感验收。"
+    ],
+    "video_watched": true,
+    "engagement_metrics": {
+      "views": "7.5万",
+      "likes": "402",
+      "favorites": "3.1万",
+      "comments": "7893"
+    }
+  },
+  {
+    "id": "U14",
+    "title": "用户接受逐击对齐版为当前可用并继续待办",
+    "type": "user_feedback",
+    "access": "user_provided",
+    "observed_on": "2026-11-15",
+    "artifact": "docs/research/2026-11-15/vocal-tail-candidate/user-attack-sync-acceptance.json",
+    "capture_method": "user_message_bound_to_aligned_excerpt_and_full_project_hashes",
+    "quote": "差不多，可以继续推进待办了",
+    "facts": [
+      "逐击对齐版作为本案例当前可用版本保留。",
+      "用户明确要求继续推进剩余待办，不再反复微调同一小段。"
+    ],
+    "limits": [
+      "差不多不等于完美，也不提供独立逐字no时间戳。",
+      "个案反馈不能升级为跨素材自动编排已通过。"
+    ]
+  },
+  {
+    "id": "S70",
+    "title": "D‘Jared 年度陪伴串烧：场景定位与公开章节",
+    "url": "https://www.douyin.com/video/7692222934957526326",
+    "publisher": "抖音 / D‘Jared（DJ 贾里德）",
+    "author": "D‘Jared（DJ 贾里德）",
+    "published": "2026-10-03",
+    "type": "public_performance_reference",
+    "access": "read",
+    "observed_on": "2026-11-18",
+    "capture_method": "rendered_public_page_chapters_and_playback_screenshots",
+    "artifact": "docs/research/2026-11-18/jared-reference/observation.json",
+    "facts": [
+      "公开页面显示约14分46秒的Funk/Phonk串烧，提供17个带时间的章节，部分曲名被界面截短。",
+      "16段相邻章节间隔为29至83秒，中位数52秒；这些数值只描述导航间隔。",
+      "页面用健身、开车与日常陪伴描述使用场景，画面显示曲名与电脑编曲视图。"
+    ],
+    "quote": null,
+    "limits": [
+      "未取得可离线听审的音频，公开音轨下载返回HTTP 403；没有完成逐处过渡听审。",
+      "章节间隔不是交叠长度、拍点、乐句、BPM、调性或能量真值，不能直接用于自动剪辑。",
+      "画面不足以恢复工程、分轨或DSP参数；本条不构成可执行混音技巧的专业教学证据。"
+    ],
+    "video_watched": false,
+    "audio_audited": false,
+    "engagement_metrics": null
+  },
+  {
+    "id": "S71",
+    "title": "D‘Jared Funk 与 K-pop 串烧：场景与曲序比较",
+    "url": "https://www.douyin.com/video/7690057118149397806",
+    "publisher": "抖音 / D‘Jared（DJ 贾里德）",
+    "author": "D‘Jared（DJ 贾里德）",
+    "type": "public_performance_reference",
+    "access": "read",
+    "observed_on": "2026-11-18",
+    "capture_method": "rendered_public_page_chapters_and_captions",
+    "artifact": "docs/research/2026-11-18/jared-demo/references.json",
+    "facts": [
+      "对照 Funk 第19集、巴西 Funk 第22集和 K-pop 串烧的公开章节与场景文案。",
+      "Agudo Mágico 3 在两期 Funk 串烧到下一章节相隔38秒、22秒；Fever Pitch 与 FUNK NA MIRA 的相对次序也不同。"
+    ],
+    "quote": null,
+    "limits": [
+      "章节只代表导航位置，不代表真实重叠长度、拍点、乐句或能量。",
+      "未取得作者音频完成听审；示范的低频和回声处理是本地设计。"
+    ],
+    "video_watched": false,
+    "audio_audited": false,
+    "engagement_metrics": null
+  }
+]

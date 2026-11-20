@@ -1,0 +1,11 @@
+body{overflow:hidden;min-height:100vh}header,main>.intro,.controls{display:none!important}main{min-height:100vh}#viewport{position:fixed;inset:0;background:radial-gradient(ellipse at 50% 38%,#20173788,transparent 65%)}#fallback{pointer-events:auto;top:25vh;margin:0 auto;max-width:80%;font-size:13px}#viewport canvas{cursor:grab}#viewport canvas:active{cursor:grabbing}
+body[data-workspace-mode=pro] #viewport{background:radial-gradient(ellipse at 64% 38%,#0c3a534d,transparent 68%)}
+body[data-workspace-mode=smart] #viewport{background:radial-gradient(ellipse at 60% 38%,#3820583d,transparent 68%)}
+body[data-eye-review=b]>header,body[data-eye-review=b]>main{display:none!important}
+body[data-eye-review=b] #eye-review{position:fixed;inset:auto 18px 22px;z-index:30;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:9px;color:#e7dfff;font:14px system-ui;padding:16px;border-radius:24px;background:linear-gradient(transparent,#0a0715dc)}
+#eye-review strong{width:100%;text-align:center;font-size:18px;font-weight:600;margin-bottom:5px}
+#eye-review small{width:100%;text-align:center;color:#aaa0c1}
+#eye-review button,#eye-review a{border:1px solid #76608688;border-radius:20px;background:#21152fe0;color:#ebdfff;padding:10px 17px;text-decoration:none;cursor:pointer}
+#eye-review button[aria-pressed=true]{background:#603552;border-color:#e99bb4}
+#eye-review button:focus-visible,#eye-review a:focus-visible{outline:2px solid #f3abc9;outline-offset:4px}
+@media(max-width:600px){body[data-eye-review=b] #eye-review{gap:6px;bottom:15px;padding:10px}#eye-review button,#eye-review a{padding:8px 12px}}
